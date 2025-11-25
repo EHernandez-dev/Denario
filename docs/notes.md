@@ -5,6 +5,8 @@ It is basically a wrapper with some smart prompt engineering.
 To create the app they used streamlit.
 To make it track the changes in files fast and and efficienty they use watchdog.
 
+Note: LangGraph implementation (fast method) may be the default option in many case, such as idea generation. 
+
 ### Ideas
 
 Is it possible to modify this to create courses for the TransferLab instead of papers?

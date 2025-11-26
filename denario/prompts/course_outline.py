@@ -30,12 +30,10 @@ The goal of the task is to develop a detailed, pedagogically-sound course struct
 
 Guidelines for creating the outline:
 - Organize content from foundational to advanced concepts (scaffolded learning progression)
-- Each module must have: a Description, Takeaways, and Learning Goals
-- Write learning goals as "Participants [action verb] [specific measurable outcome]."
-- Use action verbs: identify, describe, apply, compare, evaluate, create, demonstrate, formulate, distinguish, explain, navigate, select, verify, recognize
 - Ensure logical flow where each module builds on previous ones
 - Include exercise duration estimates where appropriate
 - **Do not include** actual lesson slides, detailed scripts, or full exercise materials
+- The course outline should be written as if it were a senior AI researcher explaining to her research assistant how to perform the course.
 
 CRITICAL CONTENT REQUIREMENTS:
 - You MUST explicitly name specific tools and features.
@@ -70,7 +68,7 @@ Duration: [X] minutes, Debrief: [Y] minutes
 ### Learning Goals:
 [...]
 
-[Continue for all modules - create 6-12 modules depending on course duration]
+[Continue for all modules - create 10-12 modules depending on course duration]
 
 Each module should have 3-5 learning goals. The full course outline should be roughly 1000-1500 words.
 """

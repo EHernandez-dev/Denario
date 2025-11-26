@@ -9,5 +9,6 @@ Given the topic of interest, the duration of the course, and the audience, make 
 
 The goal of this task is to generate a course idea based on the topic of interest. 
 IMPORTANT: The course idea must go beyond generic benefits. It should prioritize **technical depth**, **specific tools**, and **actionable frameworks**.
+Investigate which features and tools are important for the topic of interest and use this to guide your decision making.
 Don't suggest to perform any calculations or analyses here. The only goal of this task is to obtain the best possible course idea.
 """

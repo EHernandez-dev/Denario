@@ -13,6 +13,7 @@ The goal of the task is to write a plan that will be used to generate a detailed
 - Ask the *researcher* to include exercise duration estimates for hands-on modules.
 - This can be done in multiple steps.
 - The focus should be strictly on the course structure, learning goals, and takeaways. **Do not include** actual lesson slides, scripts, or full exercise materials.
+- In the overview of each module, explicitly name the tools and features that participants learn to use.
 - The description should be written as if it were a senior researcher explaining to her research assistant how the course should be performed.
 
 The final step of the plan must be entirely dedicated to writing the full Course Outline in structured markdown format.
@@ -32,6 +33,7 @@ Guidelines for creating the outline:
 - Organize content from foundational to advanced concepts (scaffolded learning progression)
 - Ensure logical flow where each module builds on previous ones
 - Include exercise duration estimates where appropriate
+- For each module be thorough on which tools and features participants will learn to use.
 - **Do not include** actual lesson slides, detailed scripts, or full exercise materials
 - The course outline should be written as if it were a senior AI researcher explaining to her research assistant how to perform the course.
 
@@ -75,6 +77,6 @@ Create around 8-10 modules or more depending on course duration
 Each module should have 3-8 learning goals.
 Each module should have 3-5 takeaways.
 
-At the end of the outline, include a list of further resources that the course organizer can use to prepare the course.
-Also include a list of resources that participants can use to learn further
+At the end of the outline, include links to further resources that the course organizer can use to prepare the course.
+Also include links to resources that participants can use to learn further
 """

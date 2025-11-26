@@ -8,7 +8,7 @@ The goal of the task is to write a plan that will be used to generate a detailed
 
 - Start by requesting the *researcher* to analyze the course idea and identify the core competencies and skills participants should develop.
 - Ask the *researcher* to determine what participants need to know before the course (prerequisites).
-- Request the *researcher* to propose 4-8 main modules that logically build upon each other, progressing from foundational to advanced concepts.
+- Request the *researcher* to propose around 8-10 main modules that logically build upon each other, progressing from foundational to advanced concepts.
 - For each module, ask the *researcher* to write: a description of what the session covers, key takeaways (what participants leave with), and specific learning goals written as "Participants [action verb]...".
 - Ask the *researcher* to include exercise duration estimates for hands-on modules.
 - This can be done in multiple steps.
@@ -51,12 +51,12 @@ The course outline MUST be written in markdown format with the following structu
 - [Practical benefit participants leave with]
 - [Practical benefit participants leave with]
 - [Practical benefit participants leave with]
-[Continue for all takeaways - create 3-5 takeaways depending on the length of the module]
+[...]
 ### Learning Goals:
 - Participants [action verb] [specific measurable outcome].
 - Participants [action verb] [specific measurable outcome].
 - Participants [action verb] [specific measurable outcome].
-[Continue for all learning goals - create 3-8 learning goals depending on the length of the module]
+[...]
 ### Exercise Description:
 Duration: [X] minutes, Debrief: [Y] minutes
 
@@ -68,7 +68,13 @@ Duration: [X] minutes, Debrief: [Y] minutes
 ### Learning Goals:
 [...]
 
-[Continue for all modules - create 10-12 modules depending on course duration]
+[Continue for all modules] 
 
-Each module should have 3-5 learning goals. The full course outline should be roughly 1000-1500 words.
+Create around 8-10 modules or more depending on course duration
+
+Each module should have 3-8 learning goals.
+Each module should have 3-5 takeaways.
+
+At the end of the outline, include a list of further resources that the course organizer can use to prepare the course.
+Also include a list of resources that participants can use to learn further
 """

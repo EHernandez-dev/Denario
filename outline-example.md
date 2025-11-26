@@ -75,8 +75,9 @@ This session introduces personalization tools that make ChatGPT work better for 
 - Participants discuss the most effective personalization approach (custom instructions, memory, project, or CustomGPT) for a given scenario and justify their reasoning.
 
 ## 6. When ChatGPT Isn’t Enough: Next-Level AI Tools
-### Description: ChatGPT is powerful, but not always the final answer. This session introduces advanced tools and approaches that extend its usefulness—like document-aware apps (RAG), automation platforms, and AI agents. We will not cover how to use those tools but create awareness for situations that might require them. 
-### Takeaways:
+### Description: 
+ChatGPT is powerful, but not always the final answer. This session introduces advanced tools and approaches that extend its usefulness—like document-aware apps (RAG), automation platforms, and AI agents. We will not cover how to use those tools but create awareness for situations that might require them. 
+### Takeaways:s
 - Know when to reach beyond ChatGPT.
 ### Learning goals:
 - Participants identify at least two scenarios where ChatGPT alone may be insufficient (e.g., complex document search or multi-step automation).

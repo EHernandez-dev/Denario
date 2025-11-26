@@ -54,8 +54,10 @@ Participants select the appropriate mode (standard, web search, or research) for
 Participants write a prompt for a Deep Research report and evaluate how research mode improves depth and factual accuracy compared to standard mode.
 Participants identify at least one scenario where web search mode is essential for obtaining up-to-date information, and demonstrate how to enable and use it effectively.
 Participants explain how choosing the correct model or mode is part of responsible AI use by citing one example where using the wrong mode could lead to inaccurate or incomplete results.
+
 ## 5. Personalizing ChatGPT for Your Workflow
-### Description: This session introduces personalization tools that make ChatGPT work better for you. We’ll cover memory, projects, and how to set up system instructions that match your style and goals. We’ll also explore how custom GPTs allow you to create purpose-built assistants tailored to specific workflows or roles. 
+### Description: 
+This session introduces personalization tools that make ChatGPT work better for you. We’ll cover memory, projects, and how to set up system instructions that match your style and goals. We’ll also explore how custom GPTs allow you to create purpose-built assistants tailored to specific workflows or roles. 
 ### Takeaways:
 - Build a version of ChatGPT tailored to your daily needs.
 - Use projects to organize ongoing tasks.

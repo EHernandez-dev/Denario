@@ -13,6 +13,7 @@ The goal of the task is to write a plan that will be used to generate a detailed
 - Ask the *researcher* to include exercise duration estimates for hands-on modules.
 - This can be done in multiple steps.
 - The focus should be strictly on the course structure, learning goals, and takeaways. **Do not include** actual lesson slides, scripts, or full exercise materials.
+- The description should be written as if it were a senior researcher explaining to her research assistant how the course should be performed.
 
 The final step of the plan must be entirely dedicated to writing the full Course Outline in structured markdown format.
 
@@ -35,6 +36,9 @@ Guidelines for creating the outline:
 - Ensure logical flow where each module builds on previous ones
 - Include exercise duration estimates where appropriate
 - **Do not include** actual lesson slides, detailed scripts, or full exercise materials
+
+CRITICAL CONTENT REQUIREMENTS:
+- You MUST explicitly name specific tools and features.
 
 The course outline MUST be written in markdown format with the following structure:
 

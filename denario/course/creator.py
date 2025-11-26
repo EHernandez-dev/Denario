@@ -1,6 +1,6 @@
 import os
 import shutil
-from pathlib import Path
+from datetime import datetime
 
 from .key_manager import KeyManager
 from .idea import CourseIdea
@@ -26,15 +26,23 @@ class CourseCreator:
 
     Uses cmbagent backend for detailed planning and control.
 
+    Each run creates a timestamped subfolder within the project directory,
+    preserving all outputs from previous runs.
+
     Args:
         project_dir: Directory for project outputs. If None, creates a 'course_project' folder.
         clear_project_dir: Clear all files in project directory when initializing if True.
+
+    Attributes:
+        project_dir: The root project directory.
+        work_dir: The timestamped directory for this run (e.g., project_dir/20251126_143000/).
 
     Example:
         ```python
         from denario.course import CourseCreator
 
         creator = CourseCreator(project_dir="./my_course")
+        # Creates: ./my_course/20251126_143000/
         creator.set_topic("Python for Data Science", "Beginners", "2 days")
         creator.generate_idea()
         creator.show_idea()
@@ -60,6 +68,12 @@ class CourseCreator:
             os.makedirs(project_dir, exist_ok=True)
         self.project_dir = project_dir
 
+        # Create timestamped work directory for this run
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.work_dir = os.path.join(project_dir, timestamp)
+        os.makedirs(self.work_dir, exist_ok=True)
+        print(f"Run directory: {self.work_dir}")
+
         self._setup_input_files()
 
         # Get keys from environment
@@ -80,18 +94,14 @@ class CourseCreator:
 
     def _setup_input_files(self) -> None:
         """Create input files directory."""
-        input_files_dir = os.path.join(self.project_dir, INPUT_FILES)
-
-        if os.path.exists(input_files_dir) and self.clear_project_dir:
-            shutil.rmtree(input_files_dir)
-
+        input_files_dir = os.path.join(self.work_dir, INPUT_FILES)
         os.makedirs(input_files_dir, exist_ok=True)
 
     def _load_existing(self) -> None:
         """Load existing files if present in the working directory."""
         # Load topic description
         try:
-            topic_path = os.path.join(self.project_dir, INPUT_FILES, TOPIC_FILE)
+            topic_path = os.path.join(self.work_dir, INPUT_FILES, TOPIC_FILE)
             with open(topic_path, 'r') as f:
                 self._topic_description = f.read()
         except FileNotFoundError:
@@ -99,7 +109,7 @@ class CourseCreator:
 
         # Load idea
         try:
-            idea_path = os.path.join(self.project_dir, INPUT_FILES, IDEA_FILE)
+            idea_path = os.path.join(self.work_dir, INPUT_FILES, IDEA_FILE)
             with open(idea_path, 'r') as f:
                 self.idea = f.read()
         except FileNotFoundError:
@@ -107,7 +117,7 @@ class CourseCreator:
 
         # Load outline
         try:
-            outline_path = os.path.join(self.project_dir, INPUT_FILES, OUTLINE_FILE)
+            outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
             with open(outline_path, 'r') as f:
                 self.outline = f.read()
         except FileNotFoundError:
@@ -138,7 +148,7 @@ Duration: {duration}
 """
 
         # Save to file
-        topic_path = os.path.join(self.project_dir, INPUT_FILES, TOPIC_FILE)
+        topic_path = os.path.join(self.work_dir, INPUT_FILES, TOPIC_FILE)
         with open(topic_path, 'w') as f:
             f.write(self._topic_description)
 
@@ -148,10 +158,10 @@ Duration: {duration}
 
         Args:
             idea: Course idea as a string or path to markdown file.
-                  If None, tries to load from idea.md in project directory.
+                  If None, tries to load from idea.md in work directory.
         """
         if idea is None:
-            idea_path = os.path.join(self.project_dir, INPUT_FILES, IDEA_FILE)
+            idea_path = os.path.join(self.work_dir, INPUT_FILES, IDEA_FILE)
             with open(idea_path, 'r') as f:
                 idea = f.read()
         else:
@@ -160,7 +170,7 @@ Duration: {duration}
         self.idea = idea
 
         # Save to file
-        idea_path = os.path.join(self.project_dir, INPUT_FILES, IDEA_FILE)
+        idea_path = os.path.join(self.work_dir, INPUT_FILES, IDEA_FILE)
         with open(idea_path, 'w') as f:
             f.write(idea)
 
@@ -170,10 +180,10 @@ Duration: {duration}
 
         Args:
             outline: Course outline as a string or path to markdown file.
-                     If None, tries to load from outline.md in project directory.
+                     If None, tries to load from outline.md in work directory.
         """
         if outline is None:
-            outline_path = os.path.join(self.project_dir, INPUT_FILES, OUTLINE_FILE)
+            outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
             with open(outline_path, 'r') as f:
                 outline = f.read()
         else:
@@ -182,7 +192,7 @@ Duration: {duration}
         self.outline = outline
 
         # Save to file
-        outline_path = os.path.join(self.project_dir, INPUT_FILES, OUTLINE_FILE)
+        outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
         with open(outline_path, 'w') as f:
             f.write(outline)
 
@@ -246,7 +256,7 @@ Duration: {duration}
 
         course_idea = CourseIdea(
             keys=self.keys,
-            work_dir=self.project_dir,
+            work_dir=self.work_dir,
             idea_maker_model=idea_maker_model,
             idea_hater_model=idea_hater_model,
             planner_model=planner_model,
@@ -258,7 +268,7 @@ Duration: {duration}
         self.idea = course_idea.generate(self._topic_description)
 
         # Save to file
-        idea_path = os.path.join(self.project_dir, INPUT_FILES, IDEA_FILE)
+        idea_path = os.path.join(self.work_dir, INPUT_FILES, IDEA_FILE)
         with open(idea_path, 'w') as f:
             f.write(self.idea)
 
@@ -289,7 +299,7 @@ Duration: {duration}
         course_outline = CourseOutline(
             course_idea=self.idea,
             keys=self.keys,
-            work_dir=self.project_dir,
+            work_dir=self.work_dir,
             researcher_model=researcher_model,
             planner_model=planner_model,
             plan_reviewer_model=plan_reviewer_model,
@@ -300,7 +310,7 @@ Duration: {duration}
         self.outline = course_outline.generate()
 
         # Save to file
-        outline_path = os.path.join(self.project_dir, INPUT_FILES, OUTLINE_FILE)
+        outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
         with open(outline_path, 'w') as f:
             f.write(self.outline)
 

@@ -70,7 +70,7 @@ Duration: [X] minutes, Debrief: [Y] minutes
 ### Learning Goals:
 [...]
 
-[Continue for all modules - create 4-8 modules depending on course duration]
+[Continue for all modules - create 6-12 modules depending on course duration]
 
 Each module should have 3-5 learning goals. The full course outline should be roughly 1000-1500 words.
 """

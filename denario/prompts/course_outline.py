@@ -53,10 +53,12 @@ The course outline MUST be written in markdown format with the following structu
 - [Practical benefit participants leave with]
 - [Practical benefit participants leave with]
 - [Practical benefit participants leave with]
+[Continue for all takeaways - create 3-5 takeaways depending on the length of the module]
 ### Learning Goals:
 - Participants [action verb] [specific measurable outcome].
 - Participants [action verb] [specific measurable outcome].
 - Participants [action verb] [specific measurable outcome].
+[Continue for all learning goals - create 3-8 learning goals depending on the length of the module]
 ### Exercise Description:
 Duration: [X] minutes, Debrief: [Y] minutes
 

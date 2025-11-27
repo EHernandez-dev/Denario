@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT for Business: Leveraging AI for Strategic Advantage\n\t\t- Focuses on enhancing business communication and decision-making using ChatGPT.\n\t\t- Incorporates practical business case studies and automation techniques for real-world application.\n\t\t- Balances basic prompt engineering with advanced automation, ensuring comprehensive coverage within the 3-day timeframe.\n\t\t- Integrates responsible AI practices into practical frameworks, with explicit scenarios demonstrating their application in business contexts.\n\t\t- Provides hands-on exercises and workshops to solidify learning and ensure actionable outcomes.\n\n        ",
+    "timestamp": "2025-11-26 15:43:27",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0012837
+      ],
+      "Prompt Tokens": [
+        335
+      ],
+      "Completion Tokens": [
+        208
+      ],
+      "Total Tokens": [
+        543
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:43:29",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001578
+      ],
+      "Prompt Tokens": [
+        377
+      ],
+      "Completion Tokens": [
+        103
+      ],
+      "Total Tokens": [
+        480
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_154028/idea_generation_output/control/ideas_20251126_154329.json\n",
+    "timestamp": "2025-11-26 15:43:29",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001578
+      ],
+      "Prompt Tokens": [
+        377
+      ],
+      "Completion Tokens": [
+        103
+      ],
+      "Total Tokens": [
+        480
+      ]
+    }
+  }
+]

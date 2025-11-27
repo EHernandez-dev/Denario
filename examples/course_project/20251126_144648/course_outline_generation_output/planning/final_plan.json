@@ -1,0 +1,55 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills relevant to navigating ChatGPT tools for business efficiency.",
+                "Consider both foundational and advanced, non-coding skills.",
+                "Identify potential challenges or common misconceptions participants might have regarding integrating ChatGPT into business workflows, ensuring competencies address both skills and obstacles."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before taking the course.",
+                "Specify prerequisites for both technical and business contexts.",
+                "Highlight any baseline familiarity with AI concepts and fundamental business process management."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Break down the course into logical modules.",
+                "Ensure modules build upon each other and cover all aspects of the course idea.",
+                "Include a module on ethical considerations and a module on advanced, non-coding strategies.",
+                "Group modules into clearly distinct categories (e.g., foundational, advanced, and ethical considerations) and ensure a progressive order for clear module progression."
+            ],
+            "sub_task": "Propose 4-8 main modules that logically progress from foundational to advanced concepts.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For each module, provide a brief description of what it covers.",
+                "List key takeaways for participants.",
+                "Write learning goals as 'Participants [action verb]...'",
+                "Estimate exercise duration for hands-on modules.",
+                "Ensure descriptions and takeaways reflect practical, real-world business scenarios.",
+                "Ensure estimated durations for hands-on exercises are realistic and leave room for interactive Q&A sessions."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all modules, descriptions, learning goals, and takeaways into a clear, structured markdown outline.",
+                "Ensure the outline is comprehensive and logically organized.",
+                "Incorporate a clear markdown outline with proper hierarchy using headers, subheaders, and numbering for easy adaptation and review.",
+                "Do not include lesson content, slides, or exercise materials."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

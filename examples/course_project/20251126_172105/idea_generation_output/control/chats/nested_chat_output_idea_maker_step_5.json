@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n\t\t- Starts with an overview of essential ChatGPT tools, ensuring a strong foundation before delving into advanced functionalities.\n\t\t- Introduces advanced features like custom instructions and memory management with detailed case studies and examples.\n\t\t- Offers interactive sessions that allow participants to experiment with tool combinations, providing guidance on optimizing outputs.\n\t\t- Ensures a sequential progression from fundamentals to advanced topics, with clear links between technical details.\n\t\t- Incorporates a feedback loop to address participant queries and adapt the course content to their learning pace and needs.\n\n        ",
+    "timestamp": "2025-11-26 17:24:31",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0035090000000000004
+      ],
+      "Prompt Tokens": [
+        746
+      ],
+      "Completion Tokens": [
+        611
+      ],
+      "Total Tokens": [
+        1357
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 17:24:33",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002644
+      ],
+      "Prompt Tokens": [
+        806
+      ],
+      "Completion Tokens": [
+        129
+      ],
+      "Total Tokens": [
+        935
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_172105/idea_generation_output/control/ideas_20251126_172433.json\n",
+    "timestamp": "2025-11-26 17:24:33",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002644
+      ],
+      "Prompt Tokens": [
+        806
+      ],
+      "Completion Tokens": [
+        129
+      ],
+      "Total Tokens": [
+        935
+      ]
+    }
+  }
+]

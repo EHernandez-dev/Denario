@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Interactive ChatGPT: Enhancing Business Communication and Collaboration\n\t\t- Focuses on improving business communication and collaboration using ChatGPT, appealing to professionals seeking practical benefits.\n\t\t- Incorporates prompt crafting and context management, covering both basic and advanced features.\n\t\t- To address the critique, the course will include structured interactive sessions with real-world business scenarios to ensure effective execution within the time frame.\n\t\t- Introduces responsible AI practices by integrating discussions on maintaining trust and accountability in AI-driven communications.\n\t\t- Enhances interactivity by including group activities and role-playing exercises to simulate business communication challenges and solutions.\n\n- Idea 2:\n\t* Responsible AI with ChatGPT: Ensuring Ethical and Effective Use\n\t\t- Emphasizes responsible AI practices, addressing ethical and bias-related concerns in the use of ChatGPT.\n\t\t- Covers the basics of prompt and context engineering, ensuring a solid technical foundation alongside ethical discussions.\n\t\t- To broaden its appeal, the course will integrate case studies demonstrating the application of responsible AI in various business contexts.\n\t\t- Balances responsible AI discussions with hands-on application of advanced ChatGPT features through guided exercises and workshops.\n\t\t- Enhances practical learning by incorporating interactive debates and group discussions on ethical dilemmas and AI governance in business.\n\n        ",
+    "timestamp": "2025-11-26 14:11:32",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0024321
+      ],
+      "Prompt Tokens": [
+        483
+      ],
+      "Completion Tokens": [
+        432
+      ],
+      "Total Tokens": [
+        915
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:11:35",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0032839999999999996
+      ],
+      "Prompt Tokens": [
+        678
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        919
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_140917/idea_generation_output/control/ideas_20251126_141135.json\n",
+    "timestamp": "2025-11-26 14:11:35",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0032839999999999996
+      ],
+      "Prompt Tokens": [
+        678
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        919
+      ]
+    }
+  }
+]

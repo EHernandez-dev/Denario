@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Enhancing Productivity with ChatGPT Tools\n\t\t- Narrowed focus on business productivity aligns well with the target audience's needs.\n\t\t- Uses simplified explanations of advanced features and a streamlined curriculum to maintain clarity.\n\t\t- Pacing plan ensures that demonstrations and tips remain clear and applicable within time limits.\n\t\t- Would benefit from including more tangible examples of daily business operations where ChatGPT directly enhances productivity.\n\t\t- Clarification on delivery methods such as hands-on practice, group exercises, or guided walkthroughs could enhance engagement.\n\t\t- This idea best meets the course objectives and audience needs by focusing on practical applications that directly enhance business productivity.\n\t\t- The streamlined curriculum and simplified explanations ensure accessibility for non-STEM participants.\n\t\t- The focus on tangible examples and clear pacing makes it feasible within the 8-hour timeframe, providing participants with actionable skills they can immediately apply in their daily operations.\n\n        ",
+    "timestamp": "2025-11-26 12:24:05",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0037949999999999998
+      ],
+      "Prompt Tokens": [
+        526
+      ],
+      "Completion Tokens": [
+        731
+      ],
+      "Total Tokens": [
+        1257
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 12:24:07",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002714
+      ],
+      "Prompt Tokens": [
+        645
+      ],
+      "Completion Tokens": [
+        178
+      ],
+      "Total Tokens": [
+        823
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_122122/idea_generation_output/control/ideas_20251126_122407.json\n",
+    "timestamp": "2025-11-26 12:24:07",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002714
+      ],
+      "Prompt Tokens": [
+        645
+      ],
+      "Completion Tokens": [
+        178
+      ],
+      "Total Tokens": [
+        823
+      ]
+    }
+  }
+]

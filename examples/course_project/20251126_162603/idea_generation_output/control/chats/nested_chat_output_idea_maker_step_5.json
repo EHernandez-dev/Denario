@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: Navigating Advanced Features\n\t\t- Delves into medium-level features like memory and custom instructions, aligning with audience progression.\n\t\t- Balances foundational and advanced content to avoid overwhelming participants within the 24-hour framework.\n\t\t- Provides explicit actionable frameworks for integrating advanced features into professional workflows.\n\t\t- Utilizes practical exercises and case studies to reinforce learning and application, ensuring clarity and impact.\n\n        ",
+    "timestamp": "2025-11-26 16:28:56",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0026565000000000004
+      ],
+      "Prompt Tokens": [
+        635
+      ],
+      "Completion Tokens": [
+        445
+      ],
+      "Total Tokens": [
+        1080
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:28:57",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002004
+      ],
+      "Prompt Tokens": [
+        658
+      ],
+      "Completion Tokens": [
+        86
+      ],
+      "Total Tokens": [
+        744
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_162603/idea_generation_output/control/ideas_20251126_162857.json\n",
+    "timestamp": "2025-11-26 16:28:57",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002004
+      ],
+      "Prompt Tokens": [
+        658
+      ],
+      "Completion Tokens": [
+        86
+      ],
+      "Total Tokens": [
+        744
+      ]
+    }
+  }
+]

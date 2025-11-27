@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Proficiency for Non-Coders: From Basics to Breakthroughs\n\t\t- This idea is selected as it is well-targeted for non-coders, ensuring accessibility to advanced features without requiring coding skills.\n\t\t- It offers a balanced mix of theory and practical application through interactive labs and group discussions.\n\t\t- The detailed focus on specific plugins and extensions enhances technical depth, aligning with the target audience's needs.\n\t\t- The clear, actionable steps and strategic planning ensure the course is feasible within the 3-day duration.\n\t\t- The inclusion of a refined technical roadmap with module examples or case study walkthroughs provides a comprehensive learning experience.\n\n        ",
+    "timestamp": "2025-11-26 16:16:17",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.004213
+      ],
+      "Prompt Tokens": [
+        586
+      ],
+      "Completion Tokens": [
+        811
+      ],
+      "Total Tokens": [
+        1397
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:16:20",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002342
+      ],
+      "Prompt Tokens": [
+        655
+      ],
+      "Completion Tokens": [
+        129
+      ],
+      "Total Tokens": [
+        784
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_161311/idea_generation_output/control/ideas_20251126_161620.json\n",
+    "timestamp": "2025-11-26 16:16:20",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002342
+      ],
+      "Prompt Tokens": [
+        655
+      ],
+      "Completion Tokens": [
+        129
+      ],
+      "Total Tokens": [
+        784
+      ]
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT for Business: Advanced Tools and Techniques\n\t\t- Focus on refining the course to balance technical detail with practical business applications.\n\t\t- Simplify language to ensure accessibility for non-coding professionals, using relatable business scenarios.\n\t\t- Prioritize content to fit within the 8-hour framework, focusing on the most impactful tools and techniques.\n\t\t- Incorporate interactive components such as simulations and role-play scenarios to reinforce learning outcomes.\n\n- Idea 2:\n\t* Responsible AI in Business: Navigating Advanced ChatGPT Tools\n\t\t- Emphasize the ethical aspects and responsible AI practices crucial for today\u2019s business environment.\n\t\t- Use engaging role-play scenarios and case studies to ground abstract ethical content in relatable business contexts.\n\t\t- Streamline focus to ensure a balance between technical competencies and responsible AI practices.\n\t\t- Add interactive elements like group discussions and scenario-based exercises to enhance engagement and understanding.\n\n        ",
+    "timestamp": "2025-11-26 13:26:38",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0026135999999999998
+      ],
+      "Prompt Tokens": [
+        412
+      ],
+      "Completion Tokens": [
+        491
+      ],
+      "Total Tokens": [
+        903
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:26:40",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00248
+      ],
+      "Prompt Tokens": [
+        536
+      ],
+      "Completion Tokens": [
+        176
+      ],
+      "Total Tokens": [
+        712
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_132428/idea_generation_output/control/ideas_20251126_132640.json\n",
+    "timestamp": "2025-11-26 13:26:40",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00248
+      ],
+      "Prompt Tokens": [
+        536
+      ],
+      "Completion Tokens": [
+        176
+      ],
+      "Total Tokens": [
+        712
+      ]
+    }
+  }
+]

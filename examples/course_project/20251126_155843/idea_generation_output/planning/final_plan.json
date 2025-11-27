@@ -1,0 +1,70 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on the topic of ChatGPT Professional Proficiency.",
+                "Ensure ideas cover both basic and advanced features.",
+                "Consider the target audience of business professionals.",
+                "Ensure ideas do not require coding knowledge.",
+                "Aim for a 3-day course structure.",
+                "Incorporate at least one specific actionable framework or tool that will be featured later in the course, ensuring early technical depth."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational value.",
+                "Assess the feasibility of covering the content in 3 days.",
+                "Ensure the ideas align with the needs of business professionals.",
+                "Identify any potential gaps or weaknesses in the ideas.",
+                "Include a review for potential gaps in the integration of basic and advanced topics.",
+                "Comment specifically on whether each idea clearly maps out the progression from introductory to advanced features."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas.",
+                "Incorporate feedback from the critique to enhance the ideas.",
+                "Ensure the improved ideas maintain technical depth and actionable frameworks.",
+                "Outline specific modifications or additions that will emphasize actionable elements like real-world scenarios or step-by-step frameworks."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed critique of the improved ideas.",
+                "Focus on the clarity, depth, and applicability of the content.",
+                "Suggest any final improvements or adjustments needed.",
+                "Provide concrete examples or suggestions for improvement in terms of technical details and the integration of specific ChatGPT tools."
+            ],
+            "sub_task": "Critique the 2 improved course ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Evaluate the final critiques.",
+                "Choose the idea that best meets the course objectives.",
+                "Ensure the selected idea is comprehensive and well-structured.",
+                "Incorporate feedback from idea_hater in a way that highlights not just the content structure, but also ensures that the final idea includes tangible, targeted tools for business professionals."
+            ],
+            "sub_task": "Select the best course idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title.",
+                "Write a concise description highlighting the course's technical depth.",
+                "Mention specific tools and actionable frameworks covered.",
+                "Ensure the description is appealing to business professionals.",
+                "Emphasize the progression from basics to advanced features.",
+                "Refine the course title and description by explicitly naming one or two advanced ChatGPT tools or techniques that will be covered, reinforcing the course's focus on actionable frameworks and technical depth."
+            ],
+            "sub_task": "Report the best course idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Navigating ChatGPT Tools for Business Efficiency\n\t\t- Overview of essential ChatGPT tools and features tailored for business applications.\n\t\t- Hands-on sessions to explore tools that enhance productivity and communication.\n\t\t- Strategies for integrating ChatGPT into existing business workflows.\n\t\t- Case studies showcasing successful implementations of ChatGPT in business settings.\n\t\t- Integrate a module on advanced, non-coding strategies to deepen understanding.\n\t\t- Include a segment on ethical considerations to balance practical insights with responsible AI practices.\n\t\t- Justification: This idea aligns well with the target audience's need for practical, immediate applications and can be feasibly covered in a 2-day format with the added depth of ethical considerations.\n\n- Idea 2:\n\t* Advanced Features of ChatGPT for Strategic Decision-Making\n\t\t- Exploration of advanced ChatGPT features that support strategic business decisions.\n\t\t- Techniques for using ChatGPT to analyze data and generate insights.\n\t\t- Interactive sessions on scenario planning and risk assessment using AI.\n\t\t- Real-world examples of strategic decision-making enhanced by ChatGPT.\n\t\t- Narrow focus to key advanced features to avoid overwhelming participants.\n\t\t- Provide supplementary pre- or post-course resources for deeper exploration.\n\t\t- Justification: This idea directly appeals to business professionals seeking actionable insights and can be streamlined to fit the 2-day duration while offering high pedagogical value.\n\n        ",
+    "timestamp": "2025-11-26 14:49:30",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0048224
+      ],
+      "Prompt Tokens": [
+        516
+      ],
+      "Completion Tokens": [
+        967
+      ],
+      "Total Tokens": [
+        1483
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:49:34",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003552
+      ],
+      "Prompt Tokens": [
+        736
+      ],
+      "Completion Tokens": [
+        260
+      ],
+      "Total Tokens": [
+        996
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_144648/idea_generation_output/control/ideas_20251126_144934.json\n",
+    "timestamp": "2025-11-26 14:49:34",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003552
+      ],
+      "Prompt Tokens": [
+        736
+      ],
+      "Completion Tokens": [
+        260
+      ],
+      "Total Tokens": [
+        996
+      ]
+    }
+  }
+]

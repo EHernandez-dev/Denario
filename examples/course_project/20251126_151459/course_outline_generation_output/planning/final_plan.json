@@ -1,0 +1,61 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills relevant to ChatGPT Premium for business excellence.",
+                "Consider both technical and ethical dimensions.",
+                "Note specific business outcomes (e.g., increased operational efficiency, improved decision-making, enhanced customer engagement) that these competencies should drive, ensuring alignment with real-world applicability."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what foundational knowledge or experience participants should have before taking the course.",
+                "Specify any required familiarity with AI, business processes, or digital tools.",
+                "Verify if any soft-skills or case study analysis experience is needed, beyond just technical and business process familiarity."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the sequence of modules, explicitly deciding on module order by linking them to progression milestones.",
+                "Ensure progression from basic to advanced topics.",
+                "Consider including a module dedicated solely to ethical AI practices.",
+                "Align modules with the competencies, skills, and business outcomes identified."
+            ],
+            "sub_task": "Propose 4-8 main course modules that build logically from foundational to advanced concepts.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise description of what each module covers.",
+                "List key takeaways for participants.",
+                "Write learning goals as \"Participants [action verb]...\".",
+                "Distinguish between theory-based and hands-on activities within each module, so learners clearly see where interactive exercises will reinforce learning."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For each hands-on or workshop module, suggest an appropriate duration for exercises.",
+                "Ensure time estimates are realistic and support learning objectives.",
+                "Provide rationales for the proposed exercise durations, justifying them based on the complexity of the hands-on tasks."
+            ],
+            "sub_task": "Estimate exercise duration for hands-on modules.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Organize modules, descriptions, learning goals, key takeaways, and exercise durations into a clear markdown outline.",
+                "Ensure the outline is comprehensive and logically structured.",
+                "Highlight how the course outline ties back to the overall business excellence goals, providing a summary section that reflects both learning objectives and expected business outcomes."
+            ],
+            "sub_task": "Compile the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea, target audience, and duration",
+                "Identify the essential competencies and skills participants should develop by the end of the course",
+                "Consider both foundational and advanced skills relevant to strategic decision making with ChatGPT",
+                "Highlight emerging trends in ChatGPT and AI ethics, ensuring that competencies include responsible AI practices"
+            ],
+            "sub_task": "Analyze the course idea and identify core competencies and skills",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Specify what knowledge or experience participants should have before attending the course",
+                "Clearly differentiate between technical prerequisites and general business acumen to ensure accessibility for non-coders"
+            ],
+            "sub_task": "Determine prerequisites for participants",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the main modules, ensuring a logical progression",
+                "Include a mix of theoretical and practical modules",
+                "Emphasize the importance of including case studies and real-world application segments"
+            ],
+            "sub_task": "Propose 4-8 main modules that build logically from basics to advanced concepts",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For each module, provide a concise description of what the session covers",
+                "List key takeaways for participants",
+                "Write specific, measurable learning goals using action verbs such as \"analyze,\" \"apply,\" or \"evaluate\""
+            ],
+            "sub_task": "For each module, write a session description, key takeaways, and specific learning goals",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify which modules include hands-on exercises",
+                "Provide estimated duration for each exercise",
+                "Incorporate guidelines on tailoring duration estimates for different proficiency scenarios (e.g., beginner vs. advanced) to provide flexibility"
+            ],
+            "sub_task": "Estimate exercise duration for hands-on modules",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module descriptions, learning goals, key takeaways, and exercise durations into a clear, structured markdown outline",
+                "Structure the outline by day (Day 1 and Day 2) for clarity",
+                "Highlight each module’s dependencies and transitions to maintain coherence throughout the course"
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

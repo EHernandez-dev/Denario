@@ -1,0 +1,124 @@
+[
+  {
+    "content": "\nTopic: ChatGPT Professional Proficiency: From Basics to Advanced Features\nTarget Audience: Professionals in different fields seeking deep proficiency without coding. They want to go from basics in LLMs such as prompt and context to medium-level features. They want to explore a large set of tools currently offered by ChatGPT. \nDuration: 24 hours\n",
+    "role": "assistant"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_3F1bHZQAQYisKMAOKnmd1iiU",
+        "function": {
+          "arguments": "{}",
+          "name": "record_status_starter"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control_starter",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critique.\n- Enhance these ideas by addressing the feedback provided by the idea_hater.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Incorporate suggestions for actionable frameworks and detailed examples of how to apply the available ChatGPT tools.\n \n**Status:** in progress \u23f3\n",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_3F1bHZQAQYisKMAOKnmd1iiU",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critique.\n- Enhance these ideas by addressing the feedback provided by the idea_hater.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Incorporate suggestions for actionable frameworks and detailed examples of how to apply the available ChatGPT tools.\n \n**Status:** in progress \u23f3\n"
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "**Ideas:**\n\n- Idea 1: Mastering ChatGPT: From Prompt Crafting to Advanced Contextualization\n  * Begin with a foundational module on prompt crafting and context setting, ensuring a solid understanding of these basics.\n  * Integrate advanced frameworks by introducing context window optimization and advanced prompt tuning, with specific examples and exercises.\n  * Include a dedicated section on practical applications in various professional fields, emphasizing non-coding techniques and real-world scenarios.\n  * Enhance hands-on exercises with detailed feedback and iterative learning opportunities to refine skills.\n  * Provide a clear roadmap of progression from basic to medium-level features, ensuring a logical and structured learning path.\n\n- Idea 2: ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n  * Start with an overview of essential ChatGPT tools, ensuring a strong foundation before delving into advanced functionalities.\n  * Introduce advanced features like custom instructions and memory management with detailed case studies and examples.\n  * Offer interactive sessions that allow participants to experiment with tool combinations, providing guidance on optimizing outputs.\n  * Ensure a sequential progression from fundamentals to advanced topics, with clear links between technical details.\n  * Incorporate a feedback loop to address participant queries and adapt the course content to their learning pace and needs.",
+    "name": "idea_maker",
+    "role": "user"
+  },
+  {
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Advanced Contextualization\n\t\t- Begin with a foundational module on prompt crafting and context setting, ensuring a solid understanding of these basics.\n\t\t- Integrate advanced frameworks by introducing context window optimization and advanced prompt tuning, with specific examples and exercises.\n\t\t- Include a dedicated section on practical applications in various professional fields, emphasizing non-coding techniques and real-world scenarios.\n\t\t- Enhance hands-on exercises with detailed feedback and iterative learning opportunities to refine skills.\n\t\t- Provide a clear roadmap of progression from basic to medium-level features, ensuring a logical and structured learning path.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n\t\t- Start with an overview of essential ChatGPT tools, ensuring a strong foundation before delving into advanced functionalities.\n\t\t- Introduce advanced features like custom instructions and memory management with detailed case studies and examples.\n\t\t- Offer interactive sessions that allow participants to experiment with tool combinations, providing guidance on optimizing outputs.\n\t\t- Ensure a sequential progression from fundamentals to advanced topics, with clear links between technical details.\n\t\t- Incorporate a feedback loop to address participant queries and adapt the course content to their learning pace and needs.\n\n        ",
+    "name": "idea_maker_nest",
+    "role": "user"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_PiBR95J1aGVX3rOapjEy2TmK",
+        "function": {
+          "arguments": "{\"current_status\":\"completed\",\"current_plan_step_number\":3,\"current_sub_task\":\"Select and improve 2 out of the 5 course ideas based on the critique.\",\"current_instructions\":\"- Choose the two most promising ideas from the critique.\\n- Enhance these ideas by addressing the feedback provided by the idea_hater.\\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\\n- Incorporate suggestions for actionable frameworks and detailed examples of how to apply the available ChatGPT tools.\",\"agent_for_sub_task\":\"idea_maker\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critique.\n- Enhance these ideas by addressing the feedback provided by the idea_hater.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Incorporate suggestions for actionable frameworks and detailed examples of how to apply the available ChatGPT tools.\n \n**Status:** completed \u2705\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_PiBR95J1aGVX3rOapjEy2TmK",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critique.\n- Enhance these ideas by addressing the feedback provided by the idea_hater.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Incorporate suggestions for actionable frameworks and detailed examples of how to apply the available ChatGPT tools.\n \n**Status:** completed \u2705\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_WtcNrHwdAOvYUypmFpznoTWJ",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":4,\"current_sub_task\":\"Critique the 2 improved ideas.\",\"current_instructions\":\"- Provide a detailed critique focusing on the improvements made.\\n- Ensure the ideas are now more aligned with the course objectives and audience needs.\\n- Suggest any final adjustments or enhancements.\\n- Provide clear recommendations on how each improved idea can further integrate real-life scenarios and deep technical insights relevant to professionals.\",\"agent_for_sub_task\":\"idea_hater\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed critique focusing on the improvements made.\n- Ensure the ideas are now more aligned with the course objectives and audience needs.\n- Suggest any final adjustments or enhancements.\n- Provide clear recommendations on how each improved idea can further integrate real-life scenarios and deep technical insights relevant to professionals.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_WtcNrHwdAOvYUypmFpznoTWJ",
+        "role": "tool",
+        "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed critique focusing on the improvements made.\n- Ensure the ideas are now more aligned with the course objectives and audience needs.\n- Suggest any final adjustments or enhancements.\n- Provide clear recommendations on how each improved idea can further integrate real-life scenarios and deep technical insights relevant to professionals.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_VoZ76vjZlA3zWxRFssuZClKx",
+        "function": {
+          "arguments": "{}",
+          "name": "terminate_session"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "terminator",
+    "role": "assistant"
+  },
+  {
+    "content": "Session terminated.",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_VoZ76vjZlA3zWxRFssuZClKx",
+        "role": "tool",
+        "content": "Session terminated."
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  }
+]

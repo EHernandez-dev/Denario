@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- Focuses on the foundational skills of prompt crafting and understanding context in LLMs.\n\t\t- Introduces techniques for creating effective prompts to elicit desired responses.\n\t\t- Explores the role of context in enhancing the relevance and accuracy of ChatGPT outputs.\n\t\t- Provides actionable frameworks for professionals to apply these skills in their specific fields.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: Navigating Advanced Features\n\t\t- Delves into the medium-level features of ChatGPT, highlighting tools like memory and custom instructions.\n\t\t- Offers a comprehensive guide to utilizing these tools for more personalized and efficient interactions.\n\t\t- Includes case studies and practical exercises to reinforce learning and application.\n\t\t- Aims to equip professionals with the skills to leverage advanced features without needing coding expertise.\n\n- Idea 3:\n\t* ChatGPT in Action: Real-World Applications for Professionals\n\t\t- Focuses on the practical application of ChatGPT across various professional fields.\n\t\t- Covers industry-specific use cases and how to tailor ChatGPT's capabilities to meet unique needs.\n\t\t- Provides actionable strategies for integrating ChatGPT into daily workflows.\n\t\t- Encourages hands-on practice through scenario-based exercises and role-playing.\n\n- Idea 4:\n\t* Beyond Basics: Enhancing Productivity with ChatGPT\n\t\t- Explores how ChatGPT can be used to boost productivity and streamline tasks.\n\t\t- Introduces tools and techniques for automating routine processes and improving efficiency.\n\t\t- Offers frameworks for evaluating and optimizing ChatGPT's impact on professional tasks.\n\t\t- Includes interactive sessions to practice and refine productivity-enhancing strategies.\n\n- Idea 5:\n\t* ChatGPT for Strategic Decision-Making: Insights and Analysis\n\t\t- Focuses on using ChatGPT for data analysis and strategic decision-making.\n\t\t- Teaches professionals how to extract insights and generate reports using ChatGPT.\n\t\t- Provides frameworks for integrating ChatGPT into decision-making processes.\n\t\t- Includes exercises on interpreting and presenting data-driven insights effectively.\n\n        ",
+    "timestamp": "2025-11-26 16:27:35",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0034859000000000005
+      ],
+      "Prompt Tokens": [
+        649
+      ],
+      "Completion Tokens": [
+        630
+      ],
+      "Total Tokens": [
+        1279
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:27:39",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0050999999999999995
+      ],
+      "Prompt Tokens": [
+        1018
+      ],
+      "Completion Tokens": [
+        383
+      ],
+      "Total Tokens": [
+        1401
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_162603/idea_generation_output/control/ideas_20251126_162739.json\n",
+    "timestamp": "2025-11-26 16:27:39",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0050999999999999995
+      ],
+      "Prompt Tokens": [
+        1018
+      ],
+      "Completion Tokens": [
+        383
+      ],
+      "Total Tokens": [
+        1401
+      ]
+    }
+  }
+]

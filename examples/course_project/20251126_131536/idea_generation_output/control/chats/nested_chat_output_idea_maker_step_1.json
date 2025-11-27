@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering Prompt Frameworks for Business Efficiency\n\t\t- Focuses on teaching business professionals how to effectively use prompt frameworks like RTF and Chain-of-Thought to enhance productivity.\n\t\t- Includes practical exercises on crafting precise prompts for various business scenarios.\n\t\t- Emphasizes the importance of prompt engineering in achieving accurate and relevant AI outputs.\n\t\t- Rationale: Understanding and mastering prompt frameworks can significantly improve the efficiency and effectiveness of AI interactions in business settings.\n\n- Idea 2:\n\t* Strategic Model Selection: Reasoning vs Standard\n\t\t- Guides participants through the process of selecting the appropriate ChatGPT model for different business needs.\n\t\t- Covers the strengths and limitations of reasoning models versus standard models.\n\t\t- Provides case studies and interactive sessions to practice model selection in real-world business contexts.\n\t\t- Rationale: Choosing the right model is crucial for optimizing AI performance and aligning it with specific business objectives.\n\n- Idea 3:\n\t* Personalizing AI: CustomGPTs, Memory, and Projects\n\t\t- Explores advanced personalization techniques to tailor ChatGPT for individual business requirements.\n\t\t- Includes hands-on workshops on creating CustomGPTs and utilizing memory features for ongoing projects.\n\t\t- Discusses the impact of personalization on user experience and business outcomes.\n\t\t- Rationale: Personalization enhances the relevance and utility of AI tools, making them more effective for specific business applications.\n\n- Idea 4:\n\t* Responsible AI Practices: Handling Hallucinations and Data Privacy\n\t\t- Focuses on the ethical and responsible use of AI in business environments.\n\t\t- Teaches strategies for identifying and mitigating AI hallucinations and ensuring data privacy.\n\t\t- Incorporates discussions on the implications of AI decisions and the importance of transparency.\n\t\t- Rationale: Responsible AI practices are essential for maintaining trust and compliance in business operations.\n\n- Idea 5:\n\t* Next-Level AI Concepts: RAG and AI Agents\n\t\t- Introduces participants to advanced AI concepts like Retrieval-Augmented Generation (RAG) and AI Agents.\n\t\t- Provides insights into how these technologies can be leveraged for complex business tasks.\n\t\t- Includes interactive sessions to experiment with RAG and AI Agents in simulated business scenarios.\n\t\t- Rationale: Familiarity with cutting-edge AI technologies prepares business professionals to innovate and stay competitive in their fields.\n\n        ",
+    "timestamp": "2025-11-26 13:17:02",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.006012600000000001
+      ],
+      "Prompt Tokens": [
+        698
+      ],
+      "Completion Tokens": [
+        1192
+      ],
+      "Total Tokens": [
+        1890
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:17:08",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005646
+      ],
+      "Prompt Tokens": [
+        1115
+      ],
+      "Completion Tokens": [
+        427
+      ],
+      "Total Tokens": [
+        1542
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_131536/idea_generation_output/control/ideas_20251126_131708.json\n",
+    "timestamp": "2025-11-26 13:17:08",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005646
+      ],
+      "Prompt Tokens": [
+        1115
+      ],
+      "Completion Tokens": [
+        427
+      ],
+      "Total Tokens": [
+        1542
+      ]
+    }
+  }
+]

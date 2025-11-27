@@ -1,0 +1,170 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering Prompt Frameworks for Business Efficiency\n\t\t- Focuses on teaching business professionals how to effectively use prompt frameworks like RTF and Chain-of-Thought to enhance productivity.\n\t\t- Includes practical exercises on crafting precise prompts for various business scenarios.\n\t\t- Emphasizes the importance of prompt engineering in achieving accurate and relevant AI outputs.\n\t\t- Streamlined examples focus on a few key exercises for deep exploration, with simplified language for clarity.\n\t\t- Aligns with course objectives by offering focused, real-world exercises that enhance productivity and precision in AI interactions.\n\t\t- Feasible with an approximate 4-hour allocation for theory and interactive exercises, assuming tight session management.\n\t\t- The idea is selected for its strong alignment with the course objectives and practical, real-world exercises that enhance productivity and precision in AI interactions.\n\t\t- The focus on mastering prompt frameworks is highly relevant for business professionals, providing them with essential skills to improve AI interactions.\n\t\t- The streamlined approach with simplified language ensures clarity and accessibility for a non-coding audience.\n\t\t- The integration of responsible AI practices could further enhance the course's value, addressing potential risks like unintended outputs.\n\t\t- The feasibility of covering the content within the allocated time makes it a practical choice for the 2-day course.\n\n        ",
+    "timestamp": "2025-11-26 13:18:42",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0035222
+      ],
+      "Prompt Tokens": [
+        486
+      ],
+      "Completion Tokens": [
+        679
+      ],
+      "Total Tokens": [
+        1165
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:18:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003298
+      ],
+      "Prompt Tokens": [
+        685
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        926
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_131536/idea_generation_output/control/ideas_20251126_131847.json\n",
+    "timestamp": "2025-11-26 13:18:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003298
+      ],
+      "Prompt Tokens": [
+        685
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        926
+      ]
+    }
+  },
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering Prompt Frameworks for Business Efficiency\n\t\t- Focuses on teaching business professionals how to effectively use prompt frameworks like RTF and Chain-of-Thought to enhance productivity.\n\t\t- Includes practical exercises on crafting precise prompts for various business scenarios.\n\t\t- Emphasizes the importance of prompt engineering in achieving accurate and relevant AI outputs.\n\t\t- Streamlined examples focus on a few key exercises for deep exploration, with simplified language for clarity.\n\t\t- Aligns with course objectives by offering focused, real-world exercises that enhance productivity and precision in AI interactions.\n\t\t- Feasible with an approximate 4-hour allocation for theory and interactive exercises, assuming tight session management.\n\t\t- The idea is selected for its strong alignment with the course objectives and practical, real-world exercises that enhance productivity and precision in AI interactions.\n\t\t- The focus on mastering prompt frameworks is highly relevant for business professionals, providing them with essential skills to improve AI interactions.\n\t\t- The streamlined approach with simplified language ensures clarity and accessibility for a non-coding audience.\n\t\t- The integration of responsible AI practices could further enhance the course's value, addressing potential risks like unintended outputs.\n\t\t- The feasibility of covering the content within the allocated time makes it a practical choice for the 2-day course.\n\n        ",
+    "timestamp": "2025-11-26 13:18:58",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter",
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31",
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0035222,
+        0.0035222
+      ],
+      "Prompt Tokens": [
+        486,
+        486
+      ],
+      "Completion Tokens": [
+        679,
+        679
+      ],
+      "Total Tokens": [
+        1165,
+        1165
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:19:01",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003298,
+        0.003298
+      ],
+      "Prompt Tokens": [
+        685,
+        685
+      ],
+      "Completion Tokens": [
+        241,
+        241
+      ],
+      "Total Tokens": [
+        926,
+        926
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_131536/idea_generation_output/control/ideas_20251126_131901.json\n",
+    "timestamp": "2025-11-26 13:19:01",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003298,
+        0.003298
+      ],
+      "Prompt Tokens": [
+        685,
+        685
+      ],
+      "Completion Tokens": [
+        241,
+        241
+      ],
+      "Total Tokens": [
+        926,
+        926
+      ]
+    }
+  }
+]

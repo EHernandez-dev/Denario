@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT for Business: Leveraging AI for Strategic Advantage\n\t\t- This course empowers business professionals to integrate ChatGPT into their decision-making processes, enhancing strategic outcomes.\n\t\t- Participants will engage in step-by-step modules and mini-case studies, providing actionable frameworks for both basic and advanced ChatGPT features.\n\t\t- The curriculum includes discussions on data privacy, bias minimization, and transparency, ensuring ethical AI use in business contexts.\n\t\t- Real-life business scenarios will be incorporated to demonstrate practical applications of ChatGPT tools, offering hands-on experience.\n\t\t- By the end of the course, attendees will have a comprehensive understanding of ChatGPT's capabilities, ready to leverage AI for strategic business advantage.\n\n        ",
+    "timestamp": "2025-11-26 15:49:40",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0026092000000000003
+      ],
+      "Prompt Tokens": [
+        372
+      ],
+      "Completion Tokens": [
+        500
+      ],
+      "Total Tokens": [
+        872
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:49:42",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002012
+      ],
+      "Prompt Tokens": [
+        450
+      ],
+      "Completion Tokens": [
+        139
+      ],
+      "Total Tokens": [
+        589
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_154625/idea_generation_output/control/ideas_20251126_154942.json\n",
+    "timestamp": "2025-11-26 15:49:42",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002012
+      ],
+      "Prompt Tokens": [
+        450
+      ],
+      "Completion Tokens": [
+        139
+      ],
+      "Total Tokens": [
+        589
+      ]
+    }
+  }
+]

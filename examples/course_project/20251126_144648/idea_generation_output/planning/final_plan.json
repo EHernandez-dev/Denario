@@ -1,0 +1,69 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on the topic of ChatGPT Professional Proficiency.",
+                "Ensure ideas cover both basic and advanced features.",
+                "Consider the target audience of business professionals.",
+                "Ensure ideas do not require coding knowledge.",
+                "Align ideas with the 2-day, 16-hour duration.",
+                "Cover a diverse range of topics within ChatGPT Professional Proficiency, addressing both conceptual understanding and practical applications."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational value.",
+                "Assess the feasibility of covering the content in 2 days.",
+                "Ensure the ideas are suitable for business professionals.",
+                "Suggest improvements or removal of unsuitable ideas.",
+                "Provide specific examples and suggestions for improvements in each idea."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas.",
+                "Incorporate feedback from the idea_hater.",
+                "Enhance the ideas to better fit the audience and duration.",
+                "Clearly justify why the selected two ideas were chosen.",
+                "Elaborate on how each improvement makes the idea more engaging and feasible within a 2-day format."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed critique of the improved ideas.",
+                "Focus on the clarity, feasibility, and audience engagement.",
+                "Suggest any final improvements."
+            ],
+            "sub_task": "Critique the 2 improved ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Evaluate the final critiques.",
+                "Choose the idea with the highest potential.",
+                "Ensure it aligns with the course objectives.",
+                "Include a brief rationale for why the chosen idea outperforms the other, focusing on its impact on learning outcomes and alignment with audience needs."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ideas.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title.",
+                "Write a concise description covering the course scope.",
+                "Highlight the learning outcomes.",
+                "Ensure the description appeals to business professionals.",
+                "Emphasize the non-coding aspect of the course.",
+                "Explicitly mention the balance between basic and advanced content, reaffirming the course’s non-coding approach."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

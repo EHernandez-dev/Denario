@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools for Strategic Decision Making\n\t\t- Introduces a structured, layered curriculum starting with basic concepts of LLMs and advancing to strategic applications.\n\t\t- Balances basics and in-depth tool comparisons, ensuring participants are not overwhelmed.\n\t\t- Defines clear learning outcomes with concrete decision-making scenarios and measurable performance improvements.\n\t\t- Includes specific tools and actionable frameworks for data analysis and insights, such as market trend analysis and strategic planning.\n\t\t- Differentiates between free and premium functionalities with practical examples and case studies.\n\t\t- Suggests ensuring smooth transitions between basic and advanced topics, possibly by integrating interactive elements or workshops.\n\n        ",
+    "timestamp": "2025-11-26 15:01:00",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0033869
+      ],
+      "Prompt Tokens": [
+        623
+      ],
+      "Completion Tokens": [
+        614
+      ],
+      "Total Tokens": [
+        1237
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:01:01",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002458
+      ],
+      "Prompt Tokens": [
+        689
+      ],
+      "Completion Tokens": [
+        135
+      ],
+      "Total Tokens": [
+        824
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_145751/idea_generation_output/control/ideas_20251126_150101.json\n",
+    "timestamp": "2025-11-26 15:01:01",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002458
+      ],
+      "Prompt Tokens": [
+        689
+      ],
+      "Completion Tokens": [
+        135
+      ],
+      "Total Tokens": [
+        824
+      ]
+    }
+  }
+]

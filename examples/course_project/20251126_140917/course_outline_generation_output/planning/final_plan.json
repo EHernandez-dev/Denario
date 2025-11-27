@@ -1,0 +1,61 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills for participants.",
+                "Consider both foundational and advanced skills relevant to business communication and ChatGPT.",
+                "Define evaluation criteria for each competency, ensuring skills are measurable and aligned with business outcomes."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop, and define evaluation criteria for each.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before taking the course.",
+                "Specify any technical, business, or AI-related prerequisites.",
+                "Clearly correlate identified prerequisites with specific modules, so pre-existing knowledge gaps can be addressed early in the outline."
+            ],
+            "sub_task": "Determine prerequisites for participants and correlate them with specific modules.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the main modules.",
+                "Ensure progression from basic to advanced topics.",
+                "Align modules with the competencies and skills identified.",
+                "For each module, provide a brief rationale for its placement and how it builds upon the previous module."
+            ],
+            "sub_task": "Propose 4-8 main course modules, outline logical flow, and provide rationale for progression.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a brief description of what each module covers.",
+                "List key takeaways for each module.",
+                "Write learning goals as \"Participants [action verb]...\".",
+                "Integrate a section within each module that explicitly describes how interactive activities and role-playing exercises support the learning goals."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, specific learning goals, and describe how interactive activities and role-playing support learning.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify which modules include hands-on exercises.",
+                "Estimate the duration for each exercise or activity.",
+                "Provide brief commentary on the complexity of each hands-on module or activity to guide session timing."
+            ],
+            "sub_task": "Estimate exercise duration for hands-on modules and provide commentary on activity complexity.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module descriptions, learning goals, key takeaways, and exercise durations.",
+                "Present the outline in a clear, organized markdown structure.",
+                "Include a final review and feedback mechanism within the outline, outlining how participant feedback might be integrated into refining the course structure post-delivery."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format, including a review and feedback mechanism.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

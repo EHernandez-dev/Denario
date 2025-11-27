@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT for Business Efficiency\n\t\t- Explore the basics of ChatGPT, including prompt and context engineering.\n\t\t- Delve into advanced features available in both free and premium versions.\n\t\t- Learn to apply ChatGPT tools to streamline business operations.\n\t\t- Case Study: Implementing ChatGPT for customer service automation in a retail company.\n\t\t- Discuss responsible AI practices in business settings.\n\n- Idea 2:\n\t* Advanced Prompt Engineering for Business Leaders\n\t\t- Focus on developing advanced prompt engineering skills.\n\t\t- Understand the nuances of context management in ChatGPT.\n\t\t- Compare and contrast features of free vs. premium ChatGPT versions.\n\t\t- Case Study: Enhancing marketing strategies using ChatGPT-generated content.\n\t\t- Include a module on ethical considerations in AI-driven marketing.\n\n- Idea 3:\n\t* ChatGPT Tools for Strategic Decision Making\n\t\t- Introduce basic and advanced ChatGPT tools for decision-making processes.\n\t\t- Teach how to leverage ChatGPT for data analysis and insights.\n\t\t- Explore the differences in toolsets between free and premium versions.\n\t\t- Case Study: Using ChatGPT to analyze market trends for strategic planning.\n\t\t- Cover responsible AI practices in data-driven decision making.\n\n- Idea 4:\n\t* Integrating ChatGPT into Business Communication\n\t\t- Cover the fundamentals of using ChatGPT for effective communication.\n\t\t- Explore advanced features for personalized communication strategies.\n\t\t- Highlight the tools available in both free and premium versions.\n\t\t- Case Study: Improving internal communication within a multinational corporation.\n\t\t- Discuss the importance of ethical AI in communication.\n\n- Idea 5:\n\t* Responsible AI Practices with ChatGPT\n\t\t- Provide an overview of responsible AI practices.\n\t\t- Teach how to implement these practices using ChatGPT.\n\t\t- Compare the ethical implications of using free vs. premium features.\n\t\t- Case Study: Developing a responsible AI policy for a tech startup.\n\t\t- Emphasize the role of AI ethics in maintaining business integrity.\n\n        ",
+    "timestamp": "2025-11-26 14:59:31",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0033847
+      ],
+      "Prompt Tokens": [
+        629
+      ],
+      "Completion Tokens": [
+        612
+      ],
+      "Total Tokens": [
+        1241
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:59:34",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.004896
+      ],
+      "Prompt Tokens": [
+        988
+      ],
+      "Completion Tokens": [
+        365
+      ],
+      "Total Tokens": [
+        1353
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_145751/idea_generation_output/control/ideas_20251126_145934.json\n",
+    "timestamp": "2025-11-26 14:59:34",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.004896
+      ],
+      "Prompt Tokens": [
+        988
+      ],
+      "Completion Tokens": [
+        365
+      ],
+      "Total Tokens": [
+        1353
+      ]
+    }
+  }
+]

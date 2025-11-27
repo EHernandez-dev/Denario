@@ -1,0 +1,170 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: A Professional's Guide\n\t\t- This course offers a deep dive into essential ChatGPT tools, focusing on the ChatGPT API, integration features, and automation tools.\n\t\t- Participants will engage in hands-on workshops and real-world applications to enhance productivity and automate tasks in their professional settings.\n\t\t- The course provides clear, measurable learning outcomes, such as the ability to implement a specific tool by the end of the course.\n\t\t- Intermediate steps and checkpoints during workshops will be detailed to monitor progress and ensure the pacing fits within the 24-hour schedule.\n\n- Idea 2:\n\t* ChatGPT for Business: Strategies and Solutions\n\t\t- This course focuses on business applications such as customer service automation and chatbot development, making it feasible within the 24-hour constraint.\n\t\t- It highlights medium-level ChatGPT features like sentiment analysis and feedback loops, directly addressing the advanced techniques required by professionals while remaining accessible for non-coders.\n\t\t- Participants will engage in hands-on projects culminating in a deployed chatbot or automated system, providing clear, actionable results and immediate professional value.\n\t\t- The course will explicitly outline the integration process with existing business systems and allocate time for troubleshooting common integration challenges, ensuring clarity and realistic pacing.\n\n        ",
+    "timestamp": "2025-11-26 16:42:29",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0038280000000000002
+      ],
+      "Prompt Tokens": [
+        480
+      ],
+      "Completion Tokens": [
+        750
+      ],
+      "Total Tokens": [
+        1230
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:42:31",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003272
+      ],
+      "Prompt Tokens": [
+        672
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        913
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_163757/idea_generation_output/control/ideas_20251126_164231.json\n",
+    "timestamp": "2025-11-26 16:42:31",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003272
+      ],
+      "Prompt Tokens": [
+        672
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        913
+      ]
+    }
+  },
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: A Professional's Guide\n\t\t- Intensive 3-day course designed to elevate professionals' proficiency with ChatGPT.\n\t\t- Focus on essential tools such as the ChatGPT API, integration features, and automation capabilities.\n\t\t- Hands-on workshops with real-world applications aimed at enhancing productivity and automating tasks within professional environments.\n\t\t- Clear, measurable learning outcomes, including the ability to implement a specific tool by the end of the course.\n\t\t- Detailed intermediate steps and checkpoints provided to monitor progress and ensure effective pacing throughout the 24-hour schedule.\n\t\t- Comprehensive understanding by the end of the course of how to leverage ChatGPT tools to drive efficiency and innovation in various fields.\n\n        ",
+    "timestamp": "2025-11-26 16:42:45",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter",
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31",
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0038280000000000002,
+        0.0026334
+      ],
+      "Prompt Tokens": [
+        480,
+        374
+      ],
+      "Completion Tokens": [
+        750,
+        505
+      ],
+      "Total Tokens": [
+        1230,
+        879
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:42:47",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003272,
+        0.002112
+      ],
+      "Prompt Tokens": [
+        672,
+        456
+      ],
+      "Completion Tokens": [
+        241,
+        150
+      ],
+      "Total Tokens": [
+        913,
+        606
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_163757/idea_generation_output/control/ideas_20251126_164247.json\n",
+    "timestamp": "2025-11-26 16:42:47",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003272,
+        0.002112
+      ],
+      "Prompt Tokens": [
+        672,
+        456
+      ],
+      "Completion Tokens": [
+        241,
+        150
+      ],
+      "Total Tokens": [
+        913,
+        606
+      ]
+    }
+  }
+]

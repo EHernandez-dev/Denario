@@ -1,0 +1,124 @@
+[
+  {
+    "content": "\nTopic: ChatGPT Professional Proficiency: From Basics to Advanced Features\nTarget Audience: Professionals in different fields seeking deep proficiency without coding. They want to go from basics in LLMs such as prompt and context to medium-level features. They want to explore a large set of tools currently offered by ChatGPT. \nDuration: 3 days (24 hours total)\n",
+    "role": "assistant"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_b3CyidnmI8rAG01u1grYeTSh",
+        "function": {
+          "arguments": "{}",
+          "name": "record_status_starter"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control_starter",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas.\n- Incorporate feedback from the idea_hater to enhance these ideas.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule.\n \n**Status:** in progress \u23f3\n",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_b3CyidnmI8rAG01u1grYeTSh",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas.\n- Incorporate feedback from the idea_hater to enhance these ideas.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule.\n \n**Status:** in progress \u23f3\n"
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "**Ideas:**\n\n- Idea 1: Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n  * Focuses on foundational skills of prompt crafting and understanding context in LLMs.\n  * Incorporates real-time application examples across various industries to demonstrate context variations.\n  * Modularizes content to cover both basics and advanced features within the 3-day limit.\n  * Includes interactive exercises for professionals to adapt techniques to their work environments, enhancing practical application.\n\n- Idea 2: ChatGPT Tools Unleashed: Navigating Advanced Features\n  * Delves into medium-level features like memory and custom instructions, aligning with audience progression.\n  * Balances foundational and advanced content to avoid overwhelming participants within the 24-hour framework.\n  * Provides explicit actionable frameworks for integrating advanced features into professional workflows.\n  * Utilizes practical exercises and case studies to reinforce learning and application, ensuring clarity and impact.",
+    "name": "idea_maker",
+    "role": "user"
+  },
+  {
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- Focuses on foundational skills of prompt crafting and understanding context in LLMs.\n\t\t- Incorporates real-time application examples across various industries to demonstrate context variations.\n\t\t- Modularizes content to cover both basics and advanced features within the 3-day limit.\n\t\t- Includes interactive exercises for professionals to adapt techniques to their work environments, enhancing practical application.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: Navigating Advanced Features\n\t\t- Delves into medium-level features like memory and custom instructions, aligning with audience progression.\n\t\t- Balances foundational and advanced content to avoid overwhelming participants within the 24-hour framework.\n\t\t- Provides explicit actionable frameworks for integrating advanced features into professional workflows.\n\t\t- Utilizes practical exercises and case studies to reinforce learning and application, ensuring clarity and impact.\n\n        ",
+    "name": "idea_maker_nest",
+    "role": "user"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_CgmTGVLoxUUrcEtZovDiWxDp",
+        "function": {
+          "arguments": "{\"current_status\":\"completed\",\"current_plan_step_number\":3,\"current_sub_task\":\"Select and improve 2 out of the 5 course ideas based on the critique.\",\"current_instructions\":\"- Choose the two most promising ideas.\\n- Incorporate feedback from the idea_hater to enhance these ideas.\\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\\n- Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule.\",\"agent_for_sub_task\":\"idea_maker\",\"context_variables\":{}}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas.\n- Incorporate feedback from the idea_hater to enhance these ideas.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule.\n \n**Status:** completed \u2705\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_CgmTGVLoxUUrcEtZovDiWxDp",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas.\n- Incorporate feedback from the idea_hater to enhance these ideas.\n- Ensure the improved ideas maintain technical depth and actionable frameworks.\n- Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule.\n \n**Status:** completed \u2705\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_H4m0D12fQg4MyOJxQSKTOhtD",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":4,\"current_sub_task\":\"Critique the 2 improved ideas.\",\"current_instructions\":\"- Provide a detailed critique focusing on improvements made.\\n- Ensure the ideas are pedagogically sound and feasible.\\n- Confirm alignment with the target audience's needs.\\n- Compare the technical tool coverage and actionable methodologies between the two ideas to highlight which better fits the advanced features target.\",\"agent_for_sub_task\":\"idea_hater\",\"context_variables\":{}}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed critique focusing on improvements made.\n- Ensure the ideas are pedagogically sound and feasible.\n- Confirm alignment with the target audience's needs.\n- Compare the technical tool coverage and actionable methodologies between the two ideas to highlight which better fits the advanced features target.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_H4m0D12fQg4MyOJxQSKTOhtD",
+        "role": "tool",
+        "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed critique focusing on improvements made.\n- Ensure the ideas are pedagogically sound and feasible.\n- Confirm alignment with the target audience's needs.\n- Compare the technical tool coverage and actionable methodologies between the two ideas to highlight which better fits the advanced features target.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_wUBcbCpSR2cTaNOHljKGErMN",
+        "function": {
+          "arguments": "{}",
+          "name": "terminate_session"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "terminator",
+    "role": "assistant"
+  },
+  {
+    "content": "Session terminated.",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_wUBcbCpSR2cTaNOHljKGErMN",
+        "role": "tool",
+        "content": "Session terminated."
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  }
+]

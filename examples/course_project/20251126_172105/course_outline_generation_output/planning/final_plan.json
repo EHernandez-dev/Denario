@@ -1,0 +1,60 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and target audience.",
+                "List the essential competencies and skills for professionals using ChatGPT tools.",
+                "Clearly identify both foundational and advanced ChatGPT features, including custom instructions, memory management, and other key tools.",
+                "Ensure all relevant tools and features are named."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop, with explicit mention of advanced ChatGPT features.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before starting the course.",
+                "Provide concrete examples, such as familiarity with digital communication platforms (e.g., Slack, Teams), previous use of productivity tools, or basic experience with chatbots.",
+                "Tailor prerequisites for a non-technical, professional audience."
+            ],
+            "sub_task": "Determine prerequisites for participants, with specific examples.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the sequence of modules.",
+                "Ensure progression from basic to advanced features.",
+                "Name the key ChatGPT tools and features to be covered in each module.",
+                "Explicitly include a module dedicated to interactive sessions and feedback loops for experiential learning and course adaptability."
+            ],
+            "sub_task": "Propose 8-10 main modules that build logically from foundational to advanced concepts, explicitly including a module on 'Interactive Sessions and Feedback Loops.'",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise overview of what each module covers.",
+                "List key takeaways for participants.",
+                "Write learning goals as 'Participants [action verb]...'.",
+                "Include estimated exercise duration for each hands-on module or activity."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals, with explicit exercise durations for hands-on activities.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Check for logical progression and completeness.",
+                "Ensure each module supports enhanced decision-making and customer interaction as key professional outcomes.",
+                "Adjust module order or content as needed for clarity, learning effectiveness, and real-world alignment."
+            ],
+            "sub_task": "Review and refine the module sequence and content for logical flow, real-world application, and coverage.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Present the finalized course outline with modules, descriptions, learning goals, key takeaways, and exercise durations.",
+                "Use clear markdown formatting with specific headings, bullet points, and separated sections for each module to ensure readability and structure."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- This course offers a structured progression from foundational skills in prompt engineering to advanced techniques like context layering.\n\t\t- Participants will engage in an 8-hour roadmap with explicit time blocks, ensuring a comprehensive learning experience.\n\t\t- The course includes hands-on exercises with specific ChatGPT tools, focusing on real-world applications.\n\t\t- Detailed exercises on advanced topics enhance technical depth, providing participants with actionable skills.\n\t\t- The course suggests improvements with specific examples using ChatGPT functionalities and feedback loops for prompt evaluation, ensuring practical utility and engagement.\n\n        ",
+    "timestamp": "2025-11-26 17:03:36",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0025156999999999996
+      ],
+      "Prompt Tokens": [
+        355
+      ],
+      "Completion Tokens": [
+        483
+      ],
+      "Total Tokens": [
+        838
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 17:03:37",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0018080000000000001
+      ],
+      "Prompt Tokens": [
+        416
+      ],
+      "Completion Tokens": [
+        122
+      ],
+      "Total Tokens": [
+        538
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_165929/idea_generation_output/control/ideas_20251126_170337.json\n",
+    "timestamp": "2025-11-26 17:03:37",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0018080000000000001
+      ],
+      "Prompt Tokens": [
+        416
+      ],
+      "Completion Tokens": [
+        122
+      ],
+      "Total Tokens": [
+        538
+      ]
+    }
+  }
+]

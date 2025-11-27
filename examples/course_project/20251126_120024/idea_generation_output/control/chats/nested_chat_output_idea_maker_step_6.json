@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: Advanced Features for Complex Business Solutions\n\t\t- Dive deep into the advanced capabilities of ChatGPT to tackle intricate business challenges.\n\t\t- Structured progression from basic to advanced problem-solving techniques.\n\t\t- Explore key features such as API integrations and custom model training.\n\t\t- Engage in practical exercises anchored in real-world business scenarios.\n\t\t- Enhance ability to apply theoretical concepts to hands-on applications.\n\t\t- Focus on essential tools for an in-depth exploration to maximize learning impact.\n\t\t- Ideal for business professionals seeking to elevate their technical proficiency and leverage ChatGPT for strategic advantage.\n\n        ",
+    "timestamp": "2025-11-26 12:04:41",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0025311
+      ],
+      "Prompt Tokens": [
+        377
+      ],
+      "Completion Tokens": [
+        481
+      ],
+      "Total Tokens": [
+        858
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 12:04:42",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00196
+      ],
+      "Prompt Tokens": [
+        436
+      ],
+      "Completion Tokens": [
+        136
+      ],
+      "Total Tokens": [
+        572
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_120024/idea_generation_output/control/ideas_20251126_120442.json\n",
+    "timestamp": "2025-11-26 12:04:42",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00196
+      ],
+      "Prompt Tokens": [
+        436
+      ],
+      "Completion Tokens": [
+        136
+      ],
+      "Total Tokens": [
+        572
+      ]
+    }
+  }
+]

@@ -1,0 +1,60 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and target audience.",
+                "List the essential competencies and skills for mastering ChatGPT as a non-coder.",
+                "Consider both foundational and advanced skills relevant to professional productivity.",
+                "Explicitly analyze how each identified competency connects to practical work scenarios and daily professional tasks."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before starting the course.",
+                "Specify any required familiarity with digital tools, AI concepts, or professional workflows.",
+                "Include any technical or conceptual background that may enrich understanding of AI terminology, even for non-coders, to provide a broader context."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the sequence of modules, ensuring a logical progression.",
+                "Briefly describe the focus of each module.",
+                "Ensure that the proposed modules evenly integrate both theoretical concepts and practical exercises, balancing understanding and hands-on application."
+            ],
+            "sub_task": "Propose 4-8 main course modules that build logically from basics to advanced topics.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise description of what each module covers.",
+                "List key takeaways for participants.",
+                "Write learning goals using \"Participants [action verb]...\" format.",
+                "Incorporate examples of real-world case studies within the module descriptions to contextualize key takeaways and learning goals."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify which modules include hands-on exercises or labs.",
+                "Suggest appropriate time allocations for these activities.",
+                "Provide a rationale for the chosen durations to ensure alignment with the intended learning outcomes."
+            ],
+            "sub_task": "Estimate exercise duration for hands-on modules.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module descriptions, learning goals, key takeaways, and exercise durations.",
+                "Present the outline in a clear, organized markdown structure.",
+                "Include an introductory summary that outlines the overall flow of the course, serving as a roadmap for participants."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

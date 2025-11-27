@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: A Professional's Guide (Improved)\n\t\t- Focuses on a curated subset of essential ChatGPT tools, such as the ChatGPT API, integration features, and automation tools.\n\t\t- Includes hands-on workshops and real-world applications to enhance productivity and automate tasks in professional settings.\n\t\t- Provides clear, measurable learning outcomes, such as implementing a specific tool by the end of the course.\n\t\t- Suggests detailing intermediate steps or checkpoints during workshops to monitor progress and ensure pacing within the 24-hour schedule.\n\n        ",
+    "timestamp": "2025-11-26 16:42:04",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0021252
+      ],
+      "Prompt Tokens": [
+        560
+      ],
+      "Completion Tokens": [
+        343
+      ],
+      "Total Tokens": [
+        903
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:42:06",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002272
+      ],
+      "Prompt Tokens": [
+        608
+      ],
+      "Completion Tokens": [
+        132
+      ],
+      "Total Tokens": [
+        740
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_163757/idea_generation_output/control/ideas_20251126_164206.json\n",
+    "timestamp": "2025-11-26 16:42:06",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002272
+      ],
+      "Prompt Tokens": [
+        608
+      ],
+      "Completion Tokens": [
+        132
+      ],
+      "Total Tokens": [
+        740
+      ]
+    }
+  }
+]

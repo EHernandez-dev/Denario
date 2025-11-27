@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompts to Proficiency\n\t\t- Introduction to the basics of ChatGPT, focusing on understanding prompts and context.\n\t\t- Exploration of medium-level features such as conversation management and response optimization.\n\t\t- Hands-on sessions using ChatGPT's prompt engineering tools to create effective and efficient prompts.\n\t\t- Practical exercises on using ChatGPT's context management features to maintain coherent and relevant conversations.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: A Professional's Guide\n\t\t- Overview of the wide array of tools available in ChatGPT for professional use.\n\t\t- Detailed exploration of specific tools like the ChatGPT API and integration features.\n\t\t- Hands-on workshops on using these tools to automate tasks and enhance productivity.\n\t\t- Case studies on successful implementations of ChatGPT tools in various professional fields.\n\n- Idea 3:\n\t* Advanced ChatGPT Techniques for Professionals\n\t\t- Focus on advanced features of ChatGPT, including custom model tuning and advanced prompt strategies.\n\t\t- Interactive sessions on leveraging ChatGPT's advanced settings for specific professional needs.\n\t\t- Practical exercises on using ChatGPT's analytics tools to measure and improve performance.\n\t\t- Exploration of real-world applications and advanced use cases in different industries.\n\n- Idea 4:\n\t* ChatGPT for Business: Strategies and Solutions\n\t\t- Introduction to using ChatGPT in a business context, focusing on customer service and engagement.\n\t\t- Exploration of tools like ChatGPT's sentiment analysis and feedback loops.\n\t\t- Hands-on projects to develop chatbots and automated response systems using ChatGPT.\n\t\t- Workshops on integrating ChatGPT with existing business systems for seamless operations.\n\n- Idea 5:\n\t* Interactive ChatGPT: Building Dynamic Conversations\n\t\t- Basics of creating dynamic and interactive conversations with ChatGPT.\n\t\t- Exploration of tools for managing conversation flow and user engagement.\n\t\t- Practical sessions on using ChatGPT's dialogue management features to create engaging user experiences.\n\t\t- Projects focused on developing interactive applications and services using ChatGPT's capabilities.\n\n        ",
+    "timestamp": "2025-11-26 16:40:20",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0037389000000000003
+      ],
+      "Prompt Tokens": [
+        639
+      ],
+      "Completion Tokens": [
+        690
+      ],
+      "Total Tokens": [
+        1329
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:40:24",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0051080000000000006
+      ],
+      "Prompt Tokens": [
+        998
+      ],
+      "Completion Tokens": [
+        389
+      ],
+      "Total Tokens": [
+        1387
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_163757/idea_generation_output/control/ideas_20251126_164024.json\n",
+    "timestamp": "2025-11-26 16:40:24",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0051080000000000006
+      ],
+      "Prompt Tokens": [
+        998
+      ],
+      "Completion Tokens": [
+        389
+      ],
+      "Total Tokens": [
+        1387
+      ]
+    }
+  }
+]

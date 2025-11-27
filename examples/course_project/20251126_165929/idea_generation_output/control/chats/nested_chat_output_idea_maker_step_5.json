@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- Provides a structured progression from foundational skills in prompt engineering to advanced techniques like context layering.\n\t\t- Features an 8-hour roadmap with explicit time blocks, ensuring a comprehensive learning experience.\n\t\t- Includes hands-on exercises with specific ChatGPT tools, focusing on real-world applications.\n\t\t- Offers detailed exercises on advanced topics, enhancing technical depth.\n\t\t- Suggests improvements with specific examples using ChatGPT functionalities and feedback loops for prompt evaluation.\n\n        ",
+    "timestamp": "2025-11-26 17:03:19",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0046948
+      ],
+      "Prompt Tokens": [
+        616
+      ],
+      "Completion Tokens": [
+        913
+      ],
+      "Total Tokens": [
+        1529
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 17:03:20",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0021420000000000002
+      ],
+      "Prompt Tokens": [
+        659
+      ],
+      "Completion Tokens": [
+        103
+      ],
+      "Total Tokens": [
+        762
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_165929/idea_generation_output/control/ideas_20251126_170320.json\n",
+    "timestamp": "2025-11-26 17:03:20",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0021420000000000002
+      ],
+      "Prompt Tokens": [
+        659
+      ],
+      "Completion Tokens": [
+        103
+      ],
+      "Total Tokens": [
+        762
+      ]
+    }
+  }
+]

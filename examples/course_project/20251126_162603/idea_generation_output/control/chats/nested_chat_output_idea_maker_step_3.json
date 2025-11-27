@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- Focuses on foundational skills of prompt crafting and understanding context in LLMs.\n\t\t- Incorporates real-time application examples across various industries to demonstrate context variations.\n\t\t- Modularizes content to cover both basics and advanced features within the 3-day limit.\n\t\t- Includes interactive exercises for professionals to adapt techniques to their work environments, enhancing practical application.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: Navigating Advanced Features\n\t\t- Delves into medium-level features like memory and custom instructions, aligning with audience progression.\n\t\t- Balances foundational and advanced content to avoid overwhelming participants within the 24-hour framework.\n\t\t- Provides explicit actionable frameworks for integrating advanced features into professional workflows.\n\t\t- Utilizes practical exercises and case studies to reinforce learning and application, ensuring clarity and impact.\n\n        ",
+    "timestamp": "2025-11-26 16:28:20",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0028787
+      ],
+      "Prompt Tokens": [
+        409
+      ],
+      "Completion Tokens": [
+        552
+      ],
+      "Total Tokens": [
+        961
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:28:23",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002444
+      ],
+      "Prompt Tokens": [
+        530
+      ],
+      "Completion Tokens": [
+        173
+      ],
+      "Total Tokens": [
+        703
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_162603/idea_generation_output/control/ideas_20251126_162823.json\n",
+    "timestamp": "2025-11-26 16:28:23",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002444
+      ],
+      "Prompt Tokens": [
+        530
+      ],
+      "Completion Tokens": [
+        173
+      ],
+      "Total Tokens": [
+        703
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on the topic of ChatGPT Professional Proficiency.",
+                "Ensure ideas cover a range from basics to advanced features.",
+                "Consider the target audience of professionals seeking deep proficiency without coding.",
+                "Include technical depth, specific tools, and actionable frameworks.",
+                "Ensure each idea highlights a distinct technical tool or approach for diversity and clarity in technical depth."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational value and clarity.",
+                "Assess the feasibility of covering the content within the 3-day duration.",
+                "Ensure the ideas align with the needs of professionals in different fields.",
+                "Identify gaps in actionable frameworks and suggest additional technical details for integration."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas.",
+                "Incorporate feedback from the idea_hater to enhance these ideas.",
+                "Ensure the improved ideas maintain technical depth and actionable frameworks.",
+                "Explicitly list how feedback will be integrated and mention potential modifications to content pacing for a real-world professional schedule."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed critique focusing on improvements made.",
+                "Ensure the ideas are pedagogically sound and feasible.",
+                "Confirm alignment with the target audience's needs.",
+                "Compare the technical tool coverage and actionable methodologies between the two ideas to highlight which better fits the advanced features target."
+            ],
+            "sub_task": "Critique the 2 improved ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Evaluate the final two ideas for overall quality and potential impact.",
+                "Choose the idea that best meets the course objectives.",
+                "Justify the final selection by referencing specific technical strengths and clear actionable frameworks that address professionals’ needs."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ideas.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title.",
+                "Write a concise description highlighting technical depth, specific tools, and actionable frameworks.",
+                "Ensure the description is appealing to the target audience.",
+                "Include a recommendation for potential hands-on exercises or framework implementation tips to reinforce the actionable nature of the course content."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

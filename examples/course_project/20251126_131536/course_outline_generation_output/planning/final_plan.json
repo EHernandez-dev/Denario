@@ -1,0 +1,61 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills for business professionals mastering prompt frameworks.",
+                "Consider both technical and practical business application skills.",
+                "Review responsible AI practices and potential pitfalls (e.g., unintended outputs) to ensure competencies include ethical and risk management skills."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before attending.",
+                "Specify any required familiarity with AI concepts, business processes, or tools.",
+                "Recommend reviewing basic concepts of AI prompt interactions, so participants have a minimal technical foundation."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the sequence of modules.",
+                "Ensure progression from basics to more complex applications.",
+                "Align modules with the identified competencies and course duration.",
+                "Ensure at least one module specifically addresses practical exercises around prompt frameworks and another for business application scenarios."
+            ],
+            "sub_task": "Propose 4-8 main course modules that build logically from foundational to advanced concepts.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise description of what each module covers.",
+                "List key takeaways for participants.",
+                "Write learning goals as \"Participants [action verb]...\".",
+                "Ensure learning goals reference real-world application scenarios (e.g., \"Participants will apply prompt frameworks to a specific business challenge...\")."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Review each module for hands-on components.",
+                "Assign realistic time estimates for exercises within the 4-hour total allocation.",
+                "Include an assessment of the time needed for participant-led discussion segments in addition to hands-on exercises."
+            ],
+            "sub_task": "Estimate exercise durations for hands-on modules.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Organize modules, descriptions, learning goals, key takeaways, and exercise/discussion durations.",
+                "Present the outline clearly and logically for course development use.",
+                "Include a summary section listing overall course objectives and expected participant outcomes for quick reference."
+            ],
+            "sub_task": "Compile the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Strategic Decision Making with ChatGPT: From Basics to Breakthroughs\n\t\t- Title: \"Strategic Decision Making with ChatGPT: From Basics to Breakthroughs\"\n\t\t- Description: This comprehensive 2-day course is designed for business professionals eager to harness the power of ChatGPT for strategic decision-making. Participants will explore a structured curriculum that begins with foundational concepts of large language models (LLMs) and progresses to advanced applications, ensuring a smooth transition for non-coders. The course emphasizes actionable frameworks, such as market trend analysis and strategic planning, while differentiating between the free and premium functionalities of ChatGPT through practical examples and case studies. Attendees will also gain insights into responsible AI practices, ensuring ethical and effective use of AI tools in business contexts. Additionally, the course will highlight emerging trends in ChatGPT technology, equipping participants with cutting-edge knowledge to stay ahead in the rapidly evolving AI landscape.\n\n        ",
+    "timestamp": "2025-11-26 15:01:19",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0042669000000000006
+      ],
+      "Prompt Tokens": [
+        411
+      ],
+      "Completion Tokens": [
+        867
+      ],
+      "Total Tokens": [
+        1278
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:01:21",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002422
+      ],
+      "Prompt Tokens": [
+        531
+      ],
+      "Completion Tokens": [
+        170
+      ],
+      "Total Tokens": [
+        701
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_145751/idea_generation_output/control/ideas_20251126_150121.json\n",
+    "timestamp": "2025-11-26 15:01:21",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002422
+      ],
+      "Prompt Tokens": [
+        531
+      ],
+      "Completion Tokens": [
+        170
+      ],
+      "Total Tokens": [
+        701
+      ]
+    }
+  }
+]

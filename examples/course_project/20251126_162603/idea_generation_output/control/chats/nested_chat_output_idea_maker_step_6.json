@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Tools Unleashed: Navigating Advanced Features\n\t\t- This course delves into medium-level features of ChatGPT, such as memory and custom instructions, tailored for professionals seeking to enhance their proficiency without coding.\n\t\t- It balances foundational knowledge with advanced content, ensuring participants are not overwhelmed within the 24-hour framework.\n\t\t- The course provides explicit actionable frameworks for integrating these advanced features into professional workflows.\n\t\t- Practical exercises and case studies are utilized to reinforce learning and application, ensuring clarity and impact.\n\t\t- Participants will engage in hands-on exercises to practice and implement these tools, enhancing their ability to leverage ChatGPT's capabilities effectively in their respective fields.\n\n        ",
+    "timestamp": "2025-11-26 16:29:14",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0017468000000000002
+      ],
+      "Prompt Tokens": [
+        368
+      ],
+      "Completion Tokens": [
+        305
+      ],
+      "Total Tokens": [
+        673
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:29:15",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001972
+      ],
+      "Prompt Tokens": [
+        442
+      ],
+      "Completion Tokens": [
+        136
+      ],
+      "Total Tokens": [
+        578
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_162603/idea_generation_output/control/ideas_20251126_162915.json\n",
+    "timestamp": "2025-11-26 16:29:15",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001972
+      ],
+      "Prompt Tokens": [
+        442
+      ],
+      "Completion Tokens": [
+        136
+      ],
+      "Total Tokens": [
+        578
+      ]
+    }
+  }
+]

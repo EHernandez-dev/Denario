@@ -1,0 +1,223 @@
+[
+  {
+    "name": "control_starter",
+    "content": null,
+    "timestamp": "2025-11-26 17:28:10",
+    "cost": {
+      "Agent": [
+        "control_starter"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001868
+      ],
+      "Prompt Tokens": [
+        930
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        931
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 5 out of 6.\n \n**Sub-task:** Review and refine the module sequence and content for logical flow, real-world application, and coverage.\n \n**Agent in charge of sub-task:** `researcher`\n \n**Instructions:**\n \n- Check for logical progression and completeness.\n- Ensure each module supports enhanced decision-making and customer interaction as key professional outcomes.\n- Adjust module order or content as needed for clarity, learning effectiveness, and real-world alignment.\n \n**Status:** in progress \u23f3\n",
+    "timestamp": "2025-11-26 17:28:10",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "researcher",
+    "content": "# ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n\n### Overview:\nThis hands-on course is designed for professionals aiming to master ChatGPT\u2019s suite of tools for enhanced productivity, decision-making, and customer engagement\u2014without any coding required. Across ten scaffolded modules, participants will progress from foundational ChatGPT navigation to advanced features such as custom instructions, memory management, and tool integration. Real-world case studies, interactive sessions, and feedback loops ensure practical, adaptable learning for diverse professional needs.\n\n---\n\n## 1. Introduction to ChatGPT for Professionals\n\n### Description:\nThis module orients participants to the ChatGPT environment, covering the web interface, mobile app, and session history. It establishes a baseline for navigation and sets expectations for the course, ensuring all participants are comfortable with the platform before advancing.\n\n### Takeaways:\n- Confident navigation of ChatGPT\u2019s web and mobile interfaces\n- Understanding of session history and conversation management\n- Awareness of ChatGPT\u2019s capabilities and limitations\n\n### Learning Goals:\n- Participants identify and access ChatGPT via web and mobile platforms.\n- Participants navigate session history and manage conversations.\n- Participants describe the scope and structure of the course.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 5 minutes  \nHands-on guided tour of the ChatGPT interface, including starting a new session and reviewing session history.\n\n---\n\n## 2. Core ChatGPT Tools and Their Applications\n\n### Description:\nThis module introduces the primary tools available within ChatGPT, including the Code Interpreter (Advanced Data Analysis), File Upload and Analysis, Web Browsing Tool, Image Generation (DALL-E), and Voice Mode. Participants explore each tool\u2019s professional applications through demonstrations and guided practice.\n\n### Takeaways:\n- Familiarity with ChatGPT\u2019s core tools and their functions\n- Ability to select appropriate tools for specific professional tasks\n- Understanding of tool limitations and best practices\n\n### Learning Goals:\n- Participants activate and use the Code Interpreter for data analysis.\n- Participants upload and analyze files within ChatGPT.\n- Participants utilize the Web Browsing Tool for real-time information retrieval.\n- Participants generate images using DALL-E integration.\n- Participants experiment with Voice Mode (where available).\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 10 minutes  \nRotating tool stations: participants complete a short task with each core tool.\n\n---\n\n## 3. Prompt Engineering Essentials\n\n### Description:\nThis module focuses on crafting effective prompts, leveraging the Prompt Library, templates, and session history. Participants learn prompt engineering basics to optimize ChatGPT\u2019s outputs for various professional scenarios.\n\n### Takeaways:\n- Mastery of prompt construction for clarity and specificity\n- Use of prompt templates and libraries to streamline workflows\n- Skills in iterative prompt refinement\n\n### Learning Goals:\n- Participants construct clear, goal-oriented prompts.\n- Participants utilize prompt templates from the Prompt Library.\n- Participants refine prompts based on output quality and feedback.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nPrompt writing and refinement workshop using real-world scenarios.\n\n---\n\n## 4. Custom Instructions for Personalization\n\n### Description:\nThis module explores the Custom Instructions feature, enabling participants to tailor ChatGPT\u2019s responses to individual or organizational needs. The session covers configuration, optimization, and practical use cases.\n\n### Takeaways:\n- Ability to personalize ChatGPT\u2019s behavior and tone\n- Understanding of how custom instructions impact responses\n- Skills to align ChatGPT outputs with organizational standards\n\n### Learning Goals:\n- Participants configure Custom Instructions for specific professional contexts.\n- Participants evaluate the impact of different instruction settings.\n- Participants document and share effective custom instruction strategies.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 10 minutes  \nParticipants set up and test custom instructions for a chosen use case.\n\n---\n\n## 5. Memory Management and Persistent Context\n\n### Description:\nThis module introduces ChatGPT\u2019s memory management features, including storing, retrieving, and managing persistent information across sessions. Privacy and data retention considerations are also addressed.\n\n### Takeaways:\n- Proficiency in using memory features for ongoing projects\n- Understanding of privacy and data management best practices\n- Ability to retrieve and update stored information efficiently\n\n### Learning Goals:\n- Participants enable and configure memory management.\n- Participants store and retrieve information across sessions.\n- Participants apply privacy settings and understand data retention policies.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nSimulated project: participants use memory features to track and update project details over multiple sessions.\n\n---\n\n## 6. Plugin Store and Workflow Integration\n\n### Description:\nThis module covers discovering, installing, and managing plugins from the Plugin Store, as well as integrating ChatGPT outputs into professional workflows using export features and tool combinations.\n\n### Takeaways:\n- Ability to identify and install relevant plugins\n- Skills in managing and updating plugin settings\n- Understanding of workflow integration and export options\n\n### Learning Goals:\n- Participants browse and install plugins from the Plugin Store.\n- Participants manage plugin permissions and settings.\n- Participants export ChatGPT outputs for use in other professional tools.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nPlugin exploration: participants install a plugin and use it to enhance a workflow, then export results.\n\n---\n\n## 7. Advanced Tool Combinations and Automation\n\n### Description:\nThis module demonstrates how to combine multiple ChatGPT tools (e.g., Code Interpreter, File Analysis, Web Browsing, Plugins) for complex, multi-step professional tasks, introducing basic automation concepts.\n\n### Takeaways:\n- Skills in orchestrating tool combinations for advanced tasks\n- Understanding of automation opportunities within ChatGPT\n- Ability to design multi-step workflows for real-world scenarios\n\n### Learning Goals:\n- Participants design and execute workflows combining multiple tools.\n- Participants identify opportunities for automation in their work.\n- Participants troubleshoot and optimize multi-tool processes.\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 10 minutes  \nWorkflow challenge: participants solve a complex scenario using at least two ChatGPT tools in combination.\n\n---\n\n## 8. Case Studies: Real-World Professional Applications\n\n### Description:\nThis module presents detailed case studies illustrating ChatGPT\u2019s application in decision support, customer interaction, and productivity enhancement. Participants analyze and discuss best practices and lessons learned.\n\n### Takeaways:\n- Insight into successful real-world ChatGPT applications\n- Ability to adapt case study strategies to their own contexts\n- Enhanced critical thinking about tool selection and use\n\n### Learning Goals:\n- Participants analyze case studies for effective tool use.\n- Participants extract best practices from real-world examples.\n- Participants propose adaptations for their own professional needs.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nCase study analysis: small groups dissect a case and present recommendations.\n\n---\n\n## 9. Interactive Sessions and Feedback Loops\n\n### Description:\nThis module emphasizes experiential learning through hands-on experimentation, peer feedback, and iterative improvement. The session also introduces feedback and reporting tools, ensuring the course adapts to participant needs.\n\n### Takeaways:\n- Confidence in experimenting with ChatGPT settings and features\n- Skills in giving and receiving constructive feedback\n- Experience in adapting workflows based on feedback\n\n### Learning Goals:\n- Participants conduct experiments with tool settings and combinations.\n- Participants provide and incorporate peer feedback.\n- Participants use feedback tools to report issues and suggest improvements.\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 15 minutes  \nOpen lab: participants pursue a self-chosen challenge, share results, and iterate based on feedback.\n\n---\n\n## 10. Ethical, Responsible, and Effective Use\n\n### Description:\nThe final module addresses ethical considerations, limitations, and responsible use of ChatGPT in professional contexts. Privacy settings, compliance, and bias mitigation are discussed, ensuring participants use AI tools responsibly.\n\n### Takeaways:\n- Awareness of ethical and legal considerations in AI use\n- Understanding of privacy and compliance features\n- Strategies for mitigating bias and ensuring responsible outputs\n\n### Learning Goals:\n- Participants identify ethical risks and compliance requirements.\n- Participants configure privacy settings for responsible use.\n- Participants develop strategies to recognize and mitigate bias.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 10 minutes  \nScenario-based discussion: participants evaluate ethical dilemmas and propose responsible solutions.\n\n---\n\n## Further Resources for Course Organizers\n\n- OpenAI official documentation and release notes\n- ChatGPT Plugin Store and developer guides\n- Case study repositories (OpenAI, industry whitepapers)\n- AI ethics frameworks (e.g., EU AI Act, IEEE guidelines)\n- Professional workflow integration guides (Zapier, Microsoft Power Automate)\n\n## Further Resources for Participants\n\n- OpenAI Help Center and ChatGPT user guides\n- Prompt engineering tutorials (OpenAI, community forums)\n- ChatGPT Plugin Store for exploring new plugins\n- AI ethics and responsible use articles (Harvard Business Review, MIT Technology Review)\n- Online communities: OpenAI Community Forum, LinkedIn AI groups\n\n---",
+    "timestamp": "2025-11-26 17:28:35",
+    "cost": {
+      "Agent": [
+        "researcher"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.025474
+      ],
+      "Prompt Tokens": [
+        5477
+      ],
+      "Completion Tokens": [
+        1815
+      ],
+      "Total Tokens": [
+        7292
+      ]
+    }
+  },
+  {
+    "name": "researcher_response_formatter",
+    "content": "**Markdown:**\n\n```markdown\n<!-- filename: chatgpt_tools_unleashed_professionals_guide.md -->\n# ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n\n### Overview:\nThis hands-on course is designed for professionals aiming to master ChatGPT\u2019s suite of tools for enhanced productivity, decision-making, and customer engagement\u2014without any coding required. Across ten scaffolded modules, participants will progress from foundational ChatGPT navigation to advanced features such as custom instructions, memory management, and tool integration. Real-world case studies, interactive sessions, and feedback loops ensure practical, adaptable learning for diverse professional needs.\n\n---\n\n## 1. Introduction to ChatGPT for Professionals\n\n### Description:\nThis module orients participants to the ChatGPT environment, covering the web interface, mobile app, and session history. It establishes a baseline for navigation and sets expectations for the course, ensuring all participants are comfortable with the platform before advancing.\n\n### Takeaways:\n- Confident navigation of ChatGPT\u2019s web and mobile interfaces\n- Understanding of session history and conversation management\n- Awareness of ChatGPT\u2019s capabilities and limitations\n\n### Learning Goals:\n- Participants identify and access ChatGPT via web and mobile platforms.\n- Participants navigate session history and manage conversations.\n- Participants describe the scope and structure of the course.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 5 minutes  \nHands-on guided tour of the ChatGPT interface, including starting a new session and reviewing session history.\n\n---\n\n## 2. Core ChatGPT Tools and Their Applications\n\n### Description:\nThis module introduces the primary tools available within ChatGPT, including the Code Interpreter (Advanced Data Analysis), File Upload and Analysis, Web Browsing Tool, Image Generation (DALL-E), and Voice Mode. Participants explore each tool\u2019s professional applications through demonstrations and guided practice.\n\n### Takeaways:\n- Familiarity with ChatGPT\u2019s core tools and their functions\n- Ability to select appropriate tools for specific professional tasks\n- Understanding of tool limitations and best practices\n\n### Learning Goals:\n- Participants activate and use the Code Interpreter for data analysis.\n- Participants upload and analyze files within ChatGPT.\n- Participants utilize the Web Browsing Tool for real-time information retrieval.\n- Participants generate images using DALL-E integration.\n- Participants experiment with Voice Mode (where available).\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 10 minutes  \nRotating tool stations: participants complete a short task with each core tool.\n\n---\n\n## 3. Prompt Engineering Essentials\n\n### Description:\nThis module focuses on crafting effective prompts, leveraging the Prompt Library, templates, and session history. Participants learn prompt engineering basics to optimize ChatGPT\u2019s outputs for various professional scenarios.\n\n### Takeaways:\n- Mastery of prompt construction for clarity and specificity\n- Use of prompt templates and libraries to streamline workflows\n- Skills in iterative prompt refinement\n\n### Learning Goals:\n- Participants construct clear, goal-oriented prompts.\n- Participants utilize prompt templates from the Prompt Library.\n- Participants refine prompts based on output quality and feedback.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nPrompt writing and refinement workshop using real-world scenarios.\n\n---\n\n## 4. Custom Instructions for Personalization\n\n### Description:\nThis module explores the Custom Instructions feature, enabling participants to tailor ChatGPT\u2019s responses to individual or organizational needs. The session covers configuration, optimization, and practical use cases.\n\n### Takeaways:\n- Ability to personalize ChatGPT\u2019s behavior and tone\n- Understanding of how custom instructions impact responses\n- Skills to align ChatGPT outputs with organizational standards\n\n### Learning Goals:\n- Participants configure Custom Instructions for specific professional contexts.\n- Participants evaluate the impact of different instruction settings.\n- Participants document and share effective custom instruction strategies.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 10 minutes  \nParticipants set up and test custom instructions for a chosen use case.\n\n---\n\n## 5. Memory Management and Persistent Context\n\n### Description:\nThis module introduces ChatGPT\u2019s memory management features, including storing, retrieving, and managing persistent information across sessions. Privacy and data retention considerations are also addressed.\n\n### Takeaways:\n- Proficiency in using memory features for ongoing projects\n- Understanding of privacy and data management best practices\n- Ability to retrieve and update stored information efficiently\n\n### Learning Goals:\n- Participants enable and configure memory management.\n- Participants store and retrieve information across sessions.\n- Participants apply privacy settings and understand data retention policies.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nSimulated project: participants use memory features to track and update project details over multiple sessions.\n\n---\n\n## 6. Plugin Store and Workflow Integration\n\n### Description:\nThis module covers discovering, installing, and managing plugins from the Plugin Store, as well as integrating ChatGPT outputs into professional workflows using export features and tool combinations.\n\n### Takeaways:\n- Ability to identify and install relevant plugins\n- Skills in managing and updating plugin settings\n- Understanding of workflow integration and export options\n\n### Learning Goals:\n- Participants browse and install plugins from the Plugin Store.\n- Participants manage plugin permissions and settings.\n- Participants export ChatGPT outputs for use in other professional tools.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nPlugin exploration: participants install a plugin and use it to enhance a workflow, then export results.\n\n---\n\n## 7. Advanced Tool Combinations and Automation\n\n### Description:\nThis module demonstrates how to combine multiple ChatGPT tools (e.g., Code Interpreter, File Analysis, Web Browsing, Plugins) for complex, multi-step professional tasks, introducing basic automation concepts.\n\n### Takeaways:\n- Skills in orchestrating tool combinations for advanced tasks\n- Understanding of automation opportunities within ChatGPT\n- Ability to design multi-step workflows for real-world scenarios\n\n### Learning Goals:\n- Participants design and execute workflows combining multiple tools.\n- Participants identify opportunities for automation in their work.\n- Participants troubleshoot and optimize multi-tool processes.\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 10 minutes  \nWorkflow challenge: participants solve a complex scenario using at least two ChatGPT tools in combination.\n\n---\n\n## 8. Case Studies: Real-World Professional Applications\n\n### Description:\nThis module presents detailed case studies illustrating ChatGPT\u2019s application in decision support, customer interaction, and productivity enhancement. Participants analyze and discuss best practices and lessons learned.\n\n### Takeaways:\n- Insight into successful real-world ChatGPT applications\n- Ability to adapt case study strategies to their own contexts\n- Enhanced critical thinking about tool selection and use\n\n### Learning Goals:\n- Participants analyze case studies for effective tool use.\n- Participants extract best practices from real-world examples.\n- Participants propose adaptations for their own professional needs.\n\n### Exercise Description:\nDuration: 20 minutes, Debrief: 10 minutes  \nCase study analysis: small groups dissect a case and present recommendations.\n\n---\n\n## 9. Interactive Sessions and Feedback Loops\n\n### Description:\nThis module emphasizes experiential learning through hands-on experimentation, peer feedback, and iterative improvement. The session also introduces feedback and reporting tools, ensuring the course adapts to participant needs.\n\n### Takeaways:\n- Confidence in experimenting with ChatGPT settings and features\n- Skills in giving and receiving constructive feedback\n- Experience in adapting workflows based on feedback\n\n### Learning Goals:\n- Participants conduct experiments with tool settings and combinations.\n- Participants provide and incorporate peer feedback.\n- Participants use feedback tools to report issues and suggest improvements.\n\n### Exercise Description:\nDuration: 25 minutes, Debrief: 15 minutes  \nOpen lab: participants pursue a self-chosen challenge, share results, and iterate based on feedback.\n\n---\n\n## 10. Ethical, Responsible, and Effective Use\n\n### Description:\nThe final module addresses ethical considerations, limitations, and responsible use of ChatGPT in professional contexts. Privacy settings, compliance, and bias mitigation are discussed, ensuring participants use AI tools responsibly.\n\n### Takeaways:\n- Awareness of ethical and legal considerations in AI use\n- Understanding of privacy and compliance features\n- Strategies for mitigating bias and ensuring responsible outputs\n\n### Learning Goals:\n- Participants identify ethical risks and compliance requirements.\n- Participants configure privacy settings for responsible use.\n- Participants develop strategies to recognize and mitigate bias.\n\n### Exercise Description:\nDuration: 15 minutes, Debrief: 10 minutes  \nScenario-based discussion: participants evaluate ethical dilemmas and propose responsible solutions.\n\n---\n\n## Further Resources for Course Organizers\n\n- OpenAI official documentation and release notes\n- ChatGPT Plugin Store and developer guides\n- Case study repositories (OpenAI, industry whitepapers)\n- AI ethics frameworks (e.g., EU AI Act, IEEE guidelines)\n- Professional workflow integration guides (Zapier, Microsoft Power Automate)\n\n## Further Resources for Participants\n\n- OpenAI Help Center and ChatGPT user guides\n- Prompt engineering tutorials (OpenAI, community forums)\n- ChatGPT Plugin Store for exploring new plugins\n- AI ethics and responsible use articles (Harvard Business Review, MIT Technology Review)\n- Online communities: OpenAI Community Forum, LinkedIn AI groups\n\n---\n```",
+    "timestamp": "2025-11-26 17:28:59",
+    "cost": {
+      "Agent": [
+        "researcher_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.012263900000000001
+      ],
+      "Prompt Tokens": [
+        2125
+      ],
+      "Completion Tokens": [
+        2256
+      ],
+      "Total Tokens": [
+        4381
+      ]
+    }
+  },
+  {
+    "name": "researcher_executor",
+    "content": "Execution results:\n\nExecution output: Content saved to /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_172105/course_outline_generation_output/control/chatgpt_tools_unleashed_professionals_guide.md\n",
+    "timestamp": "2025-11-26 17:28:59",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-11-26 17:29:02",
+    "cost": {
+      "Agent": [
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.018566
+      ],
+      "Prompt Tokens": [
+        8911
+      ],
+      "Completion Tokens": [
+        93
+      ],
+      "Total Tokens": [
+        9004
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 5 out of 6.\n \n**Sub-task:** Review and refine the module sequence and content for logical flow, real-world application, and coverage.\n \n**Agent in charge of sub-task:** `researcher`\n \n**Instructions:**\n \n- Check for logical progression and completeness.\n- Ensure each module supports enhanced decision-making and customer interaction as key professional outcomes.\n- Adjust module order or content as needed for clarity, learning effectiveness, and real-world alignment.\n \n**Status:** completed \u2705\n        ",
+    "timestamp": "2025-11-26 17:29:02",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-11-26 17:29:03",
+    "cost": {
+      "Agent": [
+        "control",
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.018566,
+        0.018948
+      ],
+      "Prompt Tokens": [
+        8911,
+        9126
+      ],
+      "Completion Tokens": [
+        93,
+        87
+      ],
+      "Total Tokens": [
+        9004,
+        9213
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 6 out of 6.\n \n**Sub-task:** Write the full Course Outline in structured markdown format.\n \n**Agent in charge of sub-task:** `researcher`\n \n**Instructions:**\n \n- Present the finalized course outline with modules, descriptions, learning goals, key takeaways, and exercise durations.\n- Use clear markdown formatting with specific headings, bullet points, and separated sections for each module to ensure readability and structure.\n \n**Status:** in progress \u23f3\n        ",
+    "timestamp": "2025-11-26 17:29:03",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "terminator",
+    "content": null,
+    "timestamp": "2025-11-26 17:29:04",
+    "cost": {
+      "Agent": [
+        "terminator"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.008764
+      ],
+      "Prompt Tokens": [
+        4378
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        4379
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Session terminated.",
+    "timestamp": "2025-11-26 17:29:04",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  }
+]

@@ -1,0 +1,63 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on creating course ideas that cover the basics to advanced features of ChatGPT.",
+                "Ensure the ideas are suitable for business professionals with no coding background.",
+                "Include elements of prompt and context engineering, precise tools, and responsible AI practices.",
+                "Provide a brief description of each idea’s learning outcomes, explicitly integrating key topics."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Use a structured critique format, listing strengths and weaknesses.",
+                "Evaluate each idea for its educational value and clarity.",
+                "Assess the feasibility of covering the content within the 2-day duration.",
+                "Ensure the ideas align with the target audience's needs and expectations."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas from the critiques.",
+                "Refine these ideas to address any issues raised by the idea_hater.",
+                "Enhance the ideas to better fit the course duration and audience.",
+                "Include specific suggestions for enhancing interactivity and practical learning approaches."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critiques.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide feedback on the improvements made.",
+                "Suggest any further refinements needed for clarity and audience engagement.",
+                "Ensure the ideas are comprehensive and feasible for the course duration.",
+                "Indicate how each improvement aligns with practical business applications and responsible AI practices."
+            ],
+            "sub_task": "Critique the 2 improved course ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Evaluate the final two ideas based on the latest critiques.",
+                "Choose the idea that best meets the course objectives and audience needs.",
+                "Briefly explain the rationale for selecting the best idea, linking it back to course objectives and audience needs."
+            ],
+            "sub_task": "Select the best course idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title that reflects the content and objectives.",
+                "Write a concise description that outlines the course's key features and benefits.",
+                "Highlight how the course will enhance the professional proficiency of the participants.",
+                "Mention unique interactive features or case studies to reinforce the course's appeal for business professionals."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

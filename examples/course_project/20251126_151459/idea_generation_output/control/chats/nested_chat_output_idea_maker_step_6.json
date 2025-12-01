@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Idea 1: ChatGPT Premium Unlocked: Tools and Techniques for Business Excellence\n\t\t- This course offers a comprehensive exploration of the advanced tools available in the ChatGPT premium seat, focusing on features like execution flows and custom instructions.\n\t\t- Participants will engage in interactive workshops and analyze real-world business case studies to enhance practical relevance and applicability.\n\t\t- The course emphasizes ethical AI practices, providing examples directly linked to business implications to ensure responsible usage.\n\t\t- Scaffolding steps, such as a mini project or simulation exercise, are included to facilitate the transition from tool exploration to practical application.\n\t\t- Workshop segments are mapped to specific business outcomes, such as increased operational efficiency, to clearly measure the learning impact and ensure actionable insights.\n\n        ",
+    "timestamp": "2025-11-26 15:18:18",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0026543
+      ],
+      "Prompt Tokens": [
+        377
+      ],
+      "Completion Tokens": [
+        509
+      ],
+      "Total Tokens": [
+        886
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:18:19",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0020800000000000003
+      ],
+      "Prompt Tokens": [
+        464
+      ],
+      "Completion Tokens": [
+        144
+      ],
+      "Total Tokens": [
+        608
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_151459/idea_generation_output/control/ideas_20251126_151819.json\n",
+    "timestamp": "2025-11-26 15:18:19",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0020800000000000003
+      ],
+      "Prompt Tokens": [
+        464
+      ],
+      "Completion Tokens": [
+        144
+      ],
+      "Total Tokens": [
+        608
+      ]
+    }
+  }
+]

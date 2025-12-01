@@ -1,0 +1,124 @@
+[
+  {
+    "content": "\nTopic: Advanced ChatGPT Power User Training: Mastering Prompt Frameworks (RTF, Chain-of-Thought), Model Selection (Reasoning vs Standard), and Personalization (CustomGPTs, Memory, Projects)\nTarget Audience: Business professionals seeking deep proficiency without coding. They want to move beyond basics to understand precise tools (Code Interpreter, Web Search, Deep Research), responsible AI practices (handling hallucinations, data privacy), and get an introduction to next-level concepts like RAG and AI Agents.\nDuration: 2 days (8 hours total)\n",
+    "role": "assistant"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_Rw8YgVUddCke8hPFkKVnUJ8K",
+        "function": {
+          "arguments": "{}",
+          "name": "record_status_starter"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control_starter",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas that can be enhanced.\n- Incorporate feedback from the critique to refine and strengthen the ideas.\n- Ensure the improved ideas are comprehensive and engaging.\n- Document the specific feedback addressed when improving the ideas for transparency.\n \n**Status:** in progress \u23f3\n",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_Rw8YgVUddCke8hPFkKVnUJ8K",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas that can be enhanced.\n- Incorporate feedback from the critique to refine and strengthen the ideas.\n- Ensure the improved ideas are comprehensive and engaging.\n- Document the specific feedback addressed when improving the ideas for transparency.\n \n**Status:** in progress \u23f3\n"
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "**Ideas:**\n\n- Idea 1: Mastering Prompt Frameworks for Business Efficiency\n  * Focuses on teaching business professionals how to effectively use prompt frameworks like RTF and Chain-of-Thought to enhance productivity.\n  * Includes practical exercises on crafting precise prompts for various business scenarios.\n  * Emphasizes the importance of prompt engineering in achieving accurate and relevant AI outputs.\n  * Improvements: Streamline the number of examples to focus on a few vital exercises for deep exploration. Simplify language to avoid technical jargon, ensuring clarity for a non-coding audience.\n\n- Idea 2: Strategic Model Selection: Reasoning vs Standard\n  * Guides participants through the process of selecting the appropriate ChatGPT model for different business needs.\n  * Covers the strengths and limitations of reasoning models versus standard models.\n  * Provides case studies and interactive sessions to practice model selection in real-world business contexts.\n  * Improvements: Streamline content to capture essential nuances within the 8-hour window. Use pre-prepared scenarios for interactive sessions to ensure timely decision-making practice.",
+    "name": "idea_maker",
+    "role": "user"
+  },
+  {
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering Prompt Frameworks for Business Efficiency\n\t\t- Focuses on teaching business professionals how to effectively use prompt frameworks like RTF and Chain-of-Thought to enhance productivity.\n\t\t- Includes practical exercises on crafting precise prompts for various business scenarios.\n\t\t- Emphasizes the importance of prompt engineering in achieving accurate and relevant AI outputs.\n\t\t- Improvements: Streamline the number of examples to focus on a few vital exercises for deep exploration. Simplify language to avoid technical jargon, ensuring clarity for a non-coding audience.\n\n- Idea 2:\n\t* Strategic Model Selection: Reasoning vs Standard\n\t\t- Guides participants through the process of selecting the appropriate ChatGPT model for different business needs.\n\t\t- Covers the strengths and limitations of reasoning models versus standard models.\n\t\t- Provides case studies and interactive sessions to practice model selection in real-world business contexts.\n\t\t- Improvements: Streamline content to capture essential nuances within the 8-hour window. Use pre-prepared scenarios for interactive sessions to ensure timely decision-making practice.\n\n        ",
+    "name": "idea_maker_nest",
+    "role": "user"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_dUKs1LDTHTh0RpM39AvRM7wN",
+        "function": {
+          "arguments": "{\"current_status\":\"completed\",\"current_plan_step_number\":3,\"current_sub_task\":\"Select and improve 2 out of the 5 course ideas based on the critique\",\"current_instructions\":\"- Choose the two most promising ideas that can be enhanced.\\n- Incorporate feedback from the critique to refine and strengthen the ideas.\\n- Ensure the improved ideas are comprehensive and engaging.\\n- Document the specific feedback addressed when improving the ideas for transparency.\",\"agent_for_sub_task\":\"idea_maker\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas that can be enhanced.\n- Incorporate feedback from the critique to refine and strengthen the ideas.\n- Ensure the improved ideas are comprehensive and engaging.\n- Document the specific feedback addressed when improving the ideas for transparency.\n \n**Status:** completed \u2705\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_dUKs1LDTHTh0RpM39AvRM7wN",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 6.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critique\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas that can be enhanced.\n- Incorporate feedback from the critique to refine and strengthen the ideas.\n- Ensure the improved ideas are comprehensive and engaging.\n- Document the specific feedback addressed when improving the ideas for transparency.\n \n**Status:** completed \u2705\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_s0kSf1NED72sccBerzYATlaa",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":4,\"current_sub_task\":\"Critique the 2 improved ideas\",\"current_instructions\":\"- Provide a detailed analysis of the improvements made.\\n- Suggest any further refinements needed for clarity and impact.\\n- Confirm the ideas' alignment with the course objectives and audience.\\n- Explicitly evaluate the feasibility of each idea by referencing available time (8 hours) and relevant business challenges.\",\"agent_for_sub_task\":\"idea_hater\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed analysis of the improvements made.\n- Suggest any further refinements needed for clarity and impact.\n- Confirm the ideas' alignment with the course objectives and audience.\n- Explicitly evaluate the feasibility of each idea by referencing available time (8 hours) and relevant business challenges.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_s0kSf1NED72sccBerzYATlaa",
+        "role": "tool",
+        "content": "\n**Step number:** 4 out of 6.\n \n**Sub-task:** Critique the 2 improved ideas\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide a detailed analysis of the improvements made.\n- Suggest any further refinements needed for clarity and impact.\n- Confirm the ideas' alignment with the course objectives and audience.\n- Explicitly evaluate the feasibility of each idea by referencing available time (8 hours) and relevant business challenges.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_DWFtwMcDGeh5dN1QmJ6IIz7r",
+        "function": {
+          "arguments": "{}",
+          "name": "terminate_session"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "terminator",
+    "role": "assistant"
+  },
+  {
+    "content": "Session terminated.",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_DWFtwMcDGeh5dN1QmJ6IIz7r",
+        "role": "tool",
+        "content": "Session terminated."
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  }
+]

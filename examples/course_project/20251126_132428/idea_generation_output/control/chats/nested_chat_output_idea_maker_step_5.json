@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT for Business: Advanced Tools and Techniques\n\t\t- Balances advanced technical tools with practical business applications, making it accessible for non-coding professionals.\n\t\t- Simplifies language and uses relatable business scenarios to ensure understanding.\n\t\t- Incorporates interactive elements like simulations and role-play to enhance engagement and learning.\n\t\t- Prioritizes content to fit within the 8-hour framework, focusing on impactful tools and techniques.\n\n        ",
+    "timestamp": "2025-11-26 13:27:16",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0022957
+      ],
+      "Prompt Tokens": [
+        551
+      ],
+      "Completion Tokens": [
+        384
+      ],
+      "Total Tokens": [
+        935
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:27:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0018640000000000002
+      ],
+      "Prompt Tokens": [
+        576
+      ],
+      "Completion Tokens": [
+        89
+      ],
+      "Total Tokens": [
+        665
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_132428/idea_generation_output/control/ideas_20251126_132718.json\n",
+    "timestamp": "2025-11-26 13:27:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0018640000000000002
+      ],
+      "Prompt Tokens": [
+        576
+      ],
+      "Completion Tokens": [
+        89
+      ],
+      "Total Tokens": [
+        665
+      ]
+    }
+  }
+]

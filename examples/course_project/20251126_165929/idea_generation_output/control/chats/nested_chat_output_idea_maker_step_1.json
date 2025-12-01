@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Contextual Mastery\n\t\t- Introduces the basics of prompt engineering and context management.\n\t\t- Explores medium-level features like context layering and conversation threading.\n\t\t- Provides actionable frameworks for creating effective prompts.\n\t\t- Includes hands-on exercises with ChatGPT tools for real-world application.\n\t\t- Aims to build a strong foundation in managing and optimizing ChatGPT interactions.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: A Professional's Guide\n\t\t- Focuses on exploring a wide array of ChatGPT tools and features.\n\t\t- Covers conversation management, prompt engineering, and context layering.\n\t\t- Offers practical scenarios and case studies for tool application.\n\t\t- Guides participants through tool selection and integration for specific professional needs.\n\t\t- Emphasizes non-coding strategies to leverage ChatGPT's full potential.\n\n- Idea 3:\n\t* Advanced ChatGPT Techniques for Professionals\n\t\t- Delves into advanced features like context layering and conversation management.\n\t\t- Provides frameworks for integrating ChatGPT into professional workflows.\n\t\t- Includes interactive sessions on optimizing ChatGPT for specific tasks.\n\t\t- Offers insights into leveraging ChatGPT for decision-making and problem-solving.\n\t\t- Focuses on enhancing productivity and efficiency using ChatGPT tools.\n\n- Idea 4:\n\t* ChatGPT in Action: Practical Applications for Professionals\n\t\t- Demonstrates real-world applications of ChatGPT in various professional fields.\n\t\t- Covers medium-level features and tools for specific industry use cases.\n\t\t- Provides step-by-step guides for implementing ChatGPT solutions.\n\t\t- Encourages participants to develop custom ChatGPT strategies for their needs.\n\t\t- Includes collaborative exercises to foster peer learning and idea exchange.\n\n- Idea 5:\n\t* The ChatGPT Professional Toolkit: Building Expertise Without Code\n\t\t- Offers a comprehensive overview of ChatGPT's tools and features.\n\t\t- Focuses on building proficiency in prompt engineering and context management.\n\t\t- Provides actionable strategies for tool integration and optimization.\n\t\t- Includes workshops on creating tailored ChatGPT solutions for professional challenges.\n\t\t- Aims to empower professionals to harness ChatGPT's capabilities effectively.\n\n        ",
+    "timestamp": "2025-11-26 17:01:33",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.005558300000000001
+      ],
+      "Prompt Tokens": [
+        665
+      ],
+      "Completion Tokens": [
+        1097
+      ],
+      "Total Tokens": [
+        1762
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 17:01:36",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005246000000000001
+      ],
+      "Prompt Tokens": [
+        1055
+      ],
+      "Completion Tokens": [
+        392
+      ],
+      "Total Tokens": [
+        1447
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_165929/idea_generation_output/control/ideas_20251126_170136.json\n",
+    "timestamp": "2025-11-26 17:01:36",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005246000000000001
+      ],
+      "Prompt Tokens": [
+        1055
+      ],
+      "Completion Tokens": [
+        392
+      ],
+      "Total Tokens": [
+        1447
+      ]
+    }
+  }
+]

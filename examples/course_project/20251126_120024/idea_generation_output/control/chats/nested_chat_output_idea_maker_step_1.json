@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Strategic Prompting for Business Solutions\n\t\t- Focuses on developing advanced prompting techniques tailored for business scenarios.\n\t\t- Includes workshops on crafting prompts that maximize model efficiency and accuracy.\n\t\t- Explores case studies where strategic prompting led to successful business outcomes.\n\n- Idea 2:\n\t* Model Mastery: Choosing the Right ChatGPT for Your Business\n\t\t- Provides an in-depth analysis of different ChatGPT models and their specific strengths.\n\t\t- Teaches how to select and apply the most suitable model for various business tasks.\n\t\t- Offers hands-on sessions to experiment with model capabilities in real-world business contexts.\n\n- Idea 3:\n\t* Advanced Features for Complex Problem Solving\n\t\t- Delves into the advanced features of ChatGPT that can be leveraged for intricate business challenges.\n\t\t- Covers integration of ChatGPT with other business tools and platforms.\n\t\t- Includes practical exercises on using these features to streamline business processes.\n\n- Idea 4:\n\t* Building AI-Driven Business Strategies with ChatGPT\n\t\t- Focuses on using ChatGPT to develop and implement AI-driven strategies in business.\n\t\t- Discusses the role of AI in strategic planning and decision-making.\n\t\t- Provides frameworks for integrating ChatGPT insights into business strategy formulation.\n\n- Idea 5:\n\t* Enhancing Customer Engagement through ChatGPT\n\t\t- Explores how ChatGPT can be used to improve customer interaction and satisfaction.\n\t\t- Teaches techniques for creating engaging and personalized customer experiences.\n\t\t- Analyzes successful case studies of businesses that have enhanced customer engagement using ChatGPT.\n\n        ",
+    "timestamp": "2025-11-26 12:03:02",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0029270999999999998
+      ],
+      "Prompt Tokens": [
+        549
+      ],
+      "Completion Tokens": [
+        528
+      ],
+      "Total Tokens": [
+        1077
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 12:03:04",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.004032
+      ],
+      "Prompt Tokens": [
+        812
+      ],
+      "Completion Tokens": [
+        301
+      ],
+      "Total Tokens": [
+        1113
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_120024/idea_generation_output/control/ideas_20251126_120304.json\n",
+    "timestamp": "2025-11-26 12:03:04",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.004032
+      ],
+      "Prompt Tokens": [
+        812
+      ],
+      "Completion Tokens": [
+        301
+      ],
+      "Total Tokens": [
+        1113
+      ]
+    }
+  }
+]

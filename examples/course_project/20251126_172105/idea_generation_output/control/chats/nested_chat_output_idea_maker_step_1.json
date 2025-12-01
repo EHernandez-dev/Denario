@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Advanced Contextualization\n\t\t- Introduce the basics of prompt crafting and context setting in ChatGPT.\n\t\t- Progress to medium-level features such as context window optimization and advanced prompt tuning.\n\t\t- Explore practical applications in various professional fields, emphasizing non-coding techniques.\n\t\t- Include hands-on exercises to practice and refine skills in real-world scenarios.\n\n- Idea 2:\n\t* ChatGPT Tools Unleashed: A Professional's Guide to Advanced Features\n\t\t- Begin with an overview of the essential tools offered by ChatGPT.\n\t\t- Dive into advanced features like custom instructions and memory management.\n\t\t- Provide case studies demonstrating the application of these tools in professional settings.\n\t\t- Offer interactive sessions to experiment with tool combinations for optimized outputs.\n\n- Idea 3:\n\t* From Basics to Brilliance: Elevating Professional Skills with ChatGPT\n\t\t- Start with foundational knowledge of LLMs and ChatGPT's capabilities.\n\t\t- Transition to medium-level features, focusing on enhancing productivity and creativity.\n\t\t- Highlight specific tools such as API integrations and workflow automation.\n\t\t- Incorporate project-based learning to apply concepts in industry-specific contexts.\n\n- Idea 4:\n\t* ChatGPT for Professionals: Navigating Advanced Features Without Coding\n\t\t- Cover the essentials of using ChatGPT effectively in professional environments.\n\t\t- Explore advanced functionalities like sentiment analysis and data extraction.\n\t\t- Discuss strategies for leveraging ChatGPT in decision-making and problem-solving.\n\t\t- Facilitate group discussions to share insights and best practices.\n\n- Idea 5:\n\t* Advanced ChatGPT Techniques: A 24-Hour Professional Bootcamp\n\t\t- Provide a comprehensive overview of ChatGPT's advanced tools and features.\n\t\t- Focus on practical applications, including content generation and customer interaction.\n\t\t- Teach techniques for optimizing ChatGPT's performance through iterative testing.\n\t\t- Conclude with a capstone project to demonstrate mastery of the skills learned.\n\n        ",
+    "timestamp": "2025-11-26 17:22:43",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0036476000000000004
+      ],
+      "Prompt Tokens": [
+        628
+      ],
+      "Completion Tokens": [
+        672
+      ],
+      "Total Tokens": [
+        1300
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 17:22:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00488
+      ],
+      "Prompt Tokens": [
+        976
+      ],
+      "Completion Tokens": [
+        366
+      ],
+      "Total Tokens": [
+        1342
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_172105/idea_generation_output/control/ideas_20251126_172247.json\n",
+    "timestamp": "2025-11-26 17:22:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.00488
+      ],
+      "Prompt Tokens": [
+        976
+      ],
+      "Completion Tokens": [
+        366
+      ],
+      "Total Tokens": [
+        1342
+      ]
+    }
+  }
+]

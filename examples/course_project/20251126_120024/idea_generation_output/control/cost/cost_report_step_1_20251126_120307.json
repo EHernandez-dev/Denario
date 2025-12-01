@@ -1,0 +1,50 @@
+[
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.003068,
+    "Prompt Tokens": 1530.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 1531.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "idea maker response formatter",
+    "Cost ($)": 0.0029271,
+    "Prompt Tokens": 549.0,
+    "Completion Tokens": 528.0,
+    "Total Tokens": 1077.0,
+    "Model": "o3-mini-2025-01-31"
+  },
+  {
+    "Agent": "idea saver",
+    "Cost ($)": 0.004032,
+    "Prompt Tokens": 812.0,
+    "Completion Tokens": 301.0,
+    "Total Tokens": 1113.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "control",
+    "Cost ($)": 0.014414,
+    "Prompt Tokens": 6019.0,
+    "Completion Tokens": 297.0,
+    "Total Tokens": 6316.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "idea maker",
+    "Cost ($)": 0.006535,
+    "Prompt Tokens": 1314.0,
+    "Completion Tokens": 325.0,
+    "Total Tokens": 1639.0,
+    "Model": "gpt-4o-2024-08-06"
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.0309761,
+    "Prompt Tokens": 10224.0,
+    "Completion Tokens": 1452.0,
+    "Total Tokens": 11676.0,
+    "Model": NaN
+  }
+]

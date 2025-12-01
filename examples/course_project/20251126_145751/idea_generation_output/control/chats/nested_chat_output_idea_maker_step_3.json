@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT for Business Efficiency\n\t\t- Focus on a well-rounded approach covering basics, advanced features, and business applications.\n\t\t- Address critique by breaking down the course into clear, measurable learning objectives for each section.\n\t\t- Include specific tools and frameworks such as prompt engineering techniques and context management strategies.\n\t\t- Emphasize actionable outcomes with a focus on measurable business impacts, such as efficiency improvements and cost reductions.\n\t\t- Incorporate a structured case study on customer service automation, detailing step-by-step implementation and expected results.\n\n- Idea 2:\n\t* ChatGPT Tools for Strategic Decision Making\n\t\t- Introduce a structured, layered curriculum starting with basic concepts of LLMs and advancing to strategic applications.\n\t\t- Address critique by balancing basics and in-depth tool comparisons, ensuring participants are not overwhelmed.\n\t\t- Define clear learning outcomes with concrete decision-making scenarios and measurable performance improvements.\n\t\t- Include specific tools and actionable frameworks for data analysis and insights, such as market trend analysis and strategic planning.\n\t\t- Differentiate between free and premium functionalities with practical examples and case studies, enhancing the course's feasibility and appeal.\n\n        ",
+    "timestamp": "2025-11-26 15:00:16",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0031438
+      ],
+      "Prompt Tokens": [
+        458
+      ],
+      "Completion Tokens": [
+        600
+      ],
+      "Total Tokens": [
+        1058
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:00:19",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002996
+      ],
+      "Prompt Tokens": [
+        630
+      ],
+      "Completion Tokens": [
+        217
+      ],
+      "Total Tokens": [
+        847
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_145751/idea_generation_output/control/ideas_20251126_150019.json\n",
+    "timestamp": "2025-11-26 15:00:19",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002996
+      ],
+      "Prompt Tokens": [
+        630
+      ],
+      "Completion Tokens": [
+        217
+      ],
+      "Total Tokens": [
+        847
+      ]
+    }
+  }
+]

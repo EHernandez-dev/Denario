@@ -1,0 +1,59 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills for business professionals using advanced ChatGPT tools.",
+                "Separate and clearly distinguish technical competencies (e.g., tool proficiency, data analysis) from ethical considerations (e.g., responsible AI use, data privacy, managing hallucinations)."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before taking the course.",
+                "Specify any required familiarity with AI, business processes, or digital tools.",
+                "Include attitudinal or mindset prerequisites (e.g., openness to ethical discussions, willingness to engage in change management)."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the sequence of modules.",
+                "Ensure each module builds on the previous one.",
+                "Explicitly integrate key interactive elements (such as simulations and role-play scenarios) throughout the module sequence, as described in the course idea.",
+                "Cover both practical tool use and responsible AI practices."
+            ],
+            "sub_task": "Propose 4-8 main modules that logically progress from foundational to advanced concepts.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise description of what each module covers.",
+                "List key takeaways for participants, ensuring alignment with learning goals.",
+                "Write learning goals using the template: \"Participants [action verb]…\" (e.g., \"Participants apply...\", \"Participants evaluate...\", \"Participants demonstrate...\")."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify which modules include hands-on exercises, simulations, or role-play scenarios.",
+                "Suggest appropriate time allocations for these activities.",
+                "Briefly justify the time allocation for each exercise (e.g., based on complexity or expected interaction level)."
+            ],
+            "sub_task": "Estimate exercise duration for hands-on modules.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module information, learning goals, takeaways, and exercise durations.",
+                "Cross-reference the compiled information with the entire course flow to ensure that prerequisites, competencies, modules, and interactive elements are coherently structured.",
+                "Present the outline in a clear, organized markdown structure, ensuring consistency and logical progression throughout the course."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

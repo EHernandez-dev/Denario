@@ -1,0 +1,58 @@
+[
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.001988,
+    "Prompt Tokens": 990.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 991.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "idea maker response formatter",
+    "Cost ($)": 0.0017468,
+    "Prompt Tokens": 368.0,
+    "Completion Tokens": 305.0,
+    "Total Tokens": 673.0,
+    "Model": "o3-mini-2025-01-31"
+  },
+  {
+    "Agent": "control starter",
+    "Cost ($)": 0.002058,
+    "Prompt Tokens": 1025.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 1026.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "idea saver",
+    "Cost ($)": 0.001972,
+    "Prompt Tokens": 442.0,
+    "Completion Tokens": 136.0,
+    "Total Tokens": 578.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "control",
+    "Cost ($)": 0.008804,
+    "Prompt Tokens": 3418.0,
+    "Completion Tokens": 246.0,
+    "Total Tokens": 3664.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "idea maker",
+    "Cost ($)": 0.00851,
+    "Prompt Tokens": 2828.0,
+    "Completion Tokens": 144.0,
+    "Total Tokens": 2972.0,
+    "Model": "gpt-4o-2024-08-06"
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.0250788,
+    "Prompt Tokens": 9071.0,
+    "Completion Tokens": 833.0,
+    "Total Tokens": 9904.0,
+    "Model": NaN
+  }
+]

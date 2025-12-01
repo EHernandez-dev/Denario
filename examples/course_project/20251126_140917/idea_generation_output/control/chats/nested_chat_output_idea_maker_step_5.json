@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Interactive ChatGPT: Enhancing Business Communication and Collaboration\n\t\t- Focuses on improving business communication and collaboration using ChatGPT, appealing to professionals seeking practical benefits.\n\t\t- Incorporates prompt crafting and context management, covering both basic and advanced features.\n\t\t- Includes structured interactive sessions with real-world business scenarios, group activities, and role-playing exercises.\n\t\t- Introduces responsible AI practices by integrating discussions on maintaining trust and accountability in AI-driven communications.\n\t\t- Lacks clear time management strategies or checkpoints to ensure that technical and interactive elements are adequately covered during the 8-hour session.\n\n        ",
+    "timestamp": "2025-11-26 14:12:12",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0036036
+      ],
+      "Prompt Tokens": [
+        592
+      ],
+      "Completion Tokens": [
+        671
+      ],
+      "Total Tokens": [
+        1263
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:12:13",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0022240000000000003
+      ],
+      "Prompt Tokens": [
+        648
+      ],
+      "Completion Tokens": [
+        116
+      ],
+      "Total Tokens": [
+        764
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_140917/idea_generation_output/control/ideas_20251126_141213.json\n",
+    "timestamp": "2025-11-26 14:12:13",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0022240000000000003
+      ],
+      "Prompt Tokens": [
+        648
+      ],
+      "Completion Tokens": [
+        116
+      ],
+      "Total Tokens": [
+        764
+      ]
+    }
+  }
+]

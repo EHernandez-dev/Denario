@@ -1,0 +1,62 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on creating course ideas that cater to business professionals.",
+                "Ensure the ideas cover structured prompting techniques, model strengths, and advanced features.",
+                "Keep in mind the audience's lack of STEM or programming background.",
+                "Provide brief rationales behind each course idea to ensure alignment with a non-technical audience."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational value and clarity.",
+                "Assess the feasibility of teaching the content within the 2-day duration.",
+                "Consider the appropriateness for the target audience's background.",
+                "Comment on how well each idea accommodates an 8-hour, 2-day course structure, explicitly considering time constraints and pacing."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas from the critique.",
+                "Make improvements to address any issues raised by the idea_hater.",
+                "Ensure the ideas are engaging and accessible for the audience.",
+                "Suggest specific adjustments to incorporate clear, practical examples and applications that resonate with business professionals."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide feedback on the improvements made.",
+                "Suggest any further refinements needed for clarity and engagement.",
+                "Ensure the ideas are well-suited for the target audience.",
+                "Compare improved ideas with the original critiques, clearly highlighting which concerns have been addressed and which remain."
+            ],
+            "sub_task": "Critique the 2 improved ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the idea that best meets the course objectives and audience needs.",
+                "Ensure the selected idea is comprehensive and feasible within the time frame."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title that reflects the content.",
+                "Write a concise description that outlines the course objectives and benefits.",
+                "Highlight the key skills and knowledge participants will gain.",
+                "Verify that both the course title and description avoid technical jargon while emphasizing tangible benefits for a non-STEM audience."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

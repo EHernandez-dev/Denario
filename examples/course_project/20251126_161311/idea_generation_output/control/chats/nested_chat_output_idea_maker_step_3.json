@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT: From Prompt Crafting to Advanced Tool Utilization\n\t\t- Introduction to prompt engineering and context management with clear technical objectives.\n\t\t- Detailed exploration of advanced ChatGPT features such as plugins and integrations, with step-by-step guides tailored for non-coding professionals.\n\t\t- Hands-on workshops focusing on creating effective prompts and utilizing advanced tools, with specific examples and case studies.\n\t\t- Interactive sessions for developing personalized strategies, including actionable frameworks for leveraging ChatGPT in professional settings.\n\t\t- Modules on integrating ChatGPT tools into daily workflows, with practical exercises to reinforce learning.\n\n- Idea 2:\n\t* ChatGPT Proficiency for Non-Coders: From Basics to Breakthroughs\n\t\t- Comprehensive introduction to language models and prompt crafting, with a focus on non-coding functionalities.\n\t\t- Advanced sessions on leveraging ChatGPT's full suite of tools, including plugins and extensions, without requiring coding skills.\n\t\t- Interactive labs and group discussions to experiment with advanced features, with a focus on real-world applications.\n\t\t- Development of a strategic plan for using ChatGPT to enhance professional productivity, with clear, actionable steps.\n\t\t- Suggested modules on overcoming challenges and maximizing ChatGPT's potential, with examples of successful implementations in various industries.\n\n        ",
+    "timestamp": "2025-11-26 16:15:38",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0032747
+      ],
+      "Prompt Tokens": [
+        481
+      ],
+      "Completion Tokens": [
+        624
+      ],
+      "Total Tokens": [
+        1105
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:15:41",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0032800000000000004
+      ],
+      "Prompt Tokens": [
+        676
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        917
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_161311/idea_generation_output/control/ideas_20251126_161541.json\n",
+    "timestamp": "2025-11-26 16:15:41",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0032800000000000004
+      ],
+      "Prompt Tokens": [
+        676
+      ],
+      "Completion Tokens": [
+        241
+      ],
+      "Total Tokens": [
+        917
+      ]
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Idea 2: Advanced Features for Complex Problem Solving\n\t\t- This idea is selected because it effectively covers advanced features relevant to complex business challenges, which aligns well with the target audience's desire to move beyond basic functionalities.\n\t\t- The structured progression from basic to advanced problem solving is well-suited for business professionals seeking to deepen their technical understanding.\n\t\t- By narrowing down to key features, the course allows for a deeper exploration, ensuring a focused and impactful learning experience.\n\t\t- The inclusion of practical exercises anchored in explicit business use cases enhances the course's relevance and applicability, making it a compelling choice for the target audience.\n\n        ",
+    "timestamp": "2025-11-26 12:04:24",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0075867
+      ],
+      "Prompt Tokens": [
+        593
+      ],
+      "Completion Tokens": [
+        1576
+      ],
+      "Total Tokens": [
+        2169
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 12:04:26",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002388
+      ],
+      "Prompt Tokens": [
+        658
+      ],
+      "Completion Tokens": [
+        134
+      ],
+      "Total Tokens": [
+        792
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_120024/idea_generation_output/control/ideas_20251126_120426.json\n",
+    "timestamp": "2025-11-26 12:04:26",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002388
+      ],
+      "Prompt Tokens": [
+        658
+      ],
+      "Completion Tokens": [
+        134
+      ],
+      "Total Tokens": [
+        792
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on the topic of ChatGPT Professional Proficiency.",
+                "Ensure ideas cover a range from basics to advanced features.",
+                "Consider the target audience of professionals seeking deep proficiency without coding.",
+                "Include exploration of a large set of tools offered by ChatGPT.",
+                "Emphasize including explicit references to actionable frameworks and specific ChatGPT tools (e.g., conversation management, prompt engineering methods, context layering) to ensure the ideas are technically robust and diversified."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational soundness and practicality.",
+                "Assess how well each idea fits the target audience's needs and expectations.",
+                "Suggest improvements or dismiss ideas that do not meet the criteria.",
+                "Pinpoint how each idea leverages pedagogical frameworks, includes clear roadmap elements for the 8-hour duration, and aligns with advanced features without diving into coding, ensuring feasibility and technical depth."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas from the critique.",
+                "Enhance these ideas by addressing the feedback provided by the idea_hater.",
+                "Ensure the improved ideas maintain technical depth and actionable frameworks.",
+                "Incorporate detailed enhancements that integrate actionable strategies (e.g., process workflows or tool usage scenarios) and technical deep-dives, ensuring the refined ideas are more than just theoretical proposals."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed critique of the improved ideas.",
+                "Focus on any remaining weaknesses or areas for further enhancement.",
+                "Ensure the ideas are well-suited for the target audience and course duration.",
+                "Include specific commentary regarding the inclusion (or lack thereof) of technical details and specific tool implementations in the improved ideas, ensuring the critiques focus on increasing technical depth and actionable content."
+            ],
+            "sub_task": "Critique the 2 improved ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the idea that best meets the criteria of technical depth, specific tools, and actionable frameworks.",
+                "Ensure the selected idea is feasible and engaging for the target audience.",
+                "Explicitly compare the ideas based on their integration of technical frameworks, specificity regarding ChatGPT tools, and provision of clear, actionable steps, thereby emphasizing relevance for professionals seeking non-coding deep proficiency."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ideas.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title that reflects the content and objectives.",
+                "Write a concise description that highlights the course's focus on technical depth and specific tools.",
+                "Ensure the description is clear and appealing to the target audience.",
+                "Directly reference the advanced tools and technical frameworks included in the course, providing potential participants with a clear picture of what they will practically accomplish."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

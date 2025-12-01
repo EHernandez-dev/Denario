@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* AI-Driven Business Solutions: Leveraging ChatGPT Effectively\n\t\t- This course offers a structured approach to using ChatGPT for solving specific business challenges, tailored for non-technical professionals.\n\t\t- Participants will learn through step-by-step guides and workshops, ensuring they acquire actionable skills in prompt and context engineering.\n\t\t- The curriculum is designed to maintain depth by focusing on essential topics, while also incorporating interactive discussions to enhance learning.\n\t\t- Clear learning outcomes are defined, providing participants with the ability to implement AI-driven solutions effectively in their business contexts.\n\n        ",
+    "timestamp": "2025-11-26 14:38:06",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0021736
+      ],
+      "Prompt Tokens": [
+        344
+      ],
+      "Completion Tokens": [
+        408
+      ],
+      "Total Tokens": [
+        752
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:38:08",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001706
+      ],
+      "Prompt Tokens": [
+        393
+      ],
+      "Completion Tokens": [
+        115
+      ],
+      "Total Tokens": [
+        508
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_143436/idea_generation_output/control/ideas_20251126_143808.json\n",
+    "timestamp": "2025-11-26 14:38:08",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001706
+      ],
+      "Prompt Tokens": [
+        393
+      ],
+      "Completion Tokens": [
+        115
+      ],
+      "Total Tokens": [
+        508
+      ]
+    }
+  }
+]

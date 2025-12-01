@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT for Business: Unlocking Advanced Communication\n\t\t- Focuses on teaching business professionals how to use ChatGPT for effective communication.\n\t\t- Covers structured prompting techniques to enhance clarity and precision in business contexts.\n\t\t- Explores different models and their strengths to tailor communication strategies.\n\t\t- Rationale: Business professionals need to communicate clearly and effectively, and this course provides tools to do so using ChatGPT.\n\n- Idea 2:\n\t* Strategic Problem Solving with ChatGPT\n\t\t- Guides participants in leveraging ChatGPT's advanced features for complex problem solving.\n\t\t- Includes case studies and practical exercises to apply structured prompting techniques.\n\t\t- Emphasizes understanding model strengths to choose the right tool for specific business challenges.\n\t\t- Rationale: Business professionals often face complex problems, and this course equips them with AI-driven strategies to tackle these challenges.\n\n- Idea 3:\n\t* Mastering ChatGPT: From Basics to Business Applications\n\t\t- Provides a comprehensive overview of ChatGPT, starting from basics to advanced business applications.\n\t\t- Focuses on structured prompting and model selection for various business scenarios.\n\t\t- Includes interactive sessions to practice and refine skills in a business context.\n\t\t- Rationale: A step-by-step approach helps non-technical professionals build confidence and competence in using ChatGPT.\n\n- Idea 4:\n\t* Enhancing Productivity with ChatGPT Tools\n\t\t- Teaches how to use ChatGPT's built-in tools to boost productivity in business settings.\n\t\t- Covers advanced features that streamline workflows and improve efficiency.\n\t\t- Offers practical tips and techniques for integrating ChatGPT into daily business operations.\n\t\t- Rationale: Business professionals are always looking for ways to enhance productivity, and this course shows how ChatGPT can be a valuable asset.\n\n- Idea 5:\n\t* ChatGPT for Decision Makers: Insights and Implementation\n\t\t- Focuses on using ChatGPT to gain insights and make informed business decisions.\n\t\t- Explores structured prompting techniques to extract valuable information and insights.\n\t\t- Discusses model strengths and how to implement ChatGPT solutions effectively.\n\t\t- Rationale: Decision makers need reliable insights, and this course demonstrates how ChatGPT can support informed decision-making processes.\n\n        ",
+    "timestamp": "2025-11-26 12:22:48",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0042075
+      ],
+      "Prompt Tokens": [
+        677
+      ],
+      "Completion Tokens": [
+        787
+      ],
+      "Total Tokens": [
+        1464
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 12:22:53",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005522
+      ],
+      "Prompt Tokens": [
+        1073
+      ],
+      "Completion Tokens": [
+        422
+      ],
+      "Total Tokens": [
+        1495
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_122122/idea_generation_output/control/ideas_20251126_122253.json\n",
+    "timestamp": "2025-11-26 12:22:53",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005522
+      ],
+      "Prompt Tokens": [
+        1073
+      ],
+      "Completion Tokens": [
+        422
+      ],
+      "Total Tokens": [
+        1495
+      ]
+    }
+  }
+]

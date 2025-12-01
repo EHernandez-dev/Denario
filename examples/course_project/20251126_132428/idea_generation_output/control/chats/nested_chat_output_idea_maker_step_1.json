@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Mastering ChatGPT for Business: Advanced Tools and Techniques\n\t\t- Focuses on leveraging advanced ChatGPT tools like Code Interpreter and Web Search for business applications.\n\t\t- Includes practical sessions on Deep Research to enhance decision-making processes.\n\t\t- Covers responsible AI practices, emphasizing data privacy and handling hallucinations.\n\t\t- Introduces RAG (Retrieval-Augmented Generation) and AI Agents for personalized business solutions.\n\t\t- Blends technical detail with real-world business case studies for practical understanding.\n\n- Idea 2:\n\t* AI-Driven Business Strategies: From Theory to Practice\n\t\t- Explores the integration of ChatGPT into business strategies using advanced tools.\n\t\t- Provides insights into model selection and personalization for business contexts.\n\t\t- Discusses responsible AI practices, focusing on ethical considerations and data security.\n\t\t- Introduces next-level AI concepts like RAG and AI Agents for strategic advantage.\n\t\t- Utilizes interactive case studies to demonstrate real-world applications and outcomes.\n\n- Idea 3:\n\t* Advanced ChatGPT Applications: Enhancing Business Intelligence\n\t\t- Focuses on using ChatGPT for enhancing business intelligence and analytics.\n\t\t- Covers advanced tools like Code Interpreter and Web Search for data-driven insights.\n\t\t- Emphasizes responsible AI practices, including managing hallucinations and ensuring data privacy.\n\t\t- Introduces RAG and AI Agents to tailor AI solutions to specific business needs.\n\t\t- Includes hands-on workshops with real-world scenarios to apply learning effectively.\n\n- Idea 4:\n\t* Responsible AI in Business: Navigating Advanced ChatGPT Tools\n\t\t- Centers on the ethical use of advanced ChatGPT tools in business settings.\n\t\t- Discusses handling hallucinations and maintaining data privacy in AI applications.\n\t\t- Introduces advanced tools like Code Interpreter and Deep Research for business innovation.\n\t\t- Explores RAG and AI Agents for creating responsible and effective AI solutions.\n\t\t- Features case studies and role-play scenarios to reinforce responsible AI practices.\n\n- Idea 5:\n\t* Innovative Business Solutions with ChatGPT: A Deep Dive\n\t\t- Provides a comprehensive overview of using ChatGPT for innovative business solutions.\n\t\t- Focuses on advanced tools and techniques, including model selection and personalization.\n\t\t- Covers responsible AI practices, ensuring ethical and secure AI deployment.\n\t\t- Introduces RAG and AI Agents for developing cutting-edge business applications.\n\t\t- Engages participants with interactive sessions and real-world business challenges.\n\n        ",
+    "timestamp": "2025-11-26 13:25:54",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0041624
+      ],
+      "Prompt Tokens": [
+        720
+      ],
+      "Completion Tokens": [
+        766
+      ],
+      "Total Tokens": [
+        1486
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 13:25:58",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005888
+      ],
+      "Prompt Tokens": [
+        1164
+      ],
+      "Completion Tokens": [
+        445
+      ],
+      "Total Tokens": [
+        1609
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_132428/idea_generation_output/control/ideas_20251126_132558.json\n",
+    "timestamp": "2025-11-26 13:25:58",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.005888
+      ],
+      "Prompt Tokens": [
+        1164
+      ],
+      "Completion Tokens": [
+        445
+      ],
+      "Total Tokens": [
+        1609
+      ]
+    }
+  }
+]

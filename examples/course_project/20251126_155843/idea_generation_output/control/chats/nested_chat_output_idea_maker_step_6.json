@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT for Business: A Comprehensive Guide to Professional Proficiency\n\t\t- This course offers a structured three-day progression, starting with an overview of ChatGPT's capabilities and limitations in a business context, enriched with real-world case studies.\n\t\t- Day 2 focuses on integrating ChatGPT into daily business operations, featuring hands-on workshops and role-playing exercises to enhance practical understanding.\n\t\t- Day 3 delves into advanced tools and features, particularly workflow automation, with a step-by-step guide to creating automated processes without coding.\n\t\t- The \"Business Integration Blueprint\" is enhanced with detailed case studies and examples, providing immediate applicability across various industries.\n\t\t- Feedback suggests incorporating more granular, step-by-step instructions and predefined templates to improve the transition from basic mastery to advanced application.\n\n        ",
+    "timestamp": "2025-11-26 16:02:45",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0027016
+      ],
+      "Prompt Tokens": [
+        388
+      ],
+      "Completion Tokens": [
+        517
+      ],
+      "Total Tokens": [
+        905
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 16:02:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002206
+      ],
+      "Prompt Tokens": [
+        483
+      ],
+      "Completion Tokens": [
+        155
+      ],
+      "Total Tokens": [
+        638
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_155843/idea_generation_output/control/ideas_20251126_160247.json\n",
+    "timestamp": "2025-11-26 16:02:47",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002206
+      ],
+      "Prompt Tokens": [
+        483
+      ],
+      "Completion Tokens": [
+        155
+      ],
+      "Total Tokens": [
+        638
+      ]
+    }
+  }
+]

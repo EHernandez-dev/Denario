@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Navigating ChatGPT Tools for Business Efficiency\n\t\t- Overview of essential ChatGPT tools and features tailored for business applications.\n\t\t- Hands-on sessions to explore tools that enhance productivity and communication.\n\t\t- Strategies for integrating ChatGPT into existing business workflows.\n\t\t- Case studies showcasing successful implementations of ChatGPT in business settings.\n\t\t- Integrate a module on advanced, non-coding strategies to deepen understanding.\n\t\t- Include a segment on ethical considerations to balance practical insights with responsible AI practices.\n\n        ",
+    "timestamp": "2025-11-26 14:50:15",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0023639
+      ],
+      "Prompt Tokens": [
+        565
+      ],
+      "Completion Tokens": [
+        396
+      ],
+      "Total Tokens": [
+        961
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:50:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001992
+      ],
+      "Prompt Tokens": [
+        604
+      ],
+      "Completion Tokens": [
+        98
+      ],
+      "Total Tokens": [
+        702
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_144648/idea_generation_output/control/ideas_20251126_145018.json\n",
+    "timestamp": "2025-11-26 14:50:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001992
+      ],
+      "Prompt Tokens": [
+        604
+      ],
+      "Completion Tokens": [
+        98
+      ],
+      "Total Tokens": [
+        702
+      ]
+    }
+  }
+]

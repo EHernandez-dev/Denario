@@ -1,0 +1,74 @@
+[
+  {
+    "Agent": "reviewer response formatter",
+    "Cost ($)": 0.0015873,
+    "Prompt Tokens": 247.0,
+    "Completion Tokens": 299.0,
+    "Total Tokens": 546.0,
+    "Model": "o3-mini-2025-01-31"
+  },
+  {
+    "Agent": "plan reviewer",
+    "Cost ($)": 0.0046695,
+    "Prompt Tokens": 2845.0,
+    "Completion Tokens": 350.0,
+    "Total Tokens": 3195.0,
+    "Model": "o3-mini-2025-01-31"
+  },
+  {
+    "Agent": "planner response formatter",
+    "Cost ($)": 0.0150546,
+    "Prompt Tokens": 2114.0,
+    "Completion Tokens": 2893.0,
+    "Total Tokens": 5007.0,
+    "Model": "o3-mini-2025-01-31"
+  },
+  {
+    "Agent": "planner",
+    "Cost ($)": 0.020026,
+    "Prompt Tokens": 4689.0,
+    "Completion Tokens": 1331.0,
+    "Total Tokens": 6020.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.007312,
+    "Prompt Tokens": 3652.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 3653.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "review recorder",
+    "Cost ($)": 0.001754,
+    "Prompt Tokens": 229.0,
+    "Completion Tokens": 162.0,
+    "Total Tokens": 391.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "plan recorder",
+    "Cost ($)": 0.01712,
+    "Prompt Tokens": 2372.0,
+    "Completion Tokens": 1547.0,
+    "Total Tokens": 3919.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "plan setter",
+    "Cost ($)": 0.001396,
+    "Prompt Tokens": 666.0,
+    "Completion Tokens": 8.0,
+    "Total Tokens": 674.0,
+    "Model": "gpt-4.1-2025-04-14"
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.06891939999999999,
+    "Prompt Tokens": 16814.0,
+    "Completion Tokens": 6591.0,
+    "Total Tokens": 23405.0,
+    "Model": NaN
+  }
+]

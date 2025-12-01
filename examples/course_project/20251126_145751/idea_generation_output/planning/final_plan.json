@@ -1,0 +1,70 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on the topic of ChatGPT Professional Proficiency.",
+                "Ensure ideas cover both basic and advanced features.",
+                "Consider the target audience of business professionals.",
+                "Include elements of prompt and context engineering.",
+                "Incorporate tools available in both free and premium versions of ChatGPT.",
+                "Briefly touch on responsible AI practices.",
+                "Propose a unique, practical case study or real-world example that ties the course content to business scenarios, ensuring the ideas are grounded in actionable contexts."
+            ],
+            "sub_task": "Generate 5 new course ideas related to the topic of interest.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for its educational value and clarity.",
+                "Assess the feasibility of covering the content within a 2-day course.",
+                "Ensure the ideas align with the needs and skills of business professionals.",
+                "Suggest improvements or removal of ideas that do not fit well.",
+                "Assess whether each course idea includes clear learning outcomes and measurable objectives, ensuring the pedagogical approach can be practically implemented within the limited duration."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the two most promising ideas from the critique.",
+                "Enhance these ideas to address any weaknesses identified by the idea_hater.",
+                "Ensure the ideas are technically deep and include specific tools and actionable frameworks.",
+                "Explicitly reference the critiques provided by idea_hater when selecting and refining the two ideas, so that the improvements directly address the feedback for enhanced technical depth and tool specificity."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on the critique.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide feedback on the improvements made.",
+                "Ensure the ideas are now well-suited for the target audience.",
+                "Confirm that the ideas are feasible and pedagogically sound.",
+                "Check if the revised ideas sufficiently differentiate between the free and premium features of ChatGPT, ensuring that the final proposals are detailed and actionable for business professionals."
+            ],
+            "sub_task": "Critique the 2 improved course ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the idea that best meets the course objectives.",
+                "Ensure it offers technical depth and actionable insights.",
+                "Confirm it is suitable for business professionals.",
+                "Articulate the selection criteria clearly, prioritizing technical depth, practical frameworks, and clear relevance to business needs, to strengthen the justification of the chosen idea."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a compelling course title.",
+                "Write a concise description that highlights the course's focus on technical depth and specific tools.",
+                "Ensure the description is appealing to business professionals.",
+                "Mention the inclusion of responsible AI practices.",
+                "Highlight the actionable frameworks that will be covered.",
+                "Include one bullet point instructing the final description to also highlight any innovative or emerging trends in ChatGPT technology that resonate with advanced users, thereby ensuring the course is both current and comprehensive."
+            ],
+            "sub_task": "Report the best idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

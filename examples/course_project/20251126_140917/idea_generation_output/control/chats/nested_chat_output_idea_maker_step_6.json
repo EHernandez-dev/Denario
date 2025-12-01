@@ -1,0 +1,170 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Interactive ChatGPT: Enhancing Business Communication and Collaboration\n\t\t- Focuses on improving business communication and collaboration using ChatGPT, appealing to professionals seeking practical benefits.\n\t\t- Incorporates prompt crafting and context management, covering both basic and advanced features.\n\t\t- Includes structured interactive sessions with real-world business scenarios, group activities, and role-playing exercises.\n\t\t- Introduces responsible AI practices by integrating discussions on maintaining trust and accountability in AI-driven communications.\n\t\t- Lacks clear time management strategies or checkpoints to ensure that technical and interactive elements are adequately covered during the 8-hour session.\n\n        ",
+    "timestamp": "2025-11-26 14:12:29",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0022110000000000003
+      ],
+      "Prompt Tokens": [
+        350
+      ],
+      "Completion Tokens": [
+        415
+      ],
+      "Total Tokens": [
+        765
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:12:31",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001772
+      ],
+      "Prompt Tokens": [
+        406
+      ],
+      "Completion Tokens": [
+        120
+      ],
+      "Total Tokens": [
+        526
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_140917/idea_generation_output/control/ideas_20251126_141231.json\n",
+    "timestamp": "2025-11-26 14:12:31",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001772
+      ],
+      "Prompt Tokens": [
+        406
+      ],
+      "Completion Tokens": [
+        120
+      ],
+      "Total Tokens": [
+        526
+      ]
+    }
+  },
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Interactive ChatGPT: Enhancing Business Communication and Collaboration\n\t\t- Course designed to elevate business communication and collaboration through strategic use of ChatGPT.\n\t\t- Focus on mastering prompt crafting and context management.\n\t\t- Covers both basic and advanced features of ChatGPT.\n\t\t- Includes structured interactive sessions to facilitate active learning.\n\t\t- Real-world business scenarios incorporated for practical application.\n\t\t- Group activities and role-playing exercises to enhance engagement.\n\t\t- Emphasizes responsible AI practices, trust, and accountability in AI-driven communications.\n\n        ",
+    "timestamp": "2025-11-26 14:12:43",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter",
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31",
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0022110000000000003,
+        0.0018777000000000002
+      ],
+      "Prompt Tokens": [
+        350,
+        355
+      ],
+      "Completion Tokens": [
+        415,
+        338
+      ],
+      "Total Tokens": [
+        765,
+        693
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 14:12:44",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001772,
+        0.001592
+      ],
+      "Prompt Tokens": [
+        406,
+        400
+      ],
+      "Completion Tokens": [
+        120,
+        99
+      ],
+      "Total Tokens": [
+        526,
+        499
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_140917/idea_generation_output/control/ideas_20251126_141244.json\n",
+    "timestamp": "2025-11-26 14:12:44",
+    "cost": {
+      "Agent": [
+        "idea_saver",
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.001772,
+        0.001592
+      ],
+      "Prompt Tokens": [
+        406,
+        400
+      ],
+      "Completion Tokens": [
+        120,
+        99
+      ],
+      "Total Tokens": [
+        526,
+        499
+      ]
+    }
+  }
+]

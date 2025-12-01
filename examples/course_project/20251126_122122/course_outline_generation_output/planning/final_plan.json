@@ -1,0 +1,53 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course idea and objectives.",
+                "List the essential competencies and skills for business professionals to enhance productivity with ChatGPT tools.",
+                "Explicitly detail both hard competencies (e.g., tool proficiency, prompt engineering) and soft competencies (e.g., critical evaluation, communication, collaboration).",
+                "Ensure the analysis is thorough and actionable for course design."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify what knowledge or experience participants should have before taking the course.",
+                "Specify any required familiarity with business operations, digital tools, or AI concepts.",
+                "Include clear examples and desired levels of pre-existing knowledge to ensure all participants are adequately prepared."
+            ],
+            "sub_task": "Determine prerequisites for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Break down the course into main modules.",
+                "Ensure modules build upon each other in a logical progression.",
+                "Briefly describe the focus of each module.",
+                "Include a brief timeline or session duration per module to fit within the 8-hour timeframe."
+            ],
+            "sub_task": "Propose 4-8 main modules that logically progress from foundational to advanced concepts.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For every module, provide a concise description of what it covers.",
+                "List key takeaways for participants.",
+                "Write learning goals using action verbs (e.g., \"Participants will be able to...\").",
+                "For hands-on modules, specify expected outcomes for exercises (e.g., tasks or mini-projects).",
+                "Provide estimated durations for each exercise to ensure the course stays within the 8-hour limit."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all modules, descriptions, learning goals, key takeaways, and exercise durations into a clear, organized markdown outline.",
+                "Structure the outline with clearly separated sections: Introduction, Prerequisites, Module Details, and Summary.",
+                "Ensure the outline is comprehensive, easy to follow, and aligns with the course's overall objectives."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

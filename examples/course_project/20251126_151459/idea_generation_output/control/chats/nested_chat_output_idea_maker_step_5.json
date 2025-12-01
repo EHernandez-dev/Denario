@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* ChatGPT Premium Unlocked: Tools and Techniques for Business Excellence\n\t\t- Offers a detailed exploration of tools available in the ChatGPT premium seat, focusing on advanced features like execution flows and custom instructions.\n\t\t- Incorporates interactive workshops and real-world business case studies to enhance practical relevance.\n\t\t- Emphasizes ethical AI practices, with examples linked directly to business implications.\n\t\t- Suggests scaffolding steps, such as a mini project or simulation exercise, to ease the transition from tool exploration to practical application.\n\t\t- Maps workshop segments to specific business outcomes, like increased operational efficiency, to measure learning impact.\n\n        ",
+    "timestamp": "2025-11-26 15:18:03",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0029304000000000005
+      ],
+      "Prompt Tokens": [
+        724
+      ],
+      "Completion Tokens": [
+        485
+      ],
+      "Total Tokens": [
+        1209
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-11-26 15:18:04",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002564
+      ],
+      "Prompt Tokens": [
+        786
+      ],
+      "Completion Tokens": [
+        124
+      ],
+      "Total Tokens": [
+        910
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251126_151459/idea_generation_output/control/ideas_20251126_151804.json\n",
+    "timestamp": "2025-11-26 15:18:04",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002564
+      ],
+      "Prompt Tokens": [
+        786
+      ],
+      "Completion Tokens": [
+        124
+      ],
+      "Total Tokens": [
+        910
+      ]
+    }
+  }
+]

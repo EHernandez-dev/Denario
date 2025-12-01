@@ -1,0 +1,61 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course description and objectives",
+                "List the essential competencies and skills relevant to ChatGPT premium tools for business",
+                "Consider both technical and ethical dimensions",
+                "Include specific ethical AI practices and corresponding business scenarios to ensure the ethical dimension is well-integrated"
+            ],
+            "sub_task": "Analyze the course idea and identify core competencies and skills participants should develop",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Identify foundational knowledge or experience required for successful participation",
+                "Specify any necessary familiarity with AI, business processes, or digital tools",
+                "Clarify if any specific technical backgrounds or software proficiencies (e.g., chatbot configuration, data analysis tools) are preferred"
+            ],
+            "sub_task": "Determine prerequisites for participants",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline module titles and sequence",
+                "Ensure each module builds on the previous one",
+                "Map modules to business outcomes and course objectives",
+                "Explicitly demonstrate each module’s connection to tangible business outcomes (e.g., operational efficiency, cost savings)"
+            ],
+            "sub_task": "Propose 4-8 main modules that logically progress from foundational to advanced concepts",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Provide a concise description of what each session covers",
+                "List key takeaways for participants",
+                "Write learning goals as \"Participants [action verb]...\"",
+                "Specify time estimates for both the module description and hands-on practical exercises to clarify the session timeline"
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Design a capstone or integrative activity that transitions from tool exploration to practical application",
+                "Ensure the activity aligns with business outcomes and ethical considerations",
+                "The mini project or simulation should directly integrate elements from prior modules, reinforcing cumulative learning and reflecting real-world ethical considerations"
+            ],
+            "sub_task": "Integrate scaffolding steps such as a mini project or simulation exercise",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module information, learning goals, and takeaways into a clear, organized markdown outline",
+                "Include a brief summary section outlining the overall course learning journey and linking back to the identified core competencies and prerequisites",
+                "Ensure the outline is ready for review and further development into lesson content"
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

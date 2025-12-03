@@ -1,10 +1,12 @@
 import os
 import shutil
 from datetime import datetime
+from pathlib import Path
 
 from .key_manager import KeyManager
 from .idea import CourseIdea
 from .outline import CourseOutline
+from .slides import CourseSlides
 from .utils import input_check, in_notebook
 
 
@@ -88,6 +90,7 @@ class CourseCreator:
         self.duration: str = ""
         self.idea: str = ""
         self.outline: str = ""
+        self.slides_dir: Path | None = None
 
         # Try to load existing files
         self._load_existing()
@@ -353,3 +356,101 @@ Duration: {duration}
             orchestration_model=orchestration_model,
             formatter_model=formatter_model,
         )
+
+    def generate_slides(self,
+                        architect_model: str = "gpt-4o",
+                        content_creator_model: str = "gpt-4.1",
+                        reviewer_model: str = "o3-mini",
+                        refiner_model: str = "gpt-4.1",
+                        researcher_model: str = "gpt-4.1",
+                        engineer_model: str = "gpt-4.1",
+                        planner_model: str = "gpt-4o",
+                        plan_reviewer_model: str = "o3-mini",
+                        orchestration_model: str = "gpt-4.1",
+                        formatter_model: str = "o3-mini",
+                        theme_path: str = "/Users/elenahernandez/projects/llm-power-user-training/theme",
+                        deep_research: bool = False,
+                        ) -> None:
+        """
+        Generate Slidev presentation from the course outline.
+
+        Args:
+            architect_model: LLM for the slide architect agent.
+            content_creator_model: LLM for content creation.
+            reviewer_model: LLM for reviewing slides.
+            refiner_model: LLM for refining slides.
+            researcher_model: LLM for content research (web search enabled).
+            engineer_model: LLM for generating code and visualizations.
+            planner_model: LLM for the planner agent.
+            plan_reviewer_model: LLM for the plan reviewer.
+            orchestration_model: LLM for orchestration.
+            formatter_model: LLM for formatting responses.
+            theme_path: Path to Slidev theme (for symlinking).
+            deep_research: If True, run slide_researcher and slides_engineer
+                           for richer content with web search. If False, use
+                           existing outline research only.
+        """
+        if not self.outline:
+            raise ValueError("No course outline available. Call generate_outline() or set_outline() first.")
+
+        print("Generating Slidev presentation...")
+        if deep_research:
+            print("Deep research enabled: slide_researcher and slides_engineer will be used.")
+
+        course_slides = CourseSlides(
+            course_outline=self.outline,
+            keys=self.keys,
+            work_dir=self.work_dir,
+            theme_path=theme_path,
+            architect_model=architect_model,
+            content_creator_model=content_creator_model,
+            reviewer_model=reviewer_model,
+            refiner_model=refiner_model,
+            researcher_model=researcher_model,
+            engineer_model=engineer_model,
+            planner_model=planner_model,
+            plan_reviewer_model=plan_reviewer_model,
+            orchestration_model=orchestration_model,
+            formatter_model=formatter_model,
+            deep_research=deep_research,
+        )
+
+        self.slides_dir = course_slides.generate()
+        print(f"Slides generated successfully at: {self.slides_dir}")
+
+    def show_slides(self) -> None:
+        """Show information about the generated slides."""
+        if not self.slides_dir:
+            print("No slides generated yet. Run generate_slides() first.")
+            return
+
+        slides_info = f"""
+## Generated Slides
+
+**Location:** `{self.slides_dir}`
+
+**Structure:**
+- `main.md` - Main presentation file
+- `src/` - Module slides
+- `theme/` - Linked theme
+
+**To preview slides:**
+```bash
+cd {self.slides_dir}
+npx slidev main.md
+```
+
+**Files:**
+"""
+        # List main.md and module folders
+        main_md = self.slides_dir / "main.md"
+        if main_md.exists():
+            slides_info += f"- `main.md`\n"
+
+        src_dir = self.slides_dir / "src"
+        if src_dir.exists():
+            for module_dir in sorted(src_dir.iterdir()):
+                if module_dir.is_dir():
+                    slides_info += f"- `src/{module_dir.name}/slides.md`\n"
+
+        self._printer(slides_info)

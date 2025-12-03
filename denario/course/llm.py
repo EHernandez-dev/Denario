@@ -56,12 +56,12 @@ gpt45 = LLM(name="gpt-4.5-preview-2025-02-27",
 """`gpt-4.5-preview` model."""
 
 gpt5 = LLM(name="gpt-5",
-           max_output_tokens=128000,
+           max_output_tokens=16384,
            temperature=None)
 """`gpt-5` model """
 
 gpt5mini = LLM(name="gpt-5-mini",
-               max_output_tokens=128000,
+               max_output_tokens=16384,
                temperature=None)
 """`gpt-5-mini` model."""
 

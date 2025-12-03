@@ -1,0 +1,18 @@
+[
+  {
+    "Agent": "control starter",
+    "Cost ($)": 13.45283875,
+    "Prompt Tokens": 3667527.0,
+    "Completion Tokens": 886843.0,
+    "Total Tokens": 4554370.0,
+    "Model": "gpt-5-2025-08-07"
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 13.45283875,
+    "Prompt Tokens": 3667527.0,
+    "Completion Tokens": 886843.0,
+    "Total Tokens": 4554370.0,
+    "Model": NaN
+  }
+]

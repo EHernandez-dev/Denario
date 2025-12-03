@@ -1,0 +1,360 @@
+[
+  {
+    "name": "plan_setter",
+    "content": null,
+    "timestamp": "2025-12-02 11:35:54",
+    "cost": {
+      "Agent": [
+        "plan_setter"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.0063
+      ],
+      "Prompt Tokens": [
+        1240
+      ],
+      "Completion Tokens": [
+        475
+      ],
+      "Total Tokens": [
+        1715
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Plan constraints have been logged.",
+    "timestamp": "2025-12-02 11:35:54",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "planner",
+    "content": "Plan:\n   - Step 1:\n         * sub-task: Analyze course idea, audience, scope, and constraints to extract core competencies and prerequisites\n         * agent: researcher\n         * bullet points: \n           - Parse the provided course idea to enumerate the exact competencies the course must deliver (e.g., prompt engineering with RTCFCE, A/B prompt versioning, ADA data wrangling, Vision/OCR for PDFs/images, Browse, file uploads/multi-file analysis, image generation, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise features, governance and QA).\n           - Translate deliverables and labs into skill outcomes (dirty-scan extraction, normalization/QA, redlining, knowledge-backed Q&A, governance).\n           - Identify enterprise readiness requirements (grounded citations, auditability, reproducibility, SOPs, privacy).\n           - Define learner prerequisites (e.g., comfort with spreadsheets/CSVs, basic document workflows, data hygiene, basic prompt familiarity; no coding required).\n           - Note assessment expectations: checkpoints, capstone decision memo with SOP and governance checklist, pass thresholds (referenced in rubric.csv).\n   - Step 2:\n         * sub-task: Propose the macro course architecture and pacing for a 24-hour intensive\n         * agent: researcher\n         * bullet points:\n           - Outline 8\u201310 modules that progress from foundations to enterprise deployment; include a capstone module.\n           - Allocate durations to total 24 hours with explicit hands-on time per lab; incorporate rebalancing hints (M2=4:00, M7=3:30, M1=2:30, M4=2:30) and distribute remaining hours logically.\n           - Sequence modules to reflect dependencies (prompting -> extraction -> normalization/QA -> redlining -> knowledge-backed Q&A -> governance -> deployment).\n           - Plan assessment checkpoints (after key milestone modules) and capstone timeline.\n           - Ensure each module has at least one concrete hands-on exercise (with duration estimate) where applicable.\n   - Step 3:\n         * sub-task: Define module blueprints with descriptions, tools, takeaways, and learning goals\n         * agent: researcher\n         * bullet points:\n           - For each module, write a concise description (senior-researcher-to-assistant tone) explicitly naming tools/features covered (ADA, Browse, Vision for PDFs/tables/images, file uploads/multi-file analysis, image generation, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise).\n           - Specify key takeaways (what participants leave with) and concrete learning goals using the stem \u201cParticipants [action verb]\u2026\u201d.\n           - Attach hands-on exercise(s) with estimated durations and artifacts produced; map artifacts to course deliverables (prompt library, extraction/QA pack, normalized.csv + reports, Custom GPT scaffold + test_log.csv, governance SOP/privacy checklist).\n           - Identify embedded frameworks and methods per module (RTCFCE, ReAct, checklist prompts, A/B versioning) and where they are practiced.\n   - Step 4:\n         * sub-task: Integrate governance, QA, and assessment across modules; verify enterprise readiness\n         * agent: researcher\n         * bullet points:\n           - Place governance SOPs, privacy checklist, grounded citations, and reproducibility check-ins at appropriate modules; define pass/fail criteria tied to rubric.csv thresholds.\n           - Include abstention behavior and retrieval QA coverage targets (\u226595% grounded answers) in the knowledge-backed Q&A module.\n           - Ensure redlining and review workflows are explicitly exercised with named tools and outputs (diffs, comments, decision memo).\n           - Validate that module durations and exercise times fit the 24-hour limit and provide realistic lab depth.\n   - Step 5:\n         * sub-task: Finalize structure, dependencies, and artifact naming; include recommended next steps\n         * agent: researcher\n         * bullet points:\n           - Confirm module numbering, durations, and dependencies; ensure rebalancing notes are reflected.\n           - List expected outputs per module and how they roll up to final deliverables and capstone submission.\n           - Add \u201cRecommended next steps\u201d section summarizing the two follow-up modules (Advanced Knowledge Retrieval QA; No-Code Actions via Structured Outputs) with learning outcomes.\n           - Specify saved artifacts and naming conventions (idea03_syllabus.csv, rubric.csv, idea03_changelog.md) to be referenced but not generated.\n   - Step 6:\n         * sub-task: Write the full Course Outline in structured markdown format\n         * agent: researcher\n         * bullet points:\n           - Produce a complete outline including: course title, 5-sentence description, audience, prerequisites, total duration/pacing; module list (8\u201310) with for each: title, duration, description (naming tools/features), key takeaways, learning goals (\u201cParticipants [action verb]\u2026\u201d), hands-on exercises with estimated durations, and artifacts produced.\n           - Include assessment checkpoints, capstone description and grading criteria references, and mapping to learner deliverables.\n           - Add a brief \u201cRecommended next steps\u201d section with the two follow-up modules and their learning outcomes.\n           - Maintain the requested tone (senior researcher instructing an assistant) and avoid lesson scripts or full exercise materials.",
+    "timestamp": "2025-12-02 11:36:33",
+    "cost": {
+      "Agent": [
+        "planner"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.02678625
+      ],
+      "Prompt Tokens": [
+        1389
+      ],
+      "Completion Tokens": [
+        2505
+      ],
+      "Total Tokens": [
+        3894
+      ]
+    }
+  },
+  {
+    "name": "planner_response_formatter",
+    "content": "\n**PLAN**\n\n- Step 1:\n\t* sub-task: Analyze course idea, audience, scope, and constraints to extract core competencies and prerequisites\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Parse the provided course idea to enumerate the exact competencies the course must deliver (e.g., prompt engineering with RTCFCE, A/B prompt versioning, ADA data wrangling, Vision/OCR for PDFs/images, Browse, file uploads/multi-file analysis, image generation, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise features, governance and QA).\n\t\t- Translate deliverables and labs into skill outcomes (dirty-scan extraction, normalization/QA, redlining, knowledge-backed Q&A, governance).\n\t\t- Identify enterprise readiness requirements (grounded citations, auditability, reproducibility, SOPs, privacy).\n\t\t- Define learner prerequisites (e.g., comfort with spreadsheets/CSVs, basic document workflows, data hygiene, basic prompt familiarity; no coding required).\n\t\t- Note assessment expectations: checkpoints, capstone decision memo with SOP and governance checklist, pass thresholds (referenced in rubric.csv).\n\n- Step 2:\n\t* sub-task: Propose the macro course architecture and pacing for a 24-hour intensive\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Outline 8\u201310 modules that progress from foundations to enterprise deployment; include a capstone module.\n\t\t- Allocate durations to total 24 hours with explicit hands-on time per lab; incorporate rebalancing hints (M2=4:00, M7=3:30, M1=2:30, M4=2:30) and distribute remaining hours logically.\n\t\t- Sequence modules to reflect dependencies (prompting -> extraction -> normalization/QA -> redlining -> knowledge-backed Q&A -> governance -> deployment).\n\t\t- Plan assessment checkpoints (after key milestone modules) and capstone timeline.\n\t\t- Ensure each module has at least one concrete hands-on exercise (with duration estimate) where applicable.\n\n- Step 3:\n\t* sub-task: Define module blueprints with descriptions, tools, takeaways, and learning goals\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- For each module, write a concise description (senior-researcher-to-assistant tone) explicitly naming tools/features covered (ADA, Browse, Vision for PDFs/tables/images, file uploads/multi-file analysis, image generation, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise).\n\t\t- Specify key takeaways (what participants leave with) and concrete learning goals using the stem \u201cParticipants [action verb]\u2026\u201d.\n\t\t- Attach hands-on exercise(s) with estimated durations and artifacts produced; map artifacts to course deliverables (prompt library, extraction/QA pack, normalized.csv + reports, Custom GPT scaffold + test_log.csv, governance SOP/privacy checklist).\n\t\t- Identify embedded frameworks and methods per module (RTCFCE, ReAct, checklist prompts, A/B versioning) and where they are practiced.\n\n- Step 4:\n\t* sub-task: Integrate governance, QA, and assessment across modules; verify enterprise readiness\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Place governance SOPs, privacy checklist, grounded citations, and reproducibility check-ins at appropriate modules; define pass/fail criteria tied to rubric.csv thresholds.\n\t\t- Include abstention behavior and retrieval QA coverage targets (\u226595% grounded answers) in the knowledge-backed Q&A module.\n\t\t- Ensure redlining and review workflows are explicitly exercised with named tools and outputs (diffs, comments, decision memo).\n\t\t- Validate that module durations and exercise times fit the 24-hour limit and provide realistic lab depth.\n\n- Step 5:\n\t* sub-task: Finalize structure, dependencies, and artifact naming; include recommended next steps\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Confirm module numbering, durations, and dependencies; ensure rebalancing notes are reflected.\n\t\t- List expected outputs per module and how they roll up to final deliverables and capstone submission.\n\t\t- Add \u201cRecommended next steps\u201d section summarizing the two follow-up modules (Advanced Knowledge Retrieval QA; No-Code Actions via Structured Outputs) with learning outcomes.\n\t\t- Specify saved artifacts and naming conventions (idea03_syllabus.csv, rubric.csv, idea03_changelog.md) to be referenced but not generated.\n\n- Step 6:\n\t* sub-task: Write the full Course Outline in structured markdown format\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Produce a complete outline including: course title, 5-sentence description, audience, prerequisites, total duration/pacing; module list (8\u201310) with for each: title, duration, description (naming tools/features), key takeaways, learning goals (\u201cParticipants [action verb]\u2026\u201d), hands-on exercises with estimated durations, and artifacts produced.\n\t\t- Include assessment checkpoints, capstone description and grading criteria references, and mapping to learner deliverables.\n\t\t- Add a brief \u201cRecommended next steps\u201d section with the two follow-up modules and their learning outcomes.\n\t\t- Maintain the requested tone (senior researcher instructing an assistant) and avoid lesson scripts or full exercise materials.\n\n        ",
+    "timestamp": "2025-12-02 11:36:55",
+    "cost": {
+      "Agent": [
+        "planner_response_formatter"
+      ],
+      "Model": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "Cost": [
+        0
+      ],
+      "Prompt Tokens": [
+        1345
+      ],
+      "Completion Tokens": [
+        1530
+      ],
+      "Total Tokens": [
+        2875
+      ]
+    }
+  },
+  {
+    "name": "plan_recorder",
+    "content": null,
+    "timestamp": "2025-12-02 11:37:28",
+    "cost": {
+      "Agent": [
+        "plan_recorder"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.03441875
+      ],
+      "Prompt Tokens": [
+        1527
+      ],
+      "Completion Tokens": [
+        3251
+      ],
+      "Total Tokens": [
+        4778
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Plan has been logged.",
+    "timestamp": "2025-12-02 11:37:28",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "plan_reviewer",
+    "content": "Recommendations:\n\n- Modify Step 1 (Analyze course idea...) to produce explicit, machine-readable outputs that feed later steps.\n    - Output an itemized \"Core Competencies\" table (CSV or markdown) mapping each competency to: (a) the module(s) that teach it, (b) the deliverable that demonstrates it, and (c) the assessment criterion/rubric metric used to judge it.\n    - Produce a precise \"Prerequisites & Environment\" checklist including required accounts (e.g., ChatGPT/Teams access), minimum data samples (file types/sizes), required software, and participant baseline skills (spreadsheet comfort, basic prompt familiarity).\n    - Deliver a short \"Constraints & Assumptions\" note listing non-functional constraints (no-code policy, data privacy limits, offline/online access needs).\n    - Instructions for the researcher: create the three artifacts (competencies_table.csv, prerequisites_checklist.md, constraints.md) and attach one-line rationale for each listed competency.\n\n- Strengthen Step 2 (Macro architecture & pacing) with a deterministic schedule and time-budgets.\n    - Require an explicit hour-by-module table summing to 24.00 hours that shows: module title, total duration, lecture vs hands-on minutes, and built-in buffers (e.g., 5\u201310% contingency).\n    - Use the rebalancing hints (M2=4:00, M7=3:30, M1=2:30, M4=2:30) to lock durations and distribute remaining hours; show the percent lecture/hands-on for each module.\n    - Produce an alternate condensed schedule (if a 2-day vs 3-day delivery is needed) and note recommended facilitator-to-learner ratios for hands-on labs.\n    - Instructions for the researcher: output schedule.csv and a one-paragraph delivery note explaining pacing trade-offs and buffer rationale.\n\n- Expand Step 3 (Module blueprints) to include precise artifact schemas and acceptance criteria.\n    - For each artifact that a module produces (e.g., normalized.csv, change_log.csv, test_log.csv, prompt_library.csv), define expected schema: column names, data types, example rows, and minimal QA acceptance thresholds (e.g., OCR field accuracy \u2265 X, ADA normalization anomalies \u2264 Y).\n    - Add explicit mapping lines that show which artifact satisfies which learner deliverable (so aggregation is unambiguous).\n    - Require a one-line instructor note per module that lists the primary tool/feature used and a fallback if that feature is unavailable (e.g., if Vision for PDFs fails, use X alternative).\n    - Instructions for the researcher: produce module_blueprints.md and artifact_schemas.csv; ensure no blueprint exceeds one page.\n\n- Improve Step 4 (Governance, QA, assessment) by making QA metrics and audit mechanisms concrete.\n    - For each QA/gov item, require measurable pass/fail rules (e.g., retrieval QA: \u226595% grounded answers in a 10-question suite with \u226580% correct-with-citation; abstention rate \u2264 Z for OOD prompts).\n    - Specify how audit trails are captured: versioned filenames, automatic test_log.csv entries, timestamp conventions, and where logs are stored (path templates).\n    - Add an explicit privacy/PII handling checklist and a short risk-rating rubric (Low/Medium/High) applied to example document types.\n    - Instructions for the researcher: produce governance_checklist.md with pass/fail rules, an \"audit-trail-template.csv\", and a short example showing how a module exercise meets the rule.\n\n- Tighten Step 5 (Finalize structure, dependencies, artifact naming) with dependency graphs and contingency plans.\n    - Require a simple dependency map (edges: module -> module) in machine-readable form (e.g., dependencies.json) so scheduling and sequencing are unambiguous.\n    - Provide a contingency checklist for common failures (e.g., API rate limits, OCR failure, account permission issues) with immediate mitigations and time costs.\n    - Standardize artifact naming and storage conventions with examples (e.g., idea03_M3_normalized_v1.csv; idea03_capstone_decisionmemo_v1.pdf) and include versioning rules.\n    - Instructions for the researcher: produce dependencies.json, contingency_checklist.md, and artifact_inventory.csv listing each artifact, filename template, and where it is stored.\n\n- Enhance Step 6 (Write final Course Outline) to include cross-reference tables and instructor preparation notes.\n    - Include a compact module-to-deliverable table and a module-to-rubric-threshold table in the final markdown so reviewers can quickly validate completeness.\n    - Add an \"Instructor Prep\" subsection listing estimated prep time per module, required sample datasets, slide/handout placeholders, and access checks to run before delivery day 1.\n    - Add a short \u201cEvaluation & Sign-off\u201d procedure: who signs off on capstone submissions (role/title) and how pass/fail is recorded (file marker or LMS grade).\n    - Instructions for the researcher: produce final_outline.md and a one-page \"delivery-readiness\" checklist.\n\n- Enforce a single-artifact handoff between successive steps to keep the workflow linear and auditable.\n    - Define the explicit primary artifact produced by each step that the next step must consume:\n        - Step 1 -> competencies_table.csv\n        - Step 2 -> schedule.csv\n        - Step 3 -> module_blueprints.md + artifact_schemas.csv\n        - Step 4 -> governance_checklist.md + audit-trail-template.csv\n        - Step 5 -> dependencies.json + artifact_inventory.csv\n        - Step 6 -> final_outline.md\n    - Instructions for the researcher: ensure each step emits only its primary artifact in the specified filename and stores it in a shared path referenced in artifact_inventory.csv.\n\n- Add accessibility, ethical, and legal compliance checks explicitly into governance and module blueprints.\n    - Require a short accessibility checklist (captions for videos, readable color contrasts for images, keyboard-navigable lab instructions) and an ethics note addressing model hallucination mitigation and sensitive data handling.\n    - Include a legal/contractual flagging guideline for documents containing IP/PHI; list when legal sign-off is needed before ingestion.\n    - Instructions for the researcher: append an \"accessibility_and_ethics.md\" annex to governance_checklist.md with concrete checks to perform during exercises.\n\n- Require internal review checkpoints and lightweight sign-off artifacts at milestones.\n    - For major milestones (after Module 2 Draft, after Module 5 Blueprint, pre-capstone), require the researcher to produce a 1-page \"milestone_status.md\" summarizing readiness, risks, and one-line requests for decisions (e.g., accept hour rebalancing).\n    - Each milestone_status.md must include a single pass/fail field and any required follow-up actions with owners (owner = course lead, but the document should state it).\n    - Instructions for the researcher: produce milestone_status files and update idea03_changelog.md with each milestone decision.\n\nThese modifications keep the plan within the 6-step limit, make responsibilities and outputs explicit, improve auditability and repeatability, and provide the researcher with concrete templates and acceptance rules to follow.",
+    "timestamp": "2025-12-02 11:38:08",
+    "cost": {
+      "Agent": [
+        "plan_reviewer"
+      ],
+      "Model": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "Cost": [
+        0
+      ],
+      "Prompt Tokens": [
+        6117
+      ],
+      "Completion Tokens": [
+        2634
+      ],
+      "Total Tokens": [
+        8751
+      ]
+    }
+  },
+  {
+    "name": "reviewer_response_formatter",
+    "content": "\n**Recommendations:**\n\nModify Step 1 to produce explicit, machine-readable outputs that feed later steps: output an itemized \"Core Competencies\" table (CSV or markdown) mapping each competency to: (a) the module(s) that teach it, (b) the deliverable that demonstrates it, and (c) the assessment criterion/rubric metric used to judge it; produce a precise \"Prerequisites & Environment\" checklist including required accounts, minimum data samples (file types/sizes), required software, and participant baseline skills; deliver a short \"Constraints & Assumptions\" note listing non-functional constraints (no-code policy, data privacy limits, offline/online access needs); instructions for the researcher: create the three artifacts (competencies_table.csv, prerequisites_checklist.md, constraints.md) and attach one-line rationale for each listed competency.\n\nStrengthen Step 2 (Macro architecture & pacing) with a deterministic schedule and time-budgets: require an explicit hour-by-module table summing to 24.00 hours that shows module title, total duration, lecture vs hands-on minutes, and built-in buffers (e.g., 5\u201310% contingency); use the rebalancing hints (M2=4:00, M7=3:30, M1=2:30, M4=2:30) to lock durations and distribute remaining hours; show percent lecture/hands-on for each module; produce an alternate condensed schedule (2-day vs 3-day) and note recommended facilitator-to-learner ratios for hands-on labs; instructions for the researcher: output schedule.csv and a one-paragraph delivery note explaining pacing trade-offs and buffer rationale.\n\nExpand Step 3 (Module blueprints) to include precise artifact schemas and acceptance criteria: for each artifact that a module produces (e.g., normalized.csv, change_log.csv, test_log.csv, prompt_library.csv), define expected schema: column names, data types, example rows, and minimal QA acceptance thresholds (e.g., OCR field accuracy \u2265 X, ADA normalization anomalies \u2264 Y); add explicit mapping lines that show which artifact satisfies which learner deliverable; require a one-line instructor note per module that lists the primary tool/feature used and a fallback if that feature is unavailable; instructions for the researcher: produce module_blueprints.md and artifact_schemas.csv; ensure no blueprint exceeds one page.\n\nImprove Step 4 (Governance, QA, assessment) by making QA metrics and audit mechanisms concrete: for each QA/gov item, require measurable pass/fail rules (e.g., retrieval QA: \u226595% grounded answers in a 10-question suite with \u226580% correct-with-citation; abstention rate \u2264 Z for OOD prompts); specify how audit trails are captured: versioned filenames, automatic test_log.csv entries, timestamp conventions, and where logs are stored (path templates); add an explicit privacy/PII handling checklist and a short risk-rating rubric (Low/Medium/High) applied to example document types; instructions for the researcher: produce governance_checklist.md with pass/fail rules, an \"audit-trail-template.csv\", and a short example showing how a module exercise meets the rule.\n\nTighten Step 5 (Finalize structure, dependencies, artifact naming) with dependency graphs and contingency plans: require a simple dependency map (edges: module -> module) in machine-readable form (e.g., dependencies.json) so scheduling and sequencing are unambiguous; provide a contingency checklist for common failures (e.g., API rate limits, OCR failure, account permission issues) with immediate mitigations and time costs; standardize artifact naming and storage conventions with examples (e.g., idea03_M3_normalized_v1.csv; idea03_capstone_decisionmemo_v1.pdf) and include versioning rules; instructions for the researcher: produce dependencies.json, contingency_checklist.md, and artifact_inventory.csv listing each artifact, filename template, and where it is stored.\n\nEnhance Step 6 (Write final Course Outline) to include cross-reference tables and instructor preparation notes: include a compact module-to-deliverable table and a module-to-rubric-threshold table in the final markdown so reviewers can quickly validate completeness; add an \"Instructor Prep\" subsection listing estimated prep time per module, required sample datasets, slide/handout placeholders, and access checks to run before delivery day 1; add a short \u201cEvaluation & Sign-off\u201d procedure stating who signs off on capstone submissions and how pass/fail is recorded; instructions for the researcher: produce final_outline.md and a one-page \"delivery-readiness\" checklist.\n\nEnforce a single-artifact handoff between successive steps to keep the workflow linear and auditable: define the explicit primary artifact produced by each step that the next step must consume: Step 1 -> competencies_table.csv; Step 2 -> schedule.csv; Step 3 -> module_blueprints.md + artifact_schemas.csv; Step 4 -> governance_checklist.md + audit-trail-template.csv; Step 5 -> dependencies.json + artifact_inventory.csv; Step 6 -> final_outline.md; instructions for the researcher: ensure each step emits only its primary artifact in the specified filename and stores it in a shared path referenced in artifact_inventory.csv.\n\nAdd accessibility, ethical, and legal compliance checks explicitly into governance and module blueprints: require a short accessibility checklist (captions for videos, readable color contrasts for images, keyboard-navigable lab instructions) and an ethics note addressing model hallucination mitigation and sensitive data handling; include a legal/contractual flagging guideline for documents containing IP/PHI and list when legal sign-off is needed before ingestion; instructions for the researcher: append an \"accessibility_and_ethics.md\" annex to governance_checklist.md with concrete checks to perform during exercises.\n\nRequire internal review checkpoints and lightweight sign-off artifacts at milestones: for major milestones (after Module 2 Draft, after Module 5 Blueprint, pre-capstone), require the researcher to produce a 1-page \"milestone_status.md\" summarizing readiness, risks, and one-line requests for decisions; each milestone_status.md must include a single pass/fail field and any required follow-up actions with owners (owner = course lead, document should state it); instructions for the researcher: produce milestone_status files and update idea03_changelog.md with each milestone decision.\n\nThese modifications keep the plan within the 6-step limit, make responsibilities and outputs explicit, improve auditability and repeatability, and provide the researcher with concrete templates and acceptance rules to follow.\n\n\n            ",
+    "timestamp": "2025-12-02 11:38:40",
+    "cost": {
+      "Agent": [
+        "reviewer_response_formatter"
+      ],
+      "Model": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "Cost": [
+        0
+      ],
+      "Prompt Tokens": [
+        1570
+      ],
+      "Completion Tokens": [
+        2314
+      ],
+      "Total Tokens": [
+        3884
+      ]
+    }
+  },
+  {
+    "name": "review_recorder",
+    "content": null,
+    "timestamp": "2025-12-02 11:39:06",
+    "cost": {
+      "Agent": [
+        "review_recorder"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.025072499999999998
+      ],
+      "Prompt Tokens": [
+        1482
+      ],
+      "Completion Tokens": [
+        2322
+      ],
+      "Total Tokens": [
+        3804
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\nRecommendations have been logged.  \nNumber of feedback rounds left: 0. \nNow, update the plan accordingly, planner!",
+    "timestamp": "2025-12-02 11:39:06",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "planner",
+    "content": "Plan:\n   - Step 1:\n         * sub-task: Analyze course idea and produce machine-readable foundations (competencies, prerequisites, constraints)\n         * agent: researcher\n         * bullet points:\n           - Extract and enumerate core competencies from the course idea, labs, and deliverables (prompting with RTCFCE, ReAct, checklist prompts, A/B prompt versioning; ADA data wrangling; Vision/OCR with PDFs/tables/images; Browse; file uploads and multi-file analysis; image generation; Memory/Custom Instructions; Custom GPTs with Knowledge and no-code Actions; GPT Store; Teams/Enterprise features; governance, QA, auditability, SOPs).\n           - Map each competency to: (a) module(s) that teach it, (b) the learner deliverable or artifact that evidences competency, and (c) the assessment metric/rubric criterion that judges it.\n           - Define precise prerequisites and environment: required accounts (ChatGPT Plus/Teams/Enterprise as applicable), access to ADA, Browse, Vision, image generation, Custom GPTs; sample data inventory (file types, sizes, counts, including \u201cdirty scans\u201d); required software (spreadsheet tool, PDF reader), connectivity assumptions; participant baseline skills (spreadsheet comfort, CSV basics, basic prompt familiarity); no-code policy.\n           - Document constraints and assumptions: non-functional constraints (no-code rule, privacy/PII boundaries, data retention, online/offline needs, org-policy limitations), supported browsers/OS, and any content handling limits.\n           - Produce and save three artifacts in the shared folder: \n             - competencies_table.csv (primary handoff) with columns: competency_id, competency_name, modules, deliverable_evidence, rubric_metric, one_line_rationale.\n             - prerequisites_checklist.md with accounts, datasets, software, baseline skills, environment checks.\n             - constraints.md with non-functional constraints and assumptions.\n           - Ensure entries are concise, machine-readable, and reference deliverable IDs used later. Save to ./artifacts/idea03/. Primary handoff to next step: competencies_table.csv.\n\n   - Step 2:\n         * sub-task: Define macro architecture and deterministic pacing (24.00 hours) with buffers and delivery options\n         * agent: researcher\n         * bullet points:\n           - Propose 8\u201310 sequential modules (including capstone) that progress from fundamentals to enterprise-ready deployment: prompting -> extraction -> normalization/QA -> redlining -> knowledge-backed Q&A -> governance -> deployment and capstone.\n           - Build an explicit schedule.csv (primary handoff) with rows: module_number, module_title, total_duration_hh:mm, lecture_minutes, hands_on_minutes, buffer_minutes, lecture_pct, hands_on_pct, buffer_pct. Sum must equal 24:00 hours; include 5\u201310% buffer across modules.\n           - Lock durations per rebalancing hints: M1=2:30, M2=4:00, M4=2:30, M7=3:30; distribute remaining time across other modules; show rationale for time allocation.\n           - Add an alternate condensed schedule (2-day vs 3-day) section in schedule.csv (separate tab or section) and specify recommended facilitator-to-learner ratios for labs (e.g., 1:12 baseline, 1:8 for OCR labs).\n           - Mark internal milestone checkpoints and produce 1-page milestone_status_after_M2.md summarizing readiness, risks, and decisions needed; include a pass/fail field and update idea03_changelog.md accordingly.\n           - Save outputs to ./artifacts/idea03/. Primary handoff to next step: schedule.csv.\n\n   - Step 3:\n         * sub-task: Create module blueprints, artifact schemas, and acceptance criteria\n         * agent: researcher\n         * bullet points:\n           - For each module, write a one-page blueprint in module_blueprints.md (primary artifact) including:\n             - Description written as a senior researcher directing an assistant; explicitly name tools/features (ADA, Browse, Vision for PDFs/tables/images, image generation, file uploads/multi-file analysis, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise).\n             - Key takeaways and learning goals in the form \u201cParticipants [action verb]\u2026\u201d.\n             - Hands-on exercise(s) with duration estimates and listed artifacts produced.\n             - Explicit mapping line(s): which artifact satisfies which learner deliverable(s) (prompt_library, extraction/QA pack, normalized.csv + anomaly report + change_log.csv, Custom GPT scaffold + test_log.csv, governance SOP + privacy checklist).\n             - Instructor note: primary tool/feature used and a fallback if unavailable (e.g., if Vision for PDFs is degraded, use OCR via alternate import strategy or constrained ADA parsing).\n           - Define artifact schemas and QA thresholds in artifact_schemas.csv (co-artifact) for all produced artifacts (e.g., prompt_library.csv, extracted.csv, error_log.csv, QA_checklist.md, normalized.csv, anomaly_report.csv, change_log.csv, retrieval test_log.csv). Include columns: artifact_name, filename_template, column_names, data_types, example_row, min_QA_threshold (e.g., OCR field accuracy \u2265 95%, ADA normalization anomalies \u2264 2%).\n           - Produce milestone_status_after_M5.md (1 page) with pass/fail and decisions required; update idea03_changelog.md.\n           - Save outputs to ./artifacts/idea03/. Primary handoff to next step: module_blueprints.md and artifact_schemas.csv.\n\n   - Step 4:\n         * sub-task: Specify governance, QA metrics, audit mechanisms, accessibility/ethics, and assessment rules\n         * agent: researcher\n         * bullet points:\n           - Create governance_checklist.md (primary) with measurable pass/fail rules tied to rubric metrics, including:\n             - Retrieval QA: e.g., \u226595% grounded answers on a 10-question suite; \u226580% correct-with-citation; abstention rate \u2264 defined threshold for OOD prompts.\n             - Reproducibility: change_log.csv completeness; versioned filenames; timestamp conventions (YYYYMMDD_HHMMZ).\n             - Privacy/PII handling checklist (data minimization, redaction, storage rules, consent).\n             - Risk-rating rubric (Low/Medium/High) applied to example document types (contracts, invoices, PHI, IP).\n             - Legal/contractual flagging guidance: when legal sign-off is required prior to ingestion.\n           - Produce audit-trail-template.csv (primary co-artifact) including fields: artifact_id, version, author, timestamp, source_files, hash/checksum, QA_status, reviewer, storage_path.\n           - Append accessibility_and_ethics.md annex with concrete checks: captions, color contrast, keyboard navigation for labs; hallucination mitigation; sensitive data handling.\n           - Include a short example in governance_checklist.md showing how a specific module exercise meets the rule (e.g., retrieval QA run and logging).\n           - Validate that module time budgets and lab depths align with schedule.csv; adjust if needed (noting any changes in milestone status).\n           - Save outputs to ./artifacts/idea03/. Primary handoff to next step: governance_checklist.md and audit-trail-template.csv.\n\n   - Step 5:\n         * sub-task: Finalize dependencies, contingency plans, and artifact naming/storage conventions\n         * agent: researcher\n         * bullet points:\n           - Produce dependencies.json (primary) encoding module sequencing as edges (module -> module) to clarify prerequisites and ordering.\n           - Create contingency_checklist.md for common failures (API rate limits, OCR failures, permissions issues) with immediate mitigations and estimated time costs; include escalation paths.\n           - Build artifact_inventory.csv listing each artifact from all steps/modules with: artifact_name, filename_template, versioning rules (v1, v2; semantic if needed), storage_path (e.g., ./artifacts/idea03/), retention policy.\n           - Standardize naming and versioning examples: idea03_M3_normalized_v1.csv, idea03_M3_change_log_v1.csv, idea03_M5_retrieval_test_log_v1.csv, idea03_capstone_decisionmemo_v1.pdf.\n           - Ensure earlier artifacts (from Steps 1\u20134) are recorded with their storage paths in artifact_inventory.csv; confirm primary handoffs are clearly marked.\n           - Save outputs to ./artifacts/idea03/. Primary handoff to next step: dependencies.json and artifact_inventory.csv.\n\n   - Step 6:\n         * sub-task: Write the full Course Outline in structured markdown format and finalize delivery readiness\n         * agent: researcher\n         * bullet points:\n           - Produce final_outline.md (primary) containing:\n             - Course title, 5-sentence description, audience, prerequisites, total duration and pacing.\n             - 8\u201310 modules; for each: title, locked duration, description naming tools/features (ADA, Browse, Vision, image generation, file uploads/multi-file analysis, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise), key takeaways, learning goals (\u201cParticipants [action verb]\u2026\u201d), hands-on exercises with duration estimates, artifacts produced, and instructor note with fallback tool.\n             - Assessment checkpoints, capstone description (decision memo + SOP + governance checklist) with rubric references and pass thresholds.\n             - Cross-reference tables: module-to-deliverable mapping; module-to-rubric-threshold mapping.\n             - Recommended next steps: two follow-up modules (Advanced Knowledge Retrieval QA; No-Code Actions via Structured Outputs) with learning outcomes.\n             - Evaluation & Sign-off procedure: who signs off (role/title) and how pass/fail is recorded (file marker or LMS grade).\n             - Instructor Prep subsection: prep time per module, required sample datasets, slide/handout placeholders, access checks to run before day 1.\n           - Create a one-page delivery-readiness checklist (delivery_readiness_checklist.md) confirming accounts, datasets, environment checks, accessibility/ethics items, and contingency readiness.\n           - Produce milestone_status_pre_capstone.md with pass/fail and any final decisions; update idea03_changelog.md.\n           - Save outputs to ./artifacts/idea03/. Primary output for this step: final_outline.md.",
+    "timestamp": "2025-12-02 11:40:10",
+    "cost": {
+      "Agent": [
+        "planner",
+        "planner"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07",
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.02678625,
+        0.0809575
+      ],
+      "Prompt Tokens": [
+        1389,
+        11766
+      ],
+      "Completion Tokens": [
+        2505,
+        6625
+      ],
+      "Total Tokens": [
+        3894,
+        18391
+      ]
+    }
+  },
+  {
+    "name": "planner_response_formatter",
+    "content": "\n**PLAN**\n\n- Step 1:\n\t* sub-task: Analyze course idea and produce machine-readable foundations (competencies, prerequisites, constraints)\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Extract and enumerate core competencies from the course idea, labs, and deliverables (prompting with RTCFCE, ReAct, checklist prompts, A/B prompt versioning; ADA data wrangling; Vision/OCR with PDFs/tables/images; Browse; file uploads and multi-file analysis; image generation; Memory/Custom Instructions; Custom GPTs with Knowledge and no-code Actions; GPT Store; Teams/Enterprise features; governance, QA, auditability, SOPs).\n\t\t- Map each competency to: (a) module(s) that teach it, (b) the learner deliverable or artifact that evidences competency, and (c) the assessment metric/rubric criterion that judges it.\n\t\t- Define precise prerequisites and environment: required accounts (ChatGPT Plus/Teams/Enterprise as applicable), access to ADA, Browse, Vision, image generation, Custom GPTs; sample data inventory (file types, sizes, counts, including \u201cdirty scans\u201d); required software (spreadsheet tool, PDF reader), connectivity assumptions; participant baseline skills (spreadsheet comfort, CSV basics, basic prompt familiarity); no-code policy.\n\t\t- Document constraints and assumptions: non-functional constraints (no-code rule, privacy/PII boundaries, data retention, online/offline needs, org-policy limitations), supported browsers/OS, and any content handling limits.\n\t\t- Produce and save three artifacts in the shared folder:\n\t\t- - competencies_table.csv (primary handoff) with columns: competency_id, competency_name, modules, deliverable_evidence, rubric_metric, one_line_rationale.\n\t\t- - prerequisites_checklist.md with accounts, datasets, software, baseline skills, environment checks.\n\t\t- - constraints.md with non-functional constraints and assumptions.\n\t\t- Ensure entries are concise, machine-readable, and reference deliverable IDs used later. Save to ./artifacts/idea03/. Primary handoff to next step: competencies_table.csv.\n\n- Step 2:\n\t* sub-task: Define macro architecture and deterministic pacing (24.00 hours) with buffers and delivery options\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Propose 8\u201310 sequential modules (including capstone) that progress from fundamentals to enterprise-ready deployment: prompting -> extraction -> normalization/QA -> redlining -> knowledge-backed Q&A -> governance -> deployment and capstone.\n\t\t- Build an explicit schedule.csv (primary handoff) with rows: module_number, module_title, total_duration_hh:mm, lecture_minutes, hands_on_minutes, buffer_minutes, lecture_pct, hands_on_pct, buffer_pct. Sum must equal 24:00 hours; include 5\u201310% buffer across modules.\n\t\t- Lock durations per rebalancing hints: M1=2:30, M2=4:00, M4=2:30, M7=3:30; distribute remaining time across other modules; show rationale for time allocation.\n\t\t- Add an alternate condensed schedule (2-day vs 3-day) section in schedule.csv (separate tab or section) and specify recommended facilitator-to-learner ratios for labs (e.g., 1:12 baseline, 1:8 for OCR labs).\n\t\t- Mark internal milestone checkpoints and produce 1-page milestone_status_after_M2.md summarizing readiness, risks, and decisions needed; include a pass/fail field and update idea03_changelog.md accordingly.\n\t\t- Save outputs to ./artifacts/idea03/. Primary handoff to next step: schedule.csv.\n\n- Step 3:\n\t* sub-task: Create module blueprints, artifact schemas, and acceptance criteria\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- For each module, write a one-page blueprint in module_blueprints.md (primary artifact) including:\n\t\t- - Description written as a senior researcher directing an assistant; explicitly name tools/features (ADA, Browse, Vision for PDFs/tables/images, image generation, file uploads/multi-file analysis, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise).\n\t\t- - Key takeaways and learning goals in the form \u201cParticipants [action verb]\u2026\u201d.\n\t\t- - Hands-on exercise(s) with duration estimates and listed artifacts produced.\n\t\t- - Explicit mapping line(s): which artifact satisfies which learner deliverable(s) (prompt_library, extraction/QA pack, normalized.csv + anomaly report + change_log.csv, Custom GPT scaffold + test_log.csv, governance SOP + privacy checklist).\n\t\t- - Instructor note: primary tool/feature used and a fallback if unavailable (e.g., if Vision for PDFs is degraded, use OCR via alternate import strategy or constrained ADA parsing).\n\t\t- Define artifact schemas and QA thresholds in artifact_schemas.csv (co-artifact) for all produced artifacts (e.g., prompt_library.csv, extracted.csv, error_log.csv, QA_checklist.md, normalized.csv, anomaly_report.csv, change_log.csv, retrieval test_log.csv). Include columns: artifact_name, filename_template, column_names, data_types, example_row, min_QA_threshold (e.g., OCR field accuracy \u2265 95%, ADA normalization anomalies \u2264 2%).\n\t\t- Produce milestone_status_after_M5.md (1 page) with pass/fail and decisions required; update idea03_changelog.md.\n\t\t- Save outputs to ./artifacts/idea03/. Primary handoff to next step: module_blueprints.md and artifact_schemas.csv.\n\n- Step 4:\n\t* sub-task: Specify governance, QA metrics, audit mechanisms, accessibility/ethics, and assessment rules\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Create governance_checklist.md (primary) with measurable pass/fail rules tied to rubric metrics, including:\n\t\t- - Retrieval QA: e.g., \u226595% grounded answers on a 10-question suite; \u226580% correct-with-citation; abstention rate \u2264 defined threshold for OOD prompts.\n\t\t- - Reproducibility: change_log.csv completeness; versioned filenames; timestamp conventions (YYYYMMDD_HHMMZ).\n\t\t- - Privacy/PII handling checklist (data minimization, redaction, storage rules, consent).\n\t\t- - Risk-rating rubric (Low/Medium/High) applied to example document types (contracts, invoices, PHI, IP).\n\t\t- - Legal/contractual flagging guidance: when legal sign-off is required prior to ingestion.\n\t\t- Produce audit-trail-template.csv (primary co-artifact) including fields: artifact_id, version, author, timestamp, source_files, hash/checksum, QA_status, reviewer, storage_path.\n\t\t- Append accessibility_and_ethics.md annex with concrete checks: captions, color contrast, keyboard navigation for labs; hallucination mitigation; sensitive data handling.\n\t\t- Include a short example in governance_checklist.md showing how a specific module exercise meets the rule (e.g., retrieval QA run and logging).\n\t\t- Validate that module time budgets and lab depths align with schedule.csv; adjust if needed (noting any changes in milestone status).\n\t\t- Save outputs to ./artifacts/idea03/. Primary handoff to next step: governance_checklist.md and audit-trail-template.csv.\n\n- Step 5:\n\t* sub-task: Finalize dependencies, contingency plans, and artifact naming/storage conventions\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Produce dependencies.json (primary) encoding module sequencing as edges (module -> module) to clarify prerequisites and ordering.\n\t\t- Create contingency_checklist.md for common failures (API rate limits, OCR failures, permissions issues) with immediate mitigations and estimated time costs; include escalation paths.\n\t\t- Build artifact_inventory.csv listing each artifact from all steps/modules with: artifact_name, filename_template, versioning rules (v1, v2; semantic if needed), storage_path (e.g., ./artifacts/idea03/), retention policy.\n\t\t- Standardize naming and versioning examples: idea03_M3_normalized_v1.csv, idea03_M3_change_log_v1.csv, idea03_M5_retrieval_test_log_v1.csv, idea03_capstone_decisionmemo_v1.pdf.\n\t\t- Ensure earlier artifacts (from Steps 1\u20134) are recorded with their storage paths in artifact_inventory.csv; confirm primary handoffs are clearly marked.\n\t\t- Save outputs to ./artifacts/idea03/. Primary handoff to next step: dependencies.json and artifact_inventory.csv.\n\n- Step 6:\n\t* sub-task: Write the full Course Outline in structured markdown format and finalize delivery readiness\n\t* agent in charge: researcher\n\n\t* instructions:\n\t\t- Produce final_outline.md (primary) containing:\n\t\t- - Course title, 5-sentence description, audience, prerequisites, total duration and pacing.\n\t\t- - 8\u201310 modules; for each: title, locked duration, description naming tools/features (ADA, Browse, Vision, image generation, file uploads/multi-file analysis, Memory/Custom Instructions, Custom GPTs with Knowledge and no-code Actions, GPT Store, Teams/Enterprise), key takeaways, learning goals (\u201cParticipants [action verb]\u2026\u201d), hands-on exercises with duration estimates, artifacts produced, and instructor note with fallback tool.\n\t\t- - Assessment checkpoints, capstone description (decision memo + SOP + governance checklist) with rubric references and pass thresholds.\n\t\t- - Cross-reference tables: module-to-deliverable mapping; module-to-rubric-threshold mapping.\n\t\t- - Recommended next steps: two follow-up modules (Advanced Knowledge Retrieval QA; No-Code Actions via Structured Outputs) with learning outcomes.\n\t\t- - Evaluation & Sign-off procedure: who signs off (role/title) and how pass/fail is recorded (file marker or LMS grade).\n\t\t- - Instructor Prep subsection: prep time per module, required sample datasets, slide/handout placeholders, access checks to run before day 1.\n\t\t- Create a one-page delivery-readiness checklist (delivery_readiness_checklist.md) confirming accounts, datasets, environment checks, accessibility/ethics items, and contingency readiness.\n\t\t- Produce milestone_status_pre_capstone.md with pass/fail and any final decisions; update idea03_changelog.md.\n\t\t- Save outputs to ./artifacts/idea03/. Primary output for this step: final_outline.md.\n\n        ",
+    "timestamp": "2025-12-02 11:40:48",
+    "cost": {
+      "Agent": [
+        "planner_response_formatter",
+        "planner_response_formatter"
+      ],
+      "Model": [
+        "gpt-5-mini-2025-08-07",
+        "gpt-5-mini-2025-08-07"
+      ],
+      "Cost": [
+        0,
+        0
+      ],
+      "Prompt Tokens": [
+        1345,
+        3729
+      ],
+      "Completion Tokens": [
+        1530,
+        4172
+      ],
+      "Total Tokens": [
+        2875,
+        7901
+      ]
+    }
+  },
+  {
+    "name": "plan_recorder",
+    "content": null,
+    "timestamp": "2025-12-02 11:42:00",
+    "cost": {
+      "Agent": [
+        "plan_recorder",
+        "plan_recorder"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07",
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.03441875,
+        0.10691375
+      ],
+      "Prompt Tokens": [
+        1527,
+        4139
+      ],
+      "Completion Tokens": [
+        3251,
+        10174
+      ],
+      "Total Tokens": [
+        4778,
+        14313
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Planning stage complete. Exiting.",
+    "timestamp": "2025-12-02 11:42:00",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "terminator",
+    "content": null,
+    "timestamp": "2025-12-02 11:42:07",
+    "cost": {
+      "Agent": [
+        "terminator"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.02286375
+      ],
+      "Prompt Tokens": [
+        14547
+      ],
+      "Completion Tokens": [
+        468
+      ],
+      "Total Tokens": [
+        15015
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Session terminated.",
+    "timestamp": "2025-12-02 11:42:07",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the course description, target audience, and objectives.",
+                "List the essential competencies and practical skills required for a \"ChatGPT Pro Power User\" in no-code productivity and analysis.",
+                "Identify the main tools and features participants must master.",
+                "Note any potential challenges or gaps in the current course idea that might affect the development of competencies."
+            ],
+            "sub_task": "Analyze the course idea to identify core competencies and skills participants should develop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Specify what participants should know or be able to do before starting the course.",
+                "List any required accounts, technical setup, or prior experience.",
+                "Clearly highlight technical prerequisites (e.g., system requirements, account features).",
+                "Note fallback options if certain features (e.g., Custom GPT Builder) are unavailable."
+            ],
+            "sub_task": "Determine prerequisites and foundational knowledge required for participants.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline a sequence of modules that build upon each other.",
+                "Ensure coverage of all major tools and features as described in the course idea (e.g., ADA, Browse, Vision, etc.).",
+                "Briefly describe the focus of each module.",
+                "Briefly mention the expected progression in complexity from foundational to advanced."
+            ],
+            "sub_task": "Propose 8-10 main modules that logically progress from foundational to advanced topics.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For each module, provide a concise description of what the session covers.",
+                "List key takeaways—what participants will leave with.",
+                "Write specific learning goals using action verbs (e.g., \"Participants apply...\").",
+                "Name the tools and features covered in each module.",
+                "Estimate exercise duration for hands-on modules.",
+                "Highlight how each module’s activities contribute to the overall learning outcomes.",
+                "Incorporate assessment checkpoints (e.g., quick artifact-based reviews) where appropriate."
+            ],
+            "sub_task": "For each module, write a description, key takeaways, and specific learning goals.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module descriptions, learning goals, and takeaways into a clear, structured markdown outline.",
+                "Ensure the outline is comprehensive, logically ordered, and easy to follow.",
+                "Divide the markdown outline into clearly numbered sections with module titles, descriptions, learning goals (with actionable verbs), and takeaways.",
+                "Include a summary section for prerequisites and overall course objectives at the beginning for improved readability and coherence.",
+                "Do not include lesson content, slides, or exercise materials—focus strictly on structure and learning outcomes."
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Produce 5 end-to-end, no-code course concepts that progress from LLM basics to medium-level ChatGPT features; each must use the same machine-readable syllabus template (syllabus.csv).",
+                "For each idea include: (a) a timeboxed module plan summing to 24 hours with durations (hh:mm), (b) 6–8 modules, each with 1–2 measurable learning objectives using Bloom’s verbs (apply/analyze/evaluate), (c) a one-page course spec (title, target audience, prerequisites, total contact time), and (d) explicit tool coverage: Advanced Data Analysis, Browse, Vision (image/PDF/table), Image generation, file uploads/multi-file analysis, Custom Instructions/Memory, Custom GPTs (Builder, Knowledge files, no-code Actions), GPT Store, Teams/Enterprise features (shared workspaces, data controls, privacy).",
+                "Provide one representative “lab script” per idea (single exemplar): step-by-step no-code lab, sample input files, one sample prompt, and expected outputs to demonstrate feasibility; do not produce full labs for all modules at this step.",
+                "Add a pre-course setup checklist per idea: required accounts, example datasets/files (CSV, PDFs), sample Knowledge files, Teams/Enterprise permissions, instructor prep time estimate.",
+                "Include actionable prompt/workflow frameworks (ROLE–TASK–CONTEXT–FORMAT–CONSTRAINTS–EVALUATION, ReAct-style tool usage, checklist prompts, prompt versioning/A-B evaluation, lightweight retrieval via Knowledge files) and domain-agnostic tracks/examples (marketing, ops, finance, HR, legal, product).",
+                "Initialize and use shared artifact templates and naming conventions for all deliverables: syllabus.csv, rubric.csv, changelog.md (e.g., idea01_syllabus.csv); adhere to workload limits (standardized templates + one exemplar lab only)."
+            ],
+            "sub_task": "Generate 5 standardized, technically detailed 24-hour course ideas",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Score each idea on a 1–5 rubric across: scaffolding, pacing (24h realism), lab depth (hands-on vs demo), no-code feasibility, domain adaptability, governance/compliance readiness; submit rubric.csv with scores and 2–3 sentence justification per criterion (max 500–800 words per idea).",
+                "Mark any idea with average score < 3.0 for drop or radical revision; provide 2–4 concrete, prescriptive improvements per idea (e.g., replace generic Vision demo with PDF-table extraction lab; reallocate 30 minutes from Module 4 to Module 2).",
+                "Flag obsolete/risky assumptions (e.g., enterprise settings, privacy-sensitive data) and recommend exact contemporary alternatives or operational constraints.",
+                "Rank all ideas, recommend at least one to drop, and identify the top two to refine; record prioritized top-5 action items per idea; update changelog.md with critiques and decisions; use shared templates and naming conventions."
+            ],
+            "sub_task": "Critique the 5 ideas using a standardized rubric and prescribe fixes",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Select the top two ideas based on Step 2 rubric; for each, provide a revised timeboxed 24-hour syllabus (syllabus.csv) with module-level learning objectives mapped to specific assessment artifacts.",
+                "Deliver full lab plans for each module: step-by-step no-code flows, required sample files, instructor notes, expected artifacts; include concrete prompt/workflow templates per module using ROLE–TASK–CONTEXT–FORMAT–CONSTRAINTS–EVALUATION and at least two prompt-versioning examples for A/B evaluation.",
+                "Provide a complete assessment plan: rubrics for practical checkpoints and capstone with pass/fail criteria; include a short pre-course learner checklist and one-click shareable sample dataset/Knowledge file links or creation instructions.",
+                "Produce an annotated changelog.md listing every Step 2 critique and how it was addressed; ensure explicit tool coverage (ADA, Browse, Vision, Image gen, file analysis, Memory/Custom Instructions, Custom GPTs with Knowledge/Actions [no-code], GPT Store, Teams/Enterprise settings)."
+            ],
+            "sub_task": "Select top two by rubric and deliver revised, comparable 24-hour syllabi and labs",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Mock-teach each revised 24-hour schedule to identify overloaded modules (require > allocated time) and thin labs (insufficient steps to meet objectives); propose specific rebalancing actions per issue; keep critiques within 500–800 words per idea and list prioritized top-5 action items.",
+                "Conduct a governance/privacy audit for each idea: specify Teams/Enterprise settings (data controls, retention flags, access scopes), where anonymization is required, and add at least three compliance checklist items (e.g., do not upload PHI, use synthetic data, set workspace-level data retention = X days).",
+                "Define measurable outcome metrics per module (e.g., Module 3: 3-slide ADA summary scored 1–4 on correctness, clarity, citation, reproducibility) and update rubric.csv if needed.",
+                "State which idea is stronger, with a short justification tied to rubric scores and timeline feasibility; update changelog.md with findings and rebalancing recommendations."
+            ],
+            "sub_task": "Run timeline simulation, rebalance, and perform governance/privacy audit; compare the two",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Select the final idea weighing technical depth, tool coverage, actionable frameworks, no-code feasibility, governance readiness, and professional impact; justify selection briefly in changelog.md.",
+                "Deliver a concise positioning statement: target job roles, minimum prerequisites, measurable outcomes; add a 3-line elevator pitch.",
+                "Provide a two-paragraph instructor note: expected class size, facilitator-to-learner ratio for labs, recommended hardware/software setup.",
+                "Include an Enterprise customization note: which modules to swap or deepen for regulated domains (finance, health, legal); specify optional add-on micro-modules (1–4 hours) for deep dives (e.g., advanced Knowledge retrieval, building no-code Actions in Custom GPTs).",
+                "Ensure all outputs use shared templates and naming conventions (syllabus.csv, rubric.csv, changelog.md)."
+            ],
+            "sub_task": "Choose final course idea; provide positioning, instructor notes, and enterprise options",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a final title that clearly signals format and depth (e.g., “24-hour Intensive — Medium-level Technical Course (No-Code)”).",
+                "Write a five-sentence course description highlighting concrete tools (ADA, Browse, Vision, Image gen, file upload, Memory/Custom Instructions, Custom GPTs with Knowledge/Actions [no-code], GPT Store, Teams/Enterprise features), frameworks, hands-on labs, assessments, and outcomes.",
+                "Add a bulleted list of four concrete learner deliverables (e.g., prompt library of X prompts; one Custom GPT scaffold with Knowledge file; completed ADA notebook/report; governance checklist and SOP).",
+                "Include a 30-second marketing blurb and recommended next steps: two follow-up modules with duration and learning outcomes.",
+                "Confirm final artifacts are saved to shared templates (syllabus.csv, rubric.csv, changelog.md) with agreed naming conventions."
+            ],
+            "sub_task": "Publish the final title and five-sentence description plus deliverables and progression",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}

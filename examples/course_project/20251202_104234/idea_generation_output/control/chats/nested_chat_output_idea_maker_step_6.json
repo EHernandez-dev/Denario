@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Idea 1: Document Intelligence & Automation with ChatGPT \u2014 24-hour Intensive (No-Code)\n\t\t- Description (five sentences): This 24-hour intensive no-code course takes professionals from prompt and context fundamentals to medium-level, enterprise-ready document pipelines. You will master ChatGPT tools including Advanced Data Analysis (ADA), Browse, Vision for PDFs/tables/images, image generation, file uploads/multi-file analysis, Memory/Custom Instructions, and Custom GPTs with Knowledge and no-code Actions, plus GPT Store and Teams/Enterprise features. Using proven frameworks (RTCFCE, ReAct, checklist prompts, A/B prompt versioning), you\u2019ll run hands-on labs for dirty-scan OCR/extraction, normalization/QA, redlining, knowledge-backed Q&A, and governance. Assessment checkpoints and a capstone decision memo with SOP and governance checklist ensure measurable competency, grounded citations, and reproducible workflows. By the end, you will deliver a validated doc-to-decision workflow that is accurate, auditable, and ready for team deployment without writing code.\n\t\t- Learner deliverables (4):\n\t\t- - Prompt library: 10 RTCFCE prompts with A/B scores and selection rationale.\n\t\t- - Document extraction and QA pack: extracted CSV(s) from Vision/OCR dirty docs + error log + 5-point QA checklist.\n\t\t- - ADA normalization report: normalized.csv + anomaly report + change_log.csv demonstrating reproducibility.\n\t\t- - Custom GPT scaffold with Knowledge files and retrieval test_log.csv, plus a governance SOP and privacy checklist for your workflow.\n\t\t- 30-second marketing blurb: Turn messy PDFs and scans into decisions you can defend. In this hands-on, no-code intensive, you\u2019ll practice Vision/OCR for real-world documents, validate results in ADA, and stand up a Knowledge-backed Q&A assistant\u2014wrapped in governance that your enterprise can approve. We give you practical frameworks, checklists, and rubrics so your outputs are accurate, cited, and repeatable. Walk out with a capstone pipeline, SOP, and ready-to-share artifacts for your team.\n\t\t- Recommended next steps:\n\t\t- - Follow-up module 1 (2 hours): Advanced Knowledge Retrieval QA \u2014 Learning outcomes: configure multi-file Knowledge sets and achieve \u226595% grounded answers with correct abstention; build a 10-question retrieval QA suite with pass/fail criteria.\n\t\t- - Follow-up module 2 (3 hours): No-Code Actions via Structured Outputs \u2014 Learning outcomes: design stable JSON schemas for handoffs, validate schema conformance, and document a mock \u201cconsumer\u201d SOP for downstream tools.\n\t\t- Final artifacts saved (shared templates and naming conventions): idea03_syllabus.csv (rebalance applied: M2=4:00, M7=3:30, M1=2:30, M4=2:30), rubric.csv (final practical and capstone rubrics with pass thresholds), idea03_changelog.md (annotated with selection rationale, rebalancing, and governance audit).\n\n        ",
+    "timestamp": "2025-12-02 11:18:50",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "Cost": [
+        0
+      ],
+      "Prompt Tokens": [
+        830
+      ],
+      "Completion Tokens": [
+        1771
+      ],
+      "Total Tokens": [
+        2601
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-12-02 11:20:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.043112500000000005
+      ],
+      "Prompt Tokens": [
+        1466
+      ],
+      "Completion Tokens": [
+        4128
+      ],
+      "Total Tokens": [
+        5594
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251202_104234/idea_generation_output/control/ideas_20251202_112018.json\n",
+    "timestamp": "2025-12-02 11:20:18",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.043112500000000005
+      ],
+      "Prompt Tokens": [
+        1466
+      ],
+      "Completion Tokens": [
+        4128
+      ],
+      "Total Tokens": [
+        5594
+      ]
+    }
+  }
+]

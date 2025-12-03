@@ -1,0 +1,42 @@
+[
+  {
+    "Agent": "researcher response formatter",
+    "Cost ($)": 0.0,
+    "Prompt Tokens": 639971.0,
+    "Completion Tokens": 676005.0,
+    "Total Tokens": 1315976.0,
+    "Model": "gpt-5-mini-2025-08-07"
+  },
+  {
+    "Agent": "control starter",
+    "Cost ($)": 0.00688625,
+    "Prompt Tokens": 2781.0,
+    "Completion Tokens": 341.0,
+    "Total Tokens": 3122.0,
+    "Model": "gpt-5-2025-08-07"
+  },
+  {
+    "Agent": "researcher",
+    "Cost ($)": 23.91603375,
+    "Prompt Tokens": 12707499.0,
+    "Completion Tokens": 803166.0,
+    "Total Tokens": 13510665.0,
+    "Model": "gpt-5-2025-08-07"
+  },
+  {
+    "Agent": "control",
+    "Cost ($)": 2.14979625,
+    "Prompt Tokens": 1546389.0,
+    "Completion Tokens": 21681.0,
+    "Total Tokens": 1568070.0,
+    "Model": "gpt-5-2025-08-07"
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 26.072716250000003,
+    "Prompt Tokens": 14896640.0,
+    "Completion Tokens": 1501193.0,
+    "Total Tokens": 16397833.0,
+    "Model": NaN
+  }
+]

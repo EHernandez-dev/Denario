@@ -1,0 +1,72 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Extract audience and duration, then enumerate competencies aligned to the idea (prompting/context, Custom Instructions/Memory, Browse, ADA, Vision, Image Gen, Custom GPT Builder + Knowledge + no-code Actions pattern, Teams/Enterprise governance, end-to-end integration).",
+                "Translate each competency into observable behaviors and example assessment artifacts; map each to relevant module(s).",
+                "Assign difficulty (Foundational/Intermediate/Advanced) and estimated teaching time (minutes) to each competency.",
+                "Summarize constraints/emphases (context/memory depth, Vision and Custom GPT labs, feature-availability decision tree/fallbacks, synthetic datasets/redaction SOP, artifact-based quick checks) and list 3 risk areas (feature unavailability, privacy/PHI, tenant permissions).",
+                "Deliverables: core_competencies_matrix.xlsx; constraints_summary.md.",
+                "Acceptance check: every competency maps to at least one module and at least one artifact type; total estimated minutes are plausible against 24 hours."
+            ],
+            "sub_task": "Analyze the course idea and define core competencies with outputs and risks",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Create a Pre-course Readiness Checklist with binary Yes/No checks covering accounts, specific feature flags (ADA, Browse, Vision, Image Gen, Custom GPT Builder), browser and file-upload permissions, and hardware/browser norms.",
+                "Add stepwise fallback instructions per missing feature (e.g., ADA → spreadsheet + visual spec; Builder → simulate with base ChatGPT + files; Vision OCR issues → crop/re-upload + manual QA).",
+                "Specify required sample files with exact filenames and minimal content templates drawn from the idea (e.g., sales_q1_q4.csv, targets.csv, glossary.csv, Product_FAQ.docx, Policy_Guide.pdf, Brand_Guide.pdf) including headers and one illustrative row/page.",
+                "Deliverables: pre_course_checklist.pdf; fallback_instructions.md.",
+                "Acceptance check: an instructor can run the checklist end-to-end in ≤30 minutes; each missing feature has a clear fallback path."
+            ],
+            "sub_task": "Make prerequisites actionable and testable with fallbacks",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Propose the 8-module sequence (3 hours each) matching the syllabus themes and tool coverage; place assessment touchpoints after Modules 2, 4, 5, 7; capstone in Module 8.",
+                "For each module, break 180 minutes into segments (lecture/demo, hands-on lab, artifact review/peer QA, buffer/Q&A) and indicate short breaks across the day.",
+                "Map module artifacts to be produced (use the explicit filenames from the idea) and link to competencies from Step 1.",
+                "Identify conditional paths per module if a feature is unavailable and reference Step 2 fallbacks (e.g., “If Builder disabled → follow simulation path A”).",
+                "Deliverable: module_timing_plan.csv (module, segment, minutes).",
+                "Acceptance check: cumulative minutes across all modules = 24:00; total buffer time across course ≥30 minutes; each module lists artifacts and alternates where needed."
+            ],
+            "sub_task": "Tighten module sequencing, pacing, and alternates; produce timing plan",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Rewrite 4–6 learning goals per module as SMART, explicitly tying to measurable artifacts (e.g., “Participants produce a 150-word ADA summary with correct variance as summary.txt”).",
+                "List exact artifact filename(s) per module and one-line acceptance criteria for each artifact; include expected format.",
+                "Provide estimated hands-on minutes per module and 3 instructor lab cues (what to observe, common struggle, success indicator).",
+                "Deliverables: modules_learning_goals_and_artifacts.md; artifact_acceptance_criteria.csv.",
+                "Acceptance check: every module has at least one measurable artifact and one acceptance criterion; hands-on minutes align with Step 3 timing."
+            ],
+            "sub_task": "Make learning goals SMART and attach artifact templates and cues",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Create a QA & Assessment Checklist enumerating checkpoint artifacts (Modules 2, 4, 5, 7) with rubric thresholds (avg ≥3.0, no criterion <2) and remediation paths/timelines (≤1 week) for reassessment.",
+                "Add an accessibility checklist (alt-text, color contrast checks for images, plain language, captioning if any media) and require at least one accessibility test per relevant module.",
+                "Produce a Feature-failure test plan with 3 realistic failure scenarios (e.g., Vision OCR fails on skewed image, ADA not available, Browse blocked), each with an instructor fallback script.",
+                "Deliverables: qa_checklist.xlsx; accessibility_checks.md; failure_test_plan.md.",
+                "Acceptance check: QA checklist includes thresholds, remediation steps, and timeline; accessibility list is applicable to modules with images/docs; at least 3 failure scenarios have actionable scripts."
+            ],
+            "sub_task": "Strengthen QA with pass/fail rules, accessibility, and feature-failure tests",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Write the Course Outline in structured markdown including: title, duration, audience, prerequisites/readiness; modules table (title, duration, tools/features, description, key takeaways, SMART learning goals, hands-on minutes); explicit artifact filenames; assessment touchpoints; capstone expectations.",
+                "Add a Syllabus CSV crosswalk mapping each module to original idea01_syllabus.csv fields and artifacts for reconciliation by content creators.",
+                "Append 1-page Instructor Facilitation Notes per module with 5 cues: start phrase, demo checklist, common pitfall, fallback step, assessment cue.",
+                "Deliverables: course_outline.md; syllabus_crosswalk.csv; facilitation_notes.pdf.",
+                "Acceptance check: markdown includes all required fields; crosswalk covers all 8 modules and assessment touchpoints; notes reflect alternates and artifacts; tone matches senior-researcher guidance."
+            ],
+            "sub_task": "Produce the full Course Outline in structured markdown with crosswalks and facilitation notes",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

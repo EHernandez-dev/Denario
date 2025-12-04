@@ -1,3 +1,4 @@
+import os
 import re
 from pathlib import Path
 import cmbagent
@@ -5,6 +6,8 @@ import cmbagent
 from .key_manager import KeyManager
 from denario.prompts.course_idea import course_idea_planner_prompt
 from .utils import create_work_dir, get_task_result
+
+DELIBERATION_REPORT_FILE = "deliberation_report.md"
 
 class CourseIdea:
     """
@@ -51,7 +54,7 @@ class CourseIdea:
         # Set prompt
         self.planner_append_instructions = course_idea_planner_prompt
         
-    def generate(self, course_description: str) -> str:
+    def generate(self, course_description: str) -> tuple[str, str]:
         """
         Generates a course idea based on the course description.
 
@@ -59,12 +62,14 @@ class CourseIdea:
             course_description: Description including topic, target audience, and duration.
 
         Returns:
-            str: The generated course idea with title and description.
+            tuple[T]: A tuple containing:
+                - The generated course idea with title and description
+                - The deliberation report summarizing all ideas and selection rationale
         """
 
         results = cmbagent.planning_and_control_context_carryover(course_description,
                               n_plan_reviews = 1,
-                              max_plan_steps = 6,
+                              max_plan_steps = 7,
                               idea_maker_model = self.idea_maker_model,
                               idea_hater_model = self.idea_hater_model,
                               plan_instructions=self.planner_append_instructions,
@@ -77,7 +82,8 @@ class CourseIdea:
                              )
 
         chat_history = results['chat_history']
-        
+
+        # Extract the final course idea
         try:
             task_result = get_task_result(chat_history,'idea_maker_nest')
         except Exception as e:
@@ -87,4 +93,15 @@ class CourseIdea:
         replacement = "Course Idea:"
         task_result = re.sub(pattern, replacement, task_result)
 
-        return task_result
+        ### Extract the deliberation report from formatter
+        ##try:
+        ##    deliberation_report = get_task_result(chat_history, 'formatter_nest')
+        ##except Exception:
+        ##    deliberation_report = "Deliberation report not available."
+
+        ### Save the deliberation report to file
+        ##report_path = os.path.join(self.idea_dir, DELIBERATION_REPORT_FILE)
+        ##with open(report_path, 'w') as f:
+        ##    f.write(deliberation_report)
+
+        return task_result ##, deliberation_report

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Prompt-to-Production: The Professional\u2019s No\u2011Code Power-User Track\n\t\t- Outcome: Move from clean basics to medium\u2011level mastery\u2014design robust prompts, control style and structure, and ship reliable outputs in daily work.\n\t\t- Core techniques: ROLE\u2013TASK\u2013CONSTRAINT\u2013EXAMPLE (RTCE) prompt framework; context packaging with delimiters and variables; iterative prompting; self\u2011review loops; structured output patterns (JSON schemas, tables); response benchmarking and A/B testing.\n\t\t- ChatGPT tools/features: Custom Instructions and Memory; Advanced Data Analysis (for batch prompting, scoring, and templating); Browsing (for citations and verification); file uploads (docs, PDFs, CSVs); Regenerate/Compare; shared links; prompt templates.\n\t\t- Context optimization: chunking and window budgeting; rolling summaries; few\u2011shot exemplars vs. instruction bias; persona anchoring via Custom Instructions.\n\t\t- Deliverables: a reusable prompt library with templates for briefs, emails, reports; a \u201cquality checklist\u201d rubric; a structured-output schema pack for consistent handoffs to colleagues.\n\n- Idea 2:\n\t* Build Your Departmental Co\u2011Pilot: Custom GPTs, Knowledge, and Actions (No Code)\n\t\t- Outcome: Design specialized assistants for your team (e.g., legal clause reviewer, sales brief generator, research digester) using the GPT Builder\u2014no coding required.\n\t\t- ChatGPT tools/features: Custom GPTs; Knowledge files (private corpora, playbooks, PDFs); conversation starters; output style presets; role scoping; GPT Store publishing (private or org); versioning; access controls.\n\t\t- Medium-level features: Actions (no\u2011code API connections using provided OpenAPI specs from IT); schema\u2011guided outputs; response guards; test conversations; usage analytics cues.\n\t\t- Frameworks: 'Assistant Canvas' (Purpose \u2192 Inputs \u2192 Knowledge \u2192 Tools \u2192 Constraints \u2192 Output Schema \u2192 QA checks); governance checklists; evaluation sets for acceptance criteria.\n\t\t- Deliverables: two production\u2011ready Custom GPTs per learner (with knowledge packs, output schemas, and QA prompts) plus a governance one\u2011pager for stakeholders.\n\n- Idea 3:\n\t* Data\u2011to\u2011Decision: Analysis, Visualization, and Reporting with Advanced Data Analysis\n\t\t- Outcome: Turn spreadsheets, CSVs, and PDFs into insights and executive\u2011ready narratives without writing code.\n\t\t- ChatGPT tools/features: Advanced Data Analysis (for data cleaning, joins, pivots, visualizations, regression/segmentation); file uploads (multi\u2011file); document parsing; Browsing for contextual enrichment and citations.\n\t\t- Techniques: question-to-analysis scaffolds; insight trees; confidence and caveat prompts; executive summary distillation; reproducible 'analysis playbooks' with saved instructions and input templates.\n\t\t- Medium-level features: batch runs over multiple files; chart spec prompting; structured outputs to CSV/JSON; table-to-slide outlines; automated appendix generation.\n\t\t- Deliverables: a reusable analysis notebook per learner, a chart style guide prompt, and a one\u2011click report template that converts findings into briefings.\n\n- Idea 4:\n\t* Multimodal Mastery: Vision, Voice, and Document Automation for Professionals\n\t\t- Outcome: Use images, diagrams, scanned docs, and voice to accelerate reviews, audits, and content creation.\n\t\t- ChatGPT tools/features: Vision (image understanding, diagram reading, table extraction); PDF/Doc uploads; voice mode (dictation, read\u2011back); image generation for mockups or illustrations.\n\t\t- Techniques: layout-aware extraction prompts; table reconstruction; slide/storyboard generation; voice\u2011driven drafting; multimodal QA checklists; promptable OCR cleanup and formatting.\n\t\t- Medium-level features: image\u2011to\u2011spec summaries; design critique rubrics; document redlining suggestions; style transfer with few\u2011shot examples; structured outputs (markdown/JSON) for downstream tools.\n\t\t- Deliverables: a document\u2011to\u2011slide pipeline template, an image/diagram analysis playbook, and a voice\u2011enabled review workflow.\n\n- Idea 5:\n\t* Reliable AI at Work: Verification, Safety, and Compliance Playbook\n\t\t- Outcome: Make ChatGPT outputs trustable, traceable, and compliant in professional settings.\n\t\t- ChatGPT tools/features: Browsing for source\u2011backed answers; Advanced Data Analysis for batch evaluation and rubric scoring; Memory for stable preferences; Custom Instructions for guardrails; shared links for audits.\n\t\t- Techniques: verification chains (research \u2192 synthesis \u2192 citation check \u2192 risk note); hallucination mitigation (retrieve/quote/compare); self\u2011critique prompts; red\u2011team prompts; PII sanitization patterns; sensitive data handling.\n\t\t- Medium-level features: evaluation sets (test inputs and golden answers) to measure quality; schema\u2011locked outputs for audit; prompt fallbacks and 'escalate-to-human' triggers.\n\t\t- Deliverables: a compliance prompt kit, evaluation scorecards with thresholds, and a documented assurance workflow integrated into day\u2011to\u2011day tasks.\n\n        ",
+    "timestamp": "2025-12-03 18:02:22",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0080047
+      ],
+      "Prompt Tokens": [
+        1261
+      ],
+      "Completion Tokens": [
+        1504
+      ],
+      "Total Tokens": [
+        2765
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-12-03 18:02:32",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0124
+      ],
+      "Prompt Tokens": [
+        2252
+      ],
+      "Completion Tokens": [
+        987
+      ],
+      "Total Tokens": [
+        3239
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251203_175854/idea_generation_output/control/ideas_20251203_180232.json\n",
+    "timestamp": "2025-12-03 18:02:32",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.0124
+      ],
+      "Prompt Tokens": [
+        2252
+      ],
+      "Completion Tokens": [
+        987
+      ],
+      "Total Tokens": [
+        3239
+      ]
+    }
+  }
+]

@@ -80,3 +80,53 @@ Each module should have 3-5 takeaways.
 At the end of the outline, include links to further resources that the course organizer can use to prepare the course.
 Also include links to resources that participants can use to learn further
 """
+
+
+# Extended outline prompts (instructor-focused with deep research)
+
+extended_outline_planner_prompt = r"""
+{course_idea}
+
+Instruction for planning:
+
+Given this course idea and the outline provided with learning goals and module structure, we want to create an EXTENDED INSTRUCTOR OUTLINE.
+This outline helps speakers/instructors prepare and teach the course effectively.
+
+- Start by requesting the *researcher* to analyze the student outline's modules and learning goals
+- For EACH MODULE, ask the *researcher* to write:
+  1. Do DEEP RESEARCH on each topic using web search to find current, authoritative resources
+  2. A detailed description (2-4 paragraphs) explaining topics covered and their implications
+  3. Instructor knowledge requirements (what they need to know to teach this module)
+  4. Teaching tips and common pitfalls to avoid
+  5. 3-5 instructor resources with real URLs (found via web search)
+  6. Exercise description with duration estimates
+
+- The *researcher* MUST use web search to find current, authoritative resources for instructor preparation
+- IMPORTANT: Follow the SAME module structure as the student outline
+- If after the research you would propose different modules, add it as a brief comment at the end of the outline and justify why
+- Focus on what the INSTRUCTOR needs to know and prepare, not just student-facing content
+- Be thorough about tools, features, and concepts the instructor must understand deeply
+
+The final step of the plan must produce the complete Extended Instructor Outline in structured markdown format.
+
+The only agent involved in this workflow is the researcher.
+
+In this task we create an instructor preparation guide with deep research, not student-facing materials.
+"""
+
+extended_outline_researcher_prompt = r"""
+{course_idea}
+
+Create an EXTENDED INSTRUCTOR OUTLINE to help speakers/instructors prepare and teach this course effectively.
+
+CRITICAL: You MUST use web search to find real, current resources for each module. This is essential for instructor preparation.
+
+Guidelines for creating the extended outline:
+- Organize content from foundational to advanced concepts (scaffolded learning progression)
+- Ensure logical flow where each module builds on previous ones
+- Focus on what the INSTRUCTOR needs to know to teach this material well
+- Use web search to find authoritative, current resources for instructor preparation
+- Be thorough about which tools and features the instructor must understand deeply
+- Include common student questions and how to address them
+
+The extended outline MUST be written in markdown format with the following structure:

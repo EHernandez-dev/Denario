@@ -1,25 +1,32 @@
 import re
 from pathlib import Path
+from typing import Literal
 import cmbagent
 
 from .key_manager import KeyManager
-from denario.prompts.course_outline import course_outline_planner_prompt, course_outline_researcher_prompt
+from denario.prompts.course_outline import (
+    course_outline_planner_prompt,
+    course_outline_researcher_prompt,
+    extended_outline_planner_prompt,
+    extended_outline_researcher_prompt,
+)
 from .utils import create_work_dir, get_task_result
 
 
 class CourseOutline:
     """
-    This class is used to develop a course outline based on a course idea.
+    Generates a course outline based on a course idea.
 
-    It uses the `researcher` agent to create a structured course outline with:
-    - Modules organized from foundational to advanced concepts
-    - Description, Takeaways, and Learning Goals for each module
-    - Exercise duration estimates
+    Supports two outline types:
+    - "standard": Student-focused outline with takeaways and learning goals
+    - "extended": Instructor-focused outline with detailed descriptions,
+                  knowledge requirements, teaching tips, and web resources
 
     Args:
         course_idea: The course idea including topic, target audience, and duration.
         keys: KeyManager instance with API keys.
         work_dir: Working directory for output files.
+        outline_type: Type of outline - "standard" (default) or "extended".
         researcher_model: LLM model for the researcher agent.
         planner_model: LLM model for the planner agent.
         plan_reviewer_model: LLM model for the plan reviewer agent.
@@ -31,6 +38,7 @@ class CourseOutline:
                  course_idea: str,
                  keys: KeyManager,
                  work_dir: str | Path,
+                 outline_type: Literal["standard", "extended"] = "standard",
                  researcher_model: str = "gpt-4.1-2025-04-14",
                  planner_model: str = "gpt-4.1-2025-04-14",
                  plan_reviewer_model: str = "o3-mini",
@@ -38,6 +46,7 @@ class CourseOutline:
                  formatter_model: str = "o3-mini",
                 ):
 
+        self.outline_type = outline_type
         self.researcher_model = researcher_model
         self.planner_model = planner_model
         self.plan_reviewer_model = plan_reviewer_model
@@ -45,11 +54,23 @@ class CourseOutline:
         self.formatter_model = formatter_model
         self.api_keys = keys
 
-        self.outline_dir = create_work_dir(work_dir, "course_outline")
-
-        # Set prompts with course_idea formatted in
-        self.planner_append_instructions = course_outline_planner_prompt.format(course_idea=course_idea)
-        self.researcher_append_instructions = course_outline_researcher_prompt.format(course_idea=course_idea)
+        # Select prompts and output directory based on outline_type
+        if outline_type == "extended":
+            self.planner_append_instructions = extended_outline_planner_prompt.format(
+                course_idea=course_idea
+            )
+            self.researcher_append_instructions = extended_outline_researcher_prompt.format(
+                course_idea=course_idea
+            )
+            self.outline_dir = create_work_dir(work_dir, "extended_outline_generation")
+        else:
+            self.planner_append_instructions = course_outline_planner_prompt.format(
+                course_idea=course_idea
+            )
+            self.researcher_append_instructions = course_outline_researcher_prompt.format(
+                course_idea=course_idea
+            )
+            self.outline_dir = create_work_dir(work_dir, "course_outline_generation")
 
     def generate(self, course_description: str = "") -> str:
         """
@@ -67,11 +88,14 @@ class CourseOutline:
         if not course_description:
             course_description = "Generate the course outline based on the course idea provided above."
 
+        # Use more plan steps for extended outline (deep research needs more steps)
+        max_plan_steps = 10 if self.outline_type == "extended" else 6
+
         results = cmbagent.planning_and_control_context_carryover(
             course_description,
             n_plan_reviews=1,
             max_n_attempts=4,
-            max_plan_steps=6,
+            max_plan_steps=max_plan_steps,
             researcher_model=self.researcher_model,
             planner_model=self.planner_model,
             plan_reviewer_model=self.plan_reviewer_model,

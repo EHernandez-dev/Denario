@@ -16,6 +16,7 @@ INPUT_FILES = "input_files"
 TOPIC_FILE = "topic.md"
 IDEA_FILE = "idea.md"
 OUTLINE_FILE = "outline.md"
+EXTENDED_OUTLINE_FILE = "extended_outline.md"
 DELIBERATION_REPORT_FILE = "deliberation_report.md"
 
 
@@ -92,6 +93,7 @@ class CourseCreator:
         self.idea: str = ""
         self.deliberation_report: str = ""
         self.outline: str = ""
+        self.extended_outline: str = ""
         self.slides_dir: Path | None = None
 
         # Try to load existing files
@@ -125,6 +127,16 @@ class CourseCreator:
             outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
             with open(outline_path, 'r') as f:
                 self.outline = f.read()
+        except FileNotFoundError:
+            pass
+
+        # Load extended outline
+        try:
+            extended_outline_path = os.path.join(
+                self.work_dir, INPUT_FILES, EXTENDED_OUTLINE_FILE
+            )
+            with open(extended_outline_path, 'r') as f:
+                self.extended_outline = f.read()
         except FileNotFoundError:
             pass
 
@@ -201,6 +213,32 @@ Duration: {duration}
         with open(outline_path, 'w') as f:
             f.write(outline)
 
+    def set_extended_outline(self, extended_outline: str | None = None) -> None:
+        """
+        Manually set an extended course outline.
+
+        Args:
+            extended_outline: Extended outline as string or path to markdown file.
+                              If None, tries to load from extended_outline.md.
+        """
+        if extended_outline is None:
+            extended_outline_path = os.path.join(
+                self.work_dir, INPUT_FILES, EXTENDED_OUTLINE_FILE
+            )
+            with open(extended_outline_path, 'r') as f:
+                extended_outline = f.read()
+        else:
+            extended_outline = input_check(extended_outline)
+
+        self.extended_outline = extended_outline
+
+        # Save to file
+        extended_outline_path = os.path.join(
+            self.work_dir, INPUT_FILES, EXTENDED_OUTLINE_FILE
+        )
+        with open(extended_outline_path, 'w') as f:
+            f.write(extended_outline)
+
     # ---
     # Printers
     # ---
@@ -225,11 +263,18 @@ Duration: {duration}
         self._printer(self.idea)
 
     def show_outline(self) -> None:
-        """Show the generated or set course outline."""
+        """Show the generated or set course outline (student-focused)."""
         if not self.outline:
             print("No outline generated yet. Run generate_outline() first.")
             return
         self._printer(self.outline)
+
+    def show_extended_outline(self) -> None:
+        """Show the generated extended instructor outline."""
+        if not self.extended_outline:
+            print("No extended outline generated yet. Run generate_outline() first.")
+            return
+        self._printer(self.extended_outline)
 
     def show_deliberation_report(self) -> None:
         """Show the deliberation report from idea generation."""
@@ -292,9 +337,14 @@ Duration: {duration}
                          plan_reviewer_model: str = "o3-mini",
                          orchestration_model: str = "gpt-4.1",
                          formatter_model: str = "o3-mini",
+                         generate_extended: bool = True,
                          ) -> None:
         """
-        Generate a course outline based on the course idea.
+        Generate course outlines (student outline, optionally extended instructor outline).
+
+        Uses Backward Design approach:
+        1. First generates student outline (defines learning goals, structure)
+        2. Optionally generates extended instructor outline (researches how to teach those goals)
 
         Args:
             researcher_model: LLM for the researcher agent.
@@ -302,16 +352,19 @@ Duration: {duration}
             plan_reviewer_model: LLM for the plan reviewer agent.
             orchestration_model: LLM for orchestration.
             formatter_model: LLM for formatting responses.
+            generate_extended: If True (default), also generates extended instructor outline.
         """
         if not self.idea:
             raise ValueError("No course idea available. Call generate_idea() or set_idea() first.")
 
-        print("Generating course outline...")
+        # --- Step 1: Generate STUDENT outline (define learning goals) ---
+        print("Generating student outline (learning goals and structure)...")
 
-        course_outline = CourseOutline(
+        standard_outline_gen = CourseOutline(
             course_idea=self.idea,
             keys=self.keys,
             work_dir=self.work_dir,
+            outline_type="standard",
             researcher_model=researcher_model,
             planner_model=planner_model,
             plan_reviewer_model=plan_reviewer_model,
@@ -319,14 +372,50 @@ Duration: {duration}
             formatter_model=formatter_model,
         )
 
-        self.outline = course_outline.generate()
+        self.outline = standard_outline_gen.generate()
 
-        # Save to file
+        # Save student outline
         outline_path = os.path.join(self.work_dir, INPUT_FILES, OUTLINE_FILE)
         with open(outline_path, 'w') as f:
             f.write(self.outline)
 
-        print("Course outline generated successfully.")
+        print("Student outline generated successfully.")
+
+        # --- Step 2: Generate EXTENDED outline (research how to teach the goals) ---
+        if generate_extended:
+            print("Generating extended instructor outline (deep research on teaching methods)...")
+
+            # Pass student outline as context - extended outline will research HOW to teach these goals
+            idea_with_student_outline = f"""{self.idea}
+
+---
+STUDENT OUTLINE (learning goals to teach):
+{self.outline}
+---
+
+Based on the learning goals above, create an extended instructor outline with deep research.
+"""
+
+            extended_outline_gen = CourseOutline(
+                course_idea=idea_with_student_outline,
+                keys=self.keys,
+                work_dir=self.work_dir,
+                outline_type="extended",
+                researcher_model=researcher_model,
+                planner_model=planner_model,
+                plan_reviewer_model=plan_reviewer_model,
+                orchestration_model=orchestration_model,
+                formatter_model=formatter_model,
+            )
+
+            self.extended_outline = extended_outline_gen.generate()
+
+            # Save extended outline
+            extended_outline_path = os.path.join(self.work_dir, INPUT_FILES, EXTENDED_OUTLINE_FILE)
+            with open(extended_outline_path, 'w') as f:
+                f.write(self.extended_outline)
+
+            print("Extended instructor outline generated successfully.")
 
     def run(self,
             idea_maker_model: str = "gpt-4o",

@@ -16,6 +16,7 @@ INPUT_FILES = "input_files"
 TOPIC_FILE = "topic.md"
 IDEA_FILE = "idea.md"
 OUTLINE_FILE = "outline.md"
+DELIBERATION_REPORT_FILE = "deliberation_report.md"
 
 
 class CourseCreator:
@@ -89,6 +90,7 @@ class CourseCreator:
         self.audience: str = ""
         self.duration: str = ""
         self.idea: str = ""
+        self.deliberation_report: str = ""
         self.outline: str = ""
         self.slides_dir: Path | None = None
 
@@ -229,6 +231,13 @@ Duration: {duration}
             return
         self._printer(self.outline)
 
+    def show_deliberation_report(self) -> None:
+        """Show the deliberation report from idea generation."""
+        if not self.deliberation_report:
+            print("No deliberation report available. Run generate_idea() first.")
+            return
+        self._printer(self.deliberation_report)
+
     # ---
     # Generators
     # ---
@@ -270,7 +279,7 @@ Duration: {duration}
 
         self.idea = course_idea.generate(self._topic_description)
 
-        # Save to file
+        # Save idea to file
         idea_path = os.path.join(self.work_dir, INPUT_FILES, IDEA_FILE)
         with open(idea_path, 'w') as f:
             f.write(self.idea)

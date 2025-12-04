@@ -1,0 +1,77 @@
+[
+  {
+    "name": "idea_maker_response_formatter",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Prompt\u2011to\u2011Production: ChatGPT Power\u2011User Proficiency for Professionals (No Code)\n\t\t- A 24\u2011hour, hands\u2011on course that takes you from clean prompt and context fundamentals to medium\u2011level mastery for reliable day\u2011to\u2011day outputs\u2014no coding required.\n\t\t- You\u2019ll use Custom Instructions and Memory, file uploads (docs/PDFs/CSVs), Advanced Data Analysis, Browsing, Regenerate/Compare, and Shared Links to build repeatable workflows for emails, briefs, and reports.\n\t\t- We\u2019ll apply RTCE prompt framing, Context Packaging (delimiters, variables, rolling summaries), Schema Guarding for JSON/table outputs with self\u2011repair, and a Verification Chain (draft \u2192 self\u2011critique \u2192 source check \u2192 risk note).\n\t\t- Labs produce a reusable prompt library, a schema pack, and a hybrid evaluation kit that combines ADA scoring with human rubrics; privacy is built\u2011in via PII redaction patterns and an IT/legal checklist.\n\t\t- Feature fallbacks ensure progress even without Browsing or ADA (e.g., citation paraphrase and manual scorecards), so you leave with review\u2011ready assets you can adopt immediately in your workplace.\n\n        ",
+    "timestamp": "2025-12-03 18:08:26",
+    "cost": {
+      "Agent": [
+        "idea_maker_response_formatter"
+      ],
+      "Model": [
+        "o3-mini-2025-01-31"
+      ],
+      "Cost": [
+        0.0037598
+      ],
+      "Prompt Tokens": [
+        478
+      ],
+      "Completion Tokens": [
+        735
+      ],
+      "Total Tokens": [
+        1213
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": null,
+    "timestamp": "2025-12-03 18:08:28",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003316
+      ],
+      "Prompt Tokens": [
+        662
+      ],
+      "Completion Tokens": [
+        249
+      ],
+      "Total Tokens": [
+        911
+      ]
+    }
+  },
+  {
+    "name": "idea_saver",
+    "content": "\nIdeas saved in /Users/elenahernandez/projects/agents/Denario/examples/course_project/20251203_175854/idea_generation_output/control/ideas_20251203_180828.json\n",
+    "timestamp": "2025-12-03 18:08:28",
+    "cost": {
+      "Agent": [
+        "idea_saver"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.003316
+      ],
+      "Prompt Tokens": [
+        662
+      ],
+      "Completion Tokens": [
+        249
+      ],
+      "Total Tokens": [
+        911
+      ]
+    }
+  }
+]

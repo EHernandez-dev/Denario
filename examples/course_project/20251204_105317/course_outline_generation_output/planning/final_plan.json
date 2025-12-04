@@ -1,0 +1,63 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the final course idea (AI-Assisted Legacy Code Deep-Dive: Explain → Test → Refactor)",
+                "Briefly describe common issues with legacy code in STEM environments (e.g., lack of tests, unclear logic, numerical correctness, maintainability)",
+                "Identify the essential competencies and skills participants should develop, ensuring alignment with real-world STEM challenges",
+                "Consider the target audience (STEM professionals, mixed-skill levels) and the 1-day duration"
+            ],
+            "sub_task": "Analyze the selected course idea, identify core competencies and skills, and provide context on legacy code issues in STEM",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Specify what knowledge, skills, and tools participants should have before attending",
+                "List required software, environment setup, and prior experience",
+                "Detail expected familiarity with AI-assisted tools (e.g., Copilot Chat, ChatGPT) and basic Python testing frameworks"
+            ],
+            "sub_task": "Determine prerequisites for participants, including technical and tool familiarity",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline a sequence of modules that scaffold learning from basics to advanced application",
+                "Ensure each module addresses a distinct aspect of the workflow (e.g., code comprehension, test generation, refactoring, parity checks)",
+                "Clearly justify transitions between modules (e.g., comprehension → test generation → refactoring)",
+                "Briefly describe the focus of each module"
+            ],
+            "sub_task": "Propose 8-10 main modules with clear sequential connections and transition justifications",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For every module, provide:",
+                "A concise description of what the session covers",
+                "Key takeaways (what participants will leave with)",
+                "Learning goals, phrased as \"Participants [action verb]...\"",
+                "Explicitly name the tools and features covered in each module",
+                "Highlight common pitfalls and best practices, especially how tools (e.g., golden-master tests, mypy/ruff) mitigate risks"
+            ],
+            "sub_task": "For each module, write a description, key takeaways, learning goals, and include pitfalls/best practices",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "For each hands-on or practical module, estimate the time required for exercises",
+                "Allocate time for Q&A and troubleshooting within the 1-day workshop structure",
+                "Ensure the total hands-on and support time fits within a realistic 1-day schedule"
+            ],
+            "sub_task": "Estimate exercise durations for hands-on modules and allocate time for Q&A/troubleshooting",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Compile all module descriptions, learning goals, key takeaways, exercise durations, and Q&A allocations into a clear, structured markdown outline",
+                "Ensure the outline is comprehensive, logically ordered, and ready for review or further development",
+                "Include a final summary/wrap-up section that recaps key learning outcomes and offers suggestions for further self-study or follow-up workshops"
+            ],
+            "sub_task": "Write the full Course Outline in structured markdown format, including a final summary/wrap-up section",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

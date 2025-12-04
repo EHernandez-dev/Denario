@@ -1,0 +1,124 @@
+[
+  {
+    "content": "\nTopic: AI assisted coding \nTarget Audience: Professionals in STEM fields with a basic/medium programming background that want to improve their productivity and coding skills using AI assisted coding.\nDuration: 1 day\n",
+    "role": "assistant"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_9crILmqp7jj02hLbEz10n0km",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":1,\"current_sub_task\":\"Generate 5 new course ideas related to AI assisted coding.\",\"current_instructions\":\"- Focus on technical depth, specific tools, and actionable frameworks.\\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\\n- Consider the target audience's background in STEM and programming.\\n- Ensure ideas are suitable for a 1-day course duration.\",\"agent_for_sub_task\":\"idea_maker\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 1 out of 7.\n \n**Sub-task:** Generate 5 new course ideas related to AI assisted coding.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Focus on technical depth, specific tools, and actionable frameworks.\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\n- Consider the target audience's background in STEM and programming.\n- Ensure ideas are suitable for a 1-day course duration.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_9crILmqp7jj02hLbEz10n0km",
+        "role": "tool",
+        "content": "\n**Step number:** 1 out of 7.\n \n**Sub-task:** Generate 5 new course ideas related to AI assisted coding.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Focus on technical depth, specific tools, and actionable frameworks.\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\n- Consider the target audience's background in STEM and programming.\n- Ensure ideas are suitable for a 1-day course duration.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "**Ideas:**\n   - Idea 1: Spec-to-Ship with AI Pair Programming (VS Code + Copilot + ChatGPT)\n         * Build a small, production-ready Python library from a plain-English spec using GitHub Copilot and ChatGPT inside VS Code, with tests, docs, and CI.\n         * Tools: VS Code, GitHub Copilot/Copilot Chat, ChatGPT, pytest, hypothesis, black/ruff, mypy, Git/GitHub, GitHub Actions.\n         * Frameworks and patterns: Spec-Plan-Implement-Test prompting, Rubber-duck error triage prompts, AI-assisted code review checklist.\n         * Labs: translate a user story into a typed module; generate unit/property tests first; implement with Copilot; set up CI and coverage; AI-assisted refactor and docstrings; publish to a private repo.\n         * Outcomes: measurable time-to-implementation reduction, \u226585% test coverage, typed API surface, reproducible CI pipeline, and a reusable prompt template pack.\n\n   - Idea 2: AI-Accelerated Data Analysis and Simulation (Jupyter + Copilot + Tabnine + ChatGPT)\n         * Supercharge notebooks for data analysis and scientific simulation with AI\u2014vectorize code, fix bottlenecks, and generate visualizations and reports.\n         * Tools: JupyterLab/VS Code Notebooks, GitHub Copilot, Tabnine, ChatGPT, NumPy/Pandas/Matplotlib/SciPy, line_profiler/cProfile, nbdev for notebook-to-package workflow.\n         * Frameworks and patterns: Spec-Impl-Verify prompt loop, Optimizer pattern for profiling suggestions, \u201cGuardrail prompts\u201d to avoid hallucinated API calls.\n         * Labs: load and explore a dataset; AI-suggested feature engineering; simulate an ODE or PDE step; profile and vectorize hot spots; generate an executive-ready notebook report; convert to a tested module with nbdev.\n         * Outcomes: 2\u20133x speedup on a hotspot, reproducible notebook with tests, and a checklist for safe AI use in data/science workflows.\n\n   - Idea 3: AI-Assisted Refactoring and Porting of Legacy STEM Code\n         * Use AI to understand, document, test, and refactor legacy scripts (e.g., MATLAB/R/Fortran/C++ to modern Python), with safeguards to verify correctness.\n         * Tools: ChatGPT and Copilot Chat for code explanation, pytest/GoogleTest/MATLAB Unit Testing Framework, mypy/clang-tidy/ruff, Git, diff tooling.\n         * Frameworks and patterns: \u201cExplain-Extract-Test-Refactor\u201d pipeline, Golden-master tests for parity, Interface-first porting prompts.\n         * Labs: select a legacy function; have AI generate docstrings and call graphs; create characterization tests; refactor for readability and types; optionally port a small component to Python with parity tests.\n         * Outcomes: documented before/after diffs, test suite ensuring behavioral equivalence, and a repeatable playbook for de-risked modernization.\n\n   - Idea 4: Ship a Scientific API in a Day with AI (FastAPI + Copilot + ChatGPT)\n         * Wrap a scientific model or algorithm as a secure, documented REST API using AI to scaffold endpoints, validation, tests, and Docker packaging.\n         * Tools: FastAPI/Pydantic, Pytest/HTTPX, GitHub Copilot, ChatGPT, Uvicorn, Docker, GitHub Actions for CI.\n         * Frameworks and patterns: Contract-first prompting (OpenAPI-first), \u201cSpec-Stub-Implement-LoadTest\u201d loop, AI-generated negative tests and schema validation.\n         * Labs: define OpenAPI spec; AI-generate FastAPI scaffolding and pydantic models; implement algorithm endpoint; add tests and rate limiting; containerize and smoke-test; optional simple front-end client generation.\n         * Outcomes: a working containerized API with tests and CI, OpenAPI docs, and a template repo for future services.\n\n   - Idea 5: AI-Driven Test-First Development (Property-Based + Mocks)\n         * Practice TDD accelerated by AI: generate edge-case and property-based tests first, then implement robust algorithms guided by Copilot/Tabnine.\n         * Tools: GitHub Copilot/Tabnine, ChatGPT, pytest, hypothesis, pytest-mock, coverage.py; for C++ tracks, GoogleTest/GoogleMock; for MATLAB, Unit Testing Framework.\n         * Frameworks and patterns: \u201cRequirements \u2192 Properties \u2192 Tests \u2192 Code\u201d prompt chain, Failure-first debugging prompts, AI-assisted mutation testing checklist.\n         * Labs: choose from algorithmic katas relevant to STEM (e.g., Kalman filter update, PID controller step, Dijkstra); generate properties and tests; implement iteratively; measure coverage and mutation score; add CI.\n         * Outcomes: production-grade test suites with high coverage and stronger oracles, a TDD prompt library, and quantified defect detection improvements.",
+    "name": "idea_maker",
+    "role": "user"
+  },
+  {
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Idea 1: Spec-to-Ship with AI Pair Programming (VS Code + Copilot + ChatGPT)\n\t\t- Build a small, production-ready Python library from a plain-English spec using GitHub Copilot and ChatGPT inside VS Code, with tests, docs, and CI.\n\t\t- Tools: VS Code, GitHub Copilot/Copilot Chat, ChatGPT, pytest, hypothesis, black/ruff, mypy, Git/GitHub, GitHub Actions.\n\t\t- Frameworks and patterns: Spec-Plan-Implement-Test prompting, Rubber-duck error triage prompts, AI-assisted code review checklist.\n\t\t- Labs: translate a user story into a typed module; generate unit/property tests first; implement with Copilot; set up CI and coverage; AI-assisted refactor and docstrings; publish to a private repo.\n\t\t- Outcomes: measurable time-to-implementation reduction, \u226585% test coverage, typed API surface, reproducible CI pipeline, and a reusable prompt template pack.\n\n- Idea 2:\n\t* Idea 2: AI-Accelerated Data Analysis and Simulation (Jupyter + Copilot + Tabnine + ChatGPT)\n\t\t- Supercharge notebooks for data analysis and scientific simulation with AI\u2014vectorize code, fix bottlenecks, and generate visualizations and reports.\n\t\t- Tools: JupyterLab/VS Code Notebooks, GitHub Copilot, Tabnine, ChatGPT, NumPy/Pandas/Matplotlib/SciPy, line_profiler/cProfile, nbdev for notebook-to-package workflow.\n\t\t- Frameworks and patterns: Spec-Impl-Verify prompt loop, Optimizer pattern for profiling suggestions, \u201cGuardrail prompts\u201d to avoid hallucinated API calls.\n\t\t- Labs: load and explore a dataset; AI-suggested feature engineering; simulate an ODE or PDE step; profile and vectorize hot spots; generate an executive-ready notebook report; convert to a tested module with nbdev.\n\t\t- Outcomes: 2\u20133x speedup on a hotspot, reproducible notebook with tests, and a checklist for safe AI use in data/science workflows.\n\n- Idea 3:\n\t* Idea 3: AI-Assisted Refactoring and Porting of Legacy STEM Code\n\t\t- Use AI to understand, document, test, and refactor legacy scripts (e.g., MATLAB/R/Fortran/C++ to modern Python), with safeguards to verify correctness.\n\t\t- Tools: ChatGPT and Copilot Chat for code explanation, pytest/GoogleTest/MATLAB Unit Testing Framework, mypy/clang-tidy/ruff, Git, diff tooling.\n\t\t- Frameworks and patterns: \u201cExplain-Extract-Test-Refactor\u201d pipeline, Golden-master tests for parity, Interface-first porting prompts.\n\t\t- Labs: select a legacy function; have AI generate docstrings and call graphs; create characterization tests; refactor for readability and types; optionally port a small component to Python with parity tests.\n\t\t- Outcomes: documented before/after diffs, test suite ensuring behavioral equivalence, and a repeatable playbook for de-risked modernization.\n\n- Idea 4:\n\t* Idea 4: Ship a Scientific API in a Day with AI (FastAPI + Copilot + ChatGPT)\n\t\t- Wrap a scientific model or algorithm as a secure, documented REST API using AI to scaffold endpoints, validation, tests, and Docker packaging.\n\t\t- Tools: FastAPI/Pydantic, Pytest/HTTPX, GitHub Copilot, ChatGPT, Uvicorn, Docker, GitHub Actions for CI.\n\t\t- Frameworks and patterns: Contract-first prompting (OpenAPI-first), \u201cSpec-Stub-Implement-LoadTest\u201d loop, AI-generated negative tests and schema validation.\n\t\t- Labs: define OpenAPI spec; AI-generate FastAPI scaffolding and pydantic models; implement algorithm endpoint; add tests and rate limiting; containerize and smoke-test; optional simple front-end client generation.\n\t\t- Outcomes: a working containerized API with tests and CI, OpenAPI docs, and a template repo for future services.\n\n- Idea 5:\n\t* Idea 5: AI-Driven Test-First Development (Property-Based + Mocks)\n\t\t- Practice TDD accelerated by AI: generate edge-case and property-based tests first, then implement robust algorithms guided by Copilot/Tabnine.\n\t\t- Tools: GitHub Copilot/Tabnine, ChatGPT, pytest, hypothesis, pytest-mock, coverage.py; for C++ tracks, GoogleTest/GoogleMock; for MATLAB, Unit Testing Framework.\n\t\t- Frameworks and patterns: \u201cRequirements \u2192 Properties \u2192 Tests \u2192 Code\u201d prompt chain, Failure-first debugging prompts, AI-assisted mutation testing checklist.\n\t\t- Labs: choose from algorithmic katas relevant to STEM (e.g., Kalman filter update, PID controller step, Dijkstra); generate properties and tests; implement iteratively; measure coverage and mutation score; add CI.\n\t\t- Outcomes: production-grade test suites with high coverage and stronger oracles, a TDD prompt library, and quantified defect detection improvements.\n\n        ",
+    "name": "idea_maker_nest",
+    "role": "user"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_dD2kkpuZbMSBWTCOtmXq5nGu",
+        "function": {
+          "arguments": "{\"current_status\":\"completed\",\"current_plan_step_number\":1,\"current_sub_task\":\"Generate 5 new course ideas related to AI assisted coding.\",\"current_instructions\":\"- Focus on technical depth, specific tools, and actionable frameworks.\\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\\n- Consider the target audience's background in STEM and programming.\\n- Ensure ideas are suitable for a 1-day course duration.\",\"agent_for_sub_task\":\"idea_maker\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 1 out of 7.\n \n**Sub-task:** Generate 5 new course ideas related to AI assisted coding.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Focus on technical depth, specific tools, and actionable frameworks.\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\n- Consider the target audience's background in STEM and programming.\n- Ensure ideas are suitable for a 1-day course duration.\n \n**Status:** completed \u2705\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_dD2kkpuZbMSBWTCOtmXq5nGu",
+        "role": "tool",
+        "content": "\n**Step number:** 1 out of 7.\n \n**Sub-task:** Generate 5 new course ideas related to AI assisted coding.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Focus on technical depth, specific tools, and actionable frameworks.\n- Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.\n- Consider the target audience's background in STEM and programming.\n- Ensure ideas are suitable for a 1-day course duration.\n \n**Status:** completed \u2705\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_PcETfoeRwXIppzoTtb7Fha2J",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":2,\"current_sub_task\":\"Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\",\"current_instructions\":\"- Evaluate each idea's alignment with the target audience's needs.\\n- Assess the feasibility of covering the content in a 1-day course.\\n- Analyze the integration of specific tools and frameworks.\\n- Suggest improvements or dismiss ideas that lack depth or specificity.\",\"agent_for_sub_task\":\"idea_hater\"}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea's alignment with the target audience's needs.\n- Assess the feasibility of covering the content in a 1-day course.\n- Analyze the integration of specific tools and frameworks.\n- Suggest improvements or dismiss ideas that lack depth or specificity.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_PcETfoeRwXIppzoTtb7Fha2J",
+        "role": "tool",
+        "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea's alignment with the target audience's needs.\n- Assess the feasibility of covering the content in a 1-day course.\n- Analyze the integration of specific tools and frameworks.\n- Suggest improvements or dismiss ideas that lack depth or specificity.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_tA7kDiIG2cjO6d7yZ6rgUqAb",
+        "function": {
+          "arguments": "{}",
+          "name": "terminate_session"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "terminator",
+    "role": "assistant"
+  },
+  {
+    "content": "Session terminated.",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_tA7kDiIG2cjO6d7yZ6rgUqAb",
+        "role": "tool",
+        "content": "Session terminated."
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  }
+]

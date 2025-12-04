@@ -1,0 +1,124 @@
+[
+  {
+    "content": "\nTopic: ChatGPT Professional Proficiency: From Basics to Advanced Features\nTarget Audience: Professionals in different fields seeking deep proficiency without coding. They want to go from basics in LLMs such as prompt and context to medium-level features. They want to explore a large set of tools currently offered by ChatGPT. \nDuration: 24 hours\n",
+    "role": "assistant"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_f0wGnagy9Fp24vEsYqT9Uapi",
+        "function": {
+          "arguments": "{}",
+          "name": "record_status_starter"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control_starter",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea for its educational value and practicality.\n- Consider the fit for the target audience of professionals.\n- Identify strengths and weaknesses in each idea.\n- Assess each idea\u2019s inclusion of actionable frameworks and clear technical tools integration.\n \n**Status:** in progress \u23f3\n",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_f0wGnagy9Fp24vEsYqT9Uapi",
+        "role": "tool",
+        "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea for its educational value and practicality.\n- Consider the fit for the target audience of professionals.\n- Identify strengths and weaknesses in each idea.\n- Assess each idea\u2019s inclusion of actionable frameworks and clear technical tools integration.\n \n**Status:** in progress \u23f3\n"
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "Thoughts on Ideas:\n\n- Idea 1: Prompt-to-Production: The Professional\u2019s No\u2011Code Power-User Track\n  * Description: Teaches robust prompt design and production-ready prompt patterns (RTCE), context packaging, iterative prompting/self-review, structured outputs (JSON, tables), and use of ChatGPT features like Custom Instructions, Memory, ADA, Browsing, file uploads, Regenerate/Compare, and prompt templates. Deliverables include a reusable prompt library, a quality checklist rubric, and structured-output schemas.\n  * Strengths\n    - Highly relevant: prompt engineering and structured outputs are central to non\u2011coding professional use.\n    - Practical frameworks (RTCE, context packaging) give learners concrete patterns to reuse.\n    - Good tool coverage: Custom Instructions, Memory, ADA and file uploads are well-aligned to the stated goals.\n    - Deliverables (prompt library, checklist) are tangible and useful on day one.\n  * Weaknesses / Risks\n    - Scope vs. 24 hours: covering deep prompt theory plus productionization, benchmarking, and A/B testing in one day is ambitious.\n    - Technical depth on ADA and benchmarking may require pre-prepared datasets and templates; otherwise exercises will be superficial.\n    - \u201cProduction\u201d implies deployment and governance concerns (versioning, org policies) that are only lightly addressed.\n    - Some concepts (iterative prompting vs. instruction bias, window budgeting) are subtle and need practice time to master.\n  * Feasibility / Audience fit\n    - Fits professionals wanting immediate gains, but must be tightly scoped for a 24\u2011hour workshop.\n    - Non\u2011coders can use most tools, but demonstrating benchmarking and structured-output validation will need hands-on labs and scaffolding.\n  * Suggested changes\n    - Narrow to a \u201ccore 3\u201d track: (1) high\u2011impact prompt frameworks + templates, (2) structured-output schemas and QA rubrics, (3) quick benchmarking techniques using ADA and sample datasets.\n    - Prepare starter datasets, a prompt-testing workbook, and prebuilt templates so learners can focus on strategy not setup.\n    - Replace deep A/B testing with pragmatic \u201ccompare-and-choose\u201d labs using Regenerate/Compare and simple scoring rubrics.\n\n- Idea 2: Build Your Departmental Co\u2011Pilot: Custom GPTs, Knowledge, and Actions (No Code)\n  * Description: Guides learners through building specialized Custom GPTs using GPT Builder, Knowledge files, conversation starters, output presets, Actions (no\u2011code API connectors), schema\u2011guided outputs, governance checklists, and evaluation sets. Framework: Assistant Canvas. Deliverables: two production-ready Custom GPTs plus governance one\u2011pager.\n  * Strengths\n    - Directly high-value for organizations: Custom GPTs can democratize productivity across teams.\n    - Assistant Canvas is a useful, action-oriented framework that maps to real deliverables.\n    - Tool coverage matches what non-coders need: knowledge files, GPT Builder, Actions (no\u2011code), and versioning.\n  * Weaknesses / Risks\n    - Deliverable target (two production-ready GPTs per learner) is unrealistic for individual learners in 24 hours without heavy templates or team work \u2014 building, testing, and securing knowledge bases takes time.\n    - Actions that connect to internal systems often require IT collaboration and permissions; the course must assume those are not available.\n    - Governance and evaluation are complex and domain-specific; a one\u2011pager may be insufficient for legal/security sign\u2011off.\n  * Feasibility / Audience fit\n    - Great fit for managers/product owners, less so for single contributors without org-level support.\n    - Non\u2011technical approach is appropriate, but the course must manage expectations on what \u201cproduction-ready\u201d means.\n  * Suggested changes\n    - Shift deliverable to \u201cone sandboxed, team-scope Custom GPT\u201d or \u201cone personal GPT + a governance template\u201d. Offer team projects so learners can collaborate on a production artifact.\n    - Provide pre-built Action connectors (mock APIs) or simulated flows to let learners practice without IT dependencies.\n    - Add acceptance testing templates (test case library) and a checklist mapping to typical enterprise controls.\n\n- Idea 3: Data\u2011to\u2011Decision: Analysis, Visualization, and Reporting with Advanced Data Analysis\n  * Description: Uses Advanced Data Analysis to convert spreadsheets/CSVs/PDFs into insights and executive narratives\u2014data cleaning, joins, pivots, visualizations, simple regressions/segmentations, chart-spec prompting, and reproducible analysis playbooks. Deliverables: reusable analysis notebook, chart style guide prompt, one-click report template.\n  * Strengths\n    - Very strong practical payoff: non\u2011coders can extract and present insights without coding.\n    - ADA is well-suited for exploratory analysis and visualization tasks described.\n    - Deliverables (analysis notebook, chart style guide) are concrete and directly usable.\n  * Weaknesses / Risks\n    - Quality of exercises depends on dataset complexity; ADA may produce plausible but incorrect analyses if prompts/assumptions aren\u2019t checked.\n    - Covering cleaning, merging, visualization, and basic modeling in 24 hours is tight; learners need time to iterate on their own data.\n    - Explaining statistical caveats (bias, correlation vs causation) is essential and time-consuming.\n  * Feasibility / Audience fit\n    - High fit for analysts, managers, and consultants who rely on data but don\u2019t code.\n    - Must provide curated datasets and stepwise templates; real-world messy data could derail learners without scaffolding.\n  * Suggested changes\n    - Provide 3 curated case studies (small, medium, complex) and preloaded datasets with annotated \u201cwhat to watch for.\u201d\n    - Emphasize a reproducible playbook: standard prompt sequences for cleaning \u2192 visualize \u2192 interpret \u2192 summarize with confidence/caveats.\n    - Add a short module on validating outputs (cross-checks, simple sanity tests) and sample rubric for executive-ready deliverables.\n\n- Idea 4: Multimodal Mastery: Vision, Voice, and Document Automation for Professionals\n  * Description: Covers image/diagram/table extraction, voice dictation/read\u2011back, scanned doc processing, image generation for mockups, layout-aware extraction, OCR cleanup, slide/storyboard generation, and document redlining. Deliverables include a document-to-slide pipeline, image/diagram playbook, and voice-enabled review workflow.\n  * Strengths\n    - Multimodal capabilities are a high-value differentiator for many roles (design, legal, ops).\n    - Practical examples (document-to-slide, diagram analysis) map well to professional workflows.\n    - Inclusion of voice and vision addresses accessibility and novel productivity gains.\n  * Weaknesses / Risks\n    - Multimodal features often require device permissions, good-quality inputs, and can vary by platform \u2014 logistics can consume workshop time.\n    - Image generation and voice may introduce licensing/rights and privacy issues that need simple guidance.\n    - Covering vision, voice, OCR, and generation in a single day will be shallow unless very focused.\n  * Feasibility / Audience fit\n    - Good fit for teams that produce visual artifacts, run audits, or need rapid reviews of scanned documents.\n    - Non-technical professionals can operate these features, but need clear step-by-step labs and sample assets.\n  * Suggested changes\n    - Limit to two high-impact tracks (e.g., document automation + diagram/image analysis) and make voice an add-on demo.\n    - Provide a library of sanitized sample assets (scans, diagrams, mockups) so exercises run smoothly.\n    - Add a brief legal/privacy checklist and recommended export formats for integration with downstream tools.\n\n- Idea 5: Reliable AI at Work: Verification, Safety, and Compliance Playbook\n  * Description: Focuses on making ChatGPT outputs trustworthy and compliant: verification chains, hallucination mitigation, self-critique, red\u2011teams, PII sanitization, evaluation sets and schema-locked outputs, escalation triggers. Tools include Browsing, ADA for batch evaluation, Memory, and Custom Instructions. Deliverables: compliance prompt kit, evaluation scorecards, and an assurance workflow.\n  * Strengths\n    - Extremely important for professional adoption: trust and safety are often the top organizational barrier.\n    - The framework addresses both operational controls (schemas, escalation) and evaluation (test sets, scoring).\n    - Good use of ADA for batch evaluation and Custom Instructions/Memory for guardrails.\n  * Weaknesses / Risks\n    - Compliance and legal requirements are domain-specific; a single playbook risks being too generic for regulated industries.\n    - Implementing audit trails, logging, and integration with org policies often requires IT/security involvement beyond course scope.\n    - Some mitigation strategies (retrieval-augmented generation, citation checks) may need external sources or corpora not available in course sandbox.\n  * Feasibility / Audience fit\n    - High strategic relevance for managers, compliance officers, and team leads.\n    - Non-technical professionals can learn conceptual frameworks and checklists; actual enforcement mechanisms may remain out of scope.\n  * Suggested changes\n    - Frame the course as \u201cplaybook + starter artifacts\u201d (e.g., test set template, schema examples, escalation flowcharts) and a risk-mapping exercise tailored to learners\u2019 domains.\n    - Provide decision trees for when to escalate to human review, and sample red-team prompts and scoring rubrics that learners can adapt.\n    - Include a short module on \u201cwhat to ask IT/legal before you roll out\u201d to bridge the gap between policy and implementation.\n\nCross-idea observations and pedagogical recommendations\n  * Overlap and sequencing: There is significant overlap across ideas (prompts, schemas, ADA, verification). For a 24\u2011hour program, pick a core theme (e.g., Prompt-to-Production + one applied domain like Data\u2011to\u2011Decision or Custom GPTs) rather than trying to cover all five deeply.\n  * Time-budget realism: Each idea as written assumes multi-day exploration. Recast the day as modular tracks: Core Foundations (shared morning) + two elective deep-dive tracks (afternoon) to make depth feasible.\n  * Hands-on scaffolding: Every idea needs curated datasets/assets, prebuilt templates, stepwise labs, and assessment rubrics. Without these, learners will tinker but not reach \u201cproficiency.\u201d\n  * Deliverable expectations: Tone down \u201cproduction-ready\u201d promises. Offer \u201csandboxed, stakeholder\u2011review ready\u201d artifacts and templates that learners can take back and finalize with their orgs.\n  * Assessment & retention: Build short practical assessments (e.g., create a prompt that passes a rubric, or a Custom GPT proof-of-concept conversation) and provide post-course templates, office hours, or a follow-up assignment to convert learning into workplace change.",
+    "name": "idea_hater",
+    "role": "user"
+  },
+  {
+    "content": "\n**IDEA CRITIQUE**\n\n- Idea 1:\n\t* Idea 1: Prompt-to-Production: The Professional\u2019s No\u2011Code Power-User Track focuses on prompt engineering, production-ready templates, and structured outputs with a mix of theoretical depth and practical deliverables.\n\t\t- Strengths: Highly relevant framework for non-coders; practical deliverables like reusable prompt library and quality checklists.\n\t\t- Weaknesses/Risks: Overambitious for a 24\u2011hour workshop, risk of superficial treatment on complex topics such as benchmarking and production governance.\n\t\t- Feasibility: Good for professionals if tightly scoped; needs robust labs and pre-prepared assets.\n\t\t- Suggested changes: Narrow focus to a core set of deliverables, employ starter datasets, and swap in pragmatic lab exercises for deep A/B testing.\n\n- Idea 2:\n\t* Idea 2: Build Your Departmental Co\u2011Pilot: Custom GPTs, Knowledge, and Actions (No Code) guides learners in creating specialized Custom GPTs with no-code connectors and governance tools.\n\t\t- Strengths: High organizational value and practical framework (Assistant Canvas) to democratize productivity.\n\t\t- Weaknesses/Risks: Unrealistic deliverable scope for individuals; IT collaboration and permissions issues may arise.\n\t\t- Feasibility: Best suited for managers or product owners with team support, not ideal for isolated contributors.\n\t\t- Suggested changes: Scale deliverables to one sandboxed GPT plus a governance template and use pre-built connectors to bypass IT constraints.\n\n- Idea 3:\n\t* Idea 3: Data\u2011to\u2011Decision: Analysis, Visualization, and Reporting with Advanced Data Analysis transforms data from spreadsheets, CSVs, or PDFs into actionable insights and executive narratives.\n\t\t- Strengths: Strong practical payoff with concrete deliverables such as analysis notebooks and chart style guides.\n\t\t- Weaknesses/Risks: Tight time constraints for covering full data cleaning, visualizations, and statistical caveats; risk of inaccurate analyses without careful validation.\n\t\t- Feasibility: Well-targeted for analysts and consultants\u2014requires curated datasets and clear stepwise labs.\n\t\t- Suggested changes: Use curated case studies and emphasize reproducible playbooks with built-in validation steps.\n\n- Idea 4:\n\t* Idea 4: Multimodal Mastery: Vision, Voice, and Document Automation for Professionals covers a spectrum of multimodal tasks including image extraction, voice dictation, and document redlining.\n\t\t- Strengths: Offers high-value differentiators with multimodal capabilities relevant for design, legal, and operational roles.\n\t\t- Weaknesses/Risks: Logistic challenges such as device permissions and platform variability; risk of shallow coverage in one day.\n\t\t- Feasibility: Suitable for teams handling visual artifacts, but non-technical learners require clear labs and sample assets.\n\t\t- Suggested changes: Focus on two high-impact tracks with voice as an add-on, and provide sanitized sample assets and legal checklists.\n\n- Idea 5:\n\t* Idea 5: Reliable AI at Work: Verification, Safety, and Compliance Playbook focuses on making outputs trustworthy through verification chains, self-critique, and safety mechanisms.\n\t\t- Strengths: Addresses trust, safety, and compliance which are essential for organizational adoption.\n\t\t- Weaknesses/Risks: Domain-specific challenges make a one-size-fits-all playbook too generic; complex IT/security integration is not fully covered in a short workshop.\n\t\t- Feasibility: Suitable for managers and compliance officers; non-technical audience can grasp frameworks but enforcement mechanisms remain limited.\n\t\t- Suggested changes: Frame as a playbook with starter artifacts and decision trees, and incorporate a module on engaging IT/legal for real-world rollout.\n\n- Idea 6:\n\t* Cross-Idea Observations and Pedagogical Recommendations\n\t\t- Overlap across ideas: Many themes (prompt design, structured outputs, and ADA applications) suggest focusing on a central theme with 1-2 specialized tracks.\n\t\t- Time allocation: Condense the workshop into Core Foundations with elective deep dives to balance depth and feasibility.\n\t\t- Hands-on scaffolding: Emphasize curated datasets, prebuilt templates, labs, and assessment rubrics.\n\t\t- Deliverable promise: Shift from 'production-ready' to 'sandboxed, stakeholder-review ready' outputs for realistic expectations.\n\t\t- Assessment strategy: Integrate short practical assessments with follow-up resources to ensure lasting impact.\n\n        ",
+    "name": "idea_hater_response_formatter",
+    "role": "user"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_YIYoZCHi0ChTW4I8CvJLwp7y",
+        "function": {
+          "arguments": "{\"current_status\":\"completed\",\"current_plan_step_number\":2,\"current_sub_task\":\"Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\",\"current_instructions\":\"- Evaluate each idea for its educational value and practicality.\\n- Consider the fit for the target audience of professionals.\\n- Identify strengths and weaknesses in each idea.\\n- Assess each idea\u2019s inclusion of actionable frameworks and clear technical tools integration.\",\"agent_for_sub_task\":\"idea_hater\",\"context_variables\":{}}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea for its educational value and practicality.\n- Consider the fit for the target audience of professionals.\n- Identify strengths and weaknesses in each idea.\n- Assess each idea\u2019s inclusion of actionable frameworks and clear technical tools integration.\n \n**Status:** completed \u2705\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_YIYoZCHi0ChTW4I8CvJLwp7y",
+        "role": "tool",
+        "content": "\n**Step number:** 2 out of 7.\n \n**Sub-task:** Critique the 5 course ideas for pedagogy, feasibility, and audience fit.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Evaluate each idea for its educational value and practicality.\n- Consider the fit for the target audience of professionals.\n- Identify strengths and weaknesses in each idea.\n- Assess each idea\u2019s inclusion of actionable frameworks and clear technical tools integration.\n \n**Status:** completed \u2705\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_Ov7wDdQuHRfzdJAkSD6Rg0ws",
+        "function": {
+          "arguments": "{\"current_status\":\"in progress\",\"current_plan_step_number\":3,\"current_sub_task\":\"Select and improve 2 out of the 5 course ideas based on the critiques.\",\"current_instructions\":\"- Choose the two most promising ideas from the critiques.\\n- Make improvements to enhance technical depth and actionable frameworks.\\n- Incorporate detailed frameworks and step-by-step examples that demonstrate how to use ChatGPT\u2019s medium-level features.\\n- Ensure the ideas align with the target audience's needs.\",\"agent_for_sub_task\":\"idea_maker\",\"context_variables\":{}}",
+          "name": "record_status"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "control",
+    "role": "assistant"
+  },
+  {
+    "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critiques.\n- Make improvements to enhance technical depth and actionable frameworks.\n- Incorporate detailed frameworks and step-by-step examples that demonstrate how to use ChatGPT\u2019s medium-level features.\n- Ensure the ideas align with the target audience's needs.\n \n**Status:** in progress \u23f3\n        ",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_Ov7wDdQuHRfzdJAkSD6Rg0ws",
+        "role": "tool",
+        "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critiques.\n- Make improvements to enhance technical depth and actionable frameworks.\n- Incorporate detailed frameworks and step-by-step examples that demonstrate how to use ChatGPT\u2019s medium-level features.\n- Ensure the ideas align with the target audience's needs.\n \n**Status:** in progress \u23f3\n        "
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  },
+  {
+    "content": "None",
+    "tool_calls": [
+      {
+        "id": "call_2cYGHcjhGXoE3cg0rAKbcRmX",
+        "function": {
+          "arguments": "{}",
+          "name": "terminate_session"
+        },
+        "type": "function"
+      }
+    ],
+    "name": "terminator",
+    "role": "assistant"
+  },
+  {
+    "content": "Session terminated.",
+    "tool_responses": [
+      {
+        "tool_call_id": "call_2cYGHcjhGXoE3cg0rAKbcRmX",
+        "role": "tool",
+        "content": "Session terminated."
+      }
+    ],
+    "name": "_Group_Tool_Executor",
+    "role": "tool"
+  }
+]

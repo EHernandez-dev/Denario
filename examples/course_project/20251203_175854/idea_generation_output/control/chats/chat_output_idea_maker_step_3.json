@@ -1,0 +1,198 @@
+[
+  {
+    "name": "control_starter",
+    "content": null,
+    "timestamp": "2025-12-03 18:03:50",
+    "cost": {
+      "Agent": [
+        "control_starter"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002254
+      ],
+      "Prompt Tokens": [
+        1123
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        1124
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critiques.\n- Make improvements to enhance technical depth and actionable frameworks.\n- Incorporate detailed frameworks and step-by-step examples that demonstrate how to use ChatGPT\u2019s medium-level features.\n- Ensure the ideas align with the target audience's needs.\n \n**Status:** in progress \u23f3\n",
+    "timestamp": "2025-12-03 18:03:50",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "idea_maker",
+    "content": "**Ideas:**\n   - Idea 1: Prompt-to-Production (Tightly Scoped): The Professional\u2019s No\u2011Code Power\u2011User Track\n         * What it is: A tightly scoped, hands-on track that takes professionals from clean prompt basics to medium-level mastery with structured outputs, context optimization, and pragmatic evaluation\u2014optimized for 24 hours and no-code users.\n         * Tools and features covered: Custom Instructions and Memory (persona and style defaults), file uploads (docs, PDFs, CSVs), Advanced Data Analysis (for batch prompt testing and scoring), Browsing (for source-backed verification), Regenerate/Compare, shared links, and prompt templates.\n         * Core frameworks:\n           - RTCE Prompt Frame: Role \u2192 Task \u2192 Constraints \u2192 Examples.\n           - Context Packaging: Delimiters, variables, and \u201crolling summaries\u201d to stay within context window.\n           - Schema Guarding: JSON/table output with \u201cmust-conform\u201d checks and auto-repair instructions.\n           - Verification Chain: Draft \u2192 Self-critique \u2192 Source-check (Browsing) \u2192 Risk notes \u2192 Final.\n           - Mini Eval Set: 10 test inputs + rubric with 3\u20135 scored criteria powered by ADA.\n         * Step-by-step example (policy brief generator):\n           - Step 1 (Custom Instructions): Set \u201cYou are a concise policy analyst\u201d and store tone and citation style in Memory. Test with a single-sentence \u201cstyle probe\u201d prompt to verify.\n           - Step 2 (RTCE draft): \u201cRole: Senior policy analyst | Task: Convert a stakeholder memo to a 1\u2011page brief | Constraints: \u2264450 words, 3 bullets for risks, APA citations | Examples: Provide 1 exemplar brief.\u201d\n           - Step 3 (Context packaging): Upload memo.pdf; in the prompt, use separators like ===MEMO=== ... ===END===; request a rolling summary if long.\n           - Step 4 (Schema guarding): \u201cOutput two parts: (A) Markdown brief with headings; (B) JSON metadata: {\u2018title\u2019:\u2018\u2019, \u2018audience\u2019:\u2018\u2019, \u2018risk_level\u2019:\u2018low|med|high\u2019, \u2018citations\u2019:[...]}. If schema invalid, self-correct.\u201d\n           - Step 5 (Verification chain): Use Browsing to fetch and cite two corroborating sources. Add a \u201cred team\u201d self-critique paragraph and a risk note.\n           - Step 6 (A/B compare): Create Variant A (formal) vs. Variant B (plain language). Use Compare to pick best against a rubric (clarity, completeness, citations).\n           - Step 7 (Mini eval set with ADA): Upload 10 short memos.csv. Ask ADA to run the prompt template across each row, score clarity/completeness/citation presence (1\u20135), and produce a scorecard + recommendations to tighten constraints.\n           - Step 8 (Finalize): Save the winning template, JSON schema, and quality checklist; create a shared link to your \u201cbrief generator\u201d thread as a handoff artifact.\n         * Deliverables by end of course:\n           - A reusable prompt library (at least 12 templates across 3 task families: emails/briefs/reports).\n           - A schema pack (JSON/table patterns) with \u201cself-repair\u201d instructions.\n           - A mini evaluation scorecard and quality checklist for stakeholder review (sandboxed, review-ready).\n         * Feasibility upgrades from critique:\n           - Narrow scope to high-frequency tasks, provide starter assets (sample memos, schema stubs, rubrics).\n           - Replace deep A/B testing with the Compare feature and a 10\u2011case eval set via ADA.\n\n   - Idea 3: Data-to-Decision: No\u2011Code Analysis, Visualization, and Reporting with Advanced Data Analysis\n         * What it is: A practical, no-code analysis track that turns spreadsheets and PDFs into validated insights and executive-ready narratives using Advanced Data Analysis (ADA), with curated case studies and reproducible playbooks.\n         * Tools and features covered: Advanced Data Analysis (data cleaning, joins, pivots, visualizations, simple modeling), file uploads (multi-file), Browsing for definitions/citations as needed, structured outputs to CSV/JSON, chart exports, and shared links.\n         * Core frameworks:\n           - Question\u2192Analysis Scaffold: Business Question \u2192 Hypothesis \u2192 Tests \u2192 Evidence \u2192 Message.\n           - Insight Tree: Organize signals (trend, segment, anomaly, driver) before writing the story.\n           - Validation Prompts: \u201cShow assumptions, print head(), report missingness, justify chart choice.\u201d\n           - Repro Playbook: Save instructions + input template; re-run with new data with minimal changes.\n           - Confidence and Caveats: Always output assumptions, data gaps, and next-step checks.\n         * Step-by-step example (marketing performance case):\n           - Step 1 (Ingest and audit): Upload campaigns.csv and spend.csv. Prompt ADA: \u201cSummarize columns, infer types, print first 5 rows, missingness matrix, and a data dictionary.\u201d\n           - Step 2 (Clean and join): \u201cStandardize date columns; align campaign_id; inner join; list any mismatches; create a \u2018join_issues.csv\u2019 of unmatched rows.\u201d\n           - Step 3 (Core analysis): \u201cCreate a pivot: ROI by channel and week; identify top/bottom 3 segments; check seasonality; run a simple regression of conversions ~ spend + channel dummies; report coefficients with plain-English interpretation.\u201d\n           - Step 4 (Visualization spec prompting): \u201cProduce three charts: (1) Weekly ROI by channel (line), (2) Spend vs. conversions with regression line (scatter), (3) Top 5 campaigns by ROI (bar). Use accessible colors, labeled axes, and export PNGs.\u201d\n           - Step 5 (Insight tree + executive story): \u201cOrganize findings as trend/segment/driver/anomaly; draft a 200\u2011word executive summary plus a 1\u2011page appendix with methods and caveats.\u201d\n           - Step 6 (Validation): \u201cList assumptions; run a sensitivity check dropping outliers > P95; re-run key charts; compare differences; state confidence level (low/med/high).\u201d\n           - Step 7 (Reproducibility): \u201cPackage code and prompts in a playbook; export clean dataset, charts, and \u2018report.md\u2019; provide a re-run instruction block that accepts a new campaigns_YYYYMM.csv.\u201d\n         * Deliverables by end of course:\n           - A working ADA notebook-style thread with an analysis playbook and reusable prompt blocks.\n           - Cleaned/joined dataset, exported charts, and an executive-ready report with an appendix.\n           - A validation checklist and a \u201cnew data re-run\u201d template for future analyses.\n         * Feasibility upgrades from critique:\n           - Use curated datasets with known quirks; embed validation prompts in each step.\n           - Emphasize reproducible playbooks over exhaustive statistics; focus on decision-ready insight flow.",
+    "timestamp": "2025-12-03 18:04:51",
+    "cost": {
+      "Agent": [
+        "idea_maker"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.0391075
+      ],
+      "Prompt Tokens": [
+        3366
+      ],
+      "Completion Tokens": [
+        3490
+      ],
+      "Total Tokens": [
+        6856
+      ]
+    }
+  },
+  {
+    "name": "idea_maker_nest",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Prompt-to-Production (Tightly Scoped): The Professional\u2019s No\u2011Code Power\u2011User Track\n\t\t- What it is: A tightly scoped, hands-on track that takes professionals from clean prompt basics to medium-level mastery with structured outputs, context optimization, and pragmatic evaluation\u2014optimized for 24 hours and no-code users.\n\t\t- Tools and features covered: Custom Instructions and Memory (persona and style defaults), file uploads (docs, PDFs, CSVs), Advanced Data Analysis (for batch prompt testing and scoring), Browsing (for source-backed verification), Regenerate/Compare, shared links, and prompt templates.\n\t\t- Core frameworks: RTCE Prompt Frame: Role \u2192 Task \u2192 Constraints \u2192 Examples; Context Packaging: Delimiters, variables, and \u201crolling summaries\u201d to stay within context window; Schema Guarding: JSON/table output with \u201cmust-conform\u201d checks and auto-repair instructions; Verification Chain: Draft \u2192 Self-critique \u2192 Source-check (Browsing) \u2192 Risk notes \u2192 Final; Mini Eval Set: 10 test inputs + rubric with 3\u20135 scored criteria powered by ADA.\n\t\t- Step-by-step example (policy brief generator): Step 1 (Custom Instructions): Set \u201cYou are a concise policy analyst\u201d and store tone and citation style in Memory. Test with a single-sentence \u201cstyle probe\u201d prompt to verify; Step 2 (RTCE draft): \u201cRole: Senior policy analyst | Task: Convert a stakeholder memo to a 1\u2011page brief | Constraints: \u2264450 words, 3 bullets for risks, APA citations | Examples: Provide 1 exemplar brief.\u201d; Step 3 (Context packaging): Upload memo.pdf; in the prompt, use separators like ===MEMO=== ... ===END===; request a rolling summary if long; Step 4 (Schema guarding): \u201cOutput two parts: (A) Markdown brief with headings; (B) JSON metadata: {\u2018title\u2019:\u2018\u2019, \u2018audience\u2019:\u2018\u2019, \u2018risk_level\u2019:\u2018low|med|high\u2019, \u2018citations\u2019:[...]}. If schema invalid, self-correct.\u201d; Step 5 (Verification chain): Use Browsing to fetch and cite two corroborating sources. Add a \u201cred team\u201d self-critique paragraph and a risk note; Step 6 (A/B compare): Create Variant A (formal) vs. Variant B (plain language). Use Compare to pick best against a rubric (clarity, completeness, citations); Step 7 (Mini eval set with ADA): Upload 10 short memos.csv. Ask ADA to run the prompt template across each row, score clarity/completeness/citation presence (1\u20135), and produce a scorecard + recommendations to tighten constraints; Step 8 (Finalize): Save the winning template, JSON schema, and quality checklist; create a shared link to your \u201cbrief generator\u201d thread as a handoff artifact.\n\t\t- Deliverables by end of course: A reusable prompt library (at least 12 templates across 3 task families: emails/briefs/reports); a schema pack (JSON/table patterns) with \u201cself-repair\u201d instructions; a mini evaluation scorecard and quality checklist for stakeholder review (sandboxed, review-ready).\n\t\t- Feasibility upgrades from critique: Narrow scope to high-frequency tasks, provide starter assets (sample memos, schema stubs, rubrics); replace deep A/B testing with the Compare feature and a 10\u2011case eval set via ADA.\n\n- Idea 2:\n\t* Data-to-Decision: No\u2011Code Analysis, Visualization, and Reporting with Advanced Data Analysis\n\t\t- What it is: A practical, no-code analysis track that turns spreadsheets and PDFs into validated insights and executive-ready narratives using Advanced Data Analysis (ADA), with curated case studies and reproducible playbooks.\n\t\t- Tools and features covered: Advanced Data Analysis (data cleaning, joins, pivots, visualizations, simple modeling), file uploads (multi-file), Browsing for definitions/citations as needed, structured outputs to CSV/JSON, chart exports, and shared links.\n\t\t- Core frameworks: Question\u2192Analysis Scaffold: Business Question \u2192 Hypothesis \u2192 Tests \u2192 Evidence \u2192 Message; Insight Tree: Organize signals (trend, segment, anomaly, driver) before writing the story; Validation Prompts: \u201cShow assumptions, print head(), report missingness, justify chart choice\u201d; Repro Playbook: Save instructions + input template; re-run with new data with minimal changes; Confidence and Caveats: Always output assumptions, data gaps, and next-step checks.\n\t\t- Step-by-step example (marketing performance case): Step 1 (Ingest and audit): Upload campaigns.csv and spend.csv. Prompt ADA: \u201cSummarize columns, infer types, print first 5 rows, missingness matrix, and a data dictionary.\u201d; Step 2 (Clean and join): \u201cStandardize date columns; align campaign_id; inner join; list any mismatches; create a \u2018join_issues.csv\u2019 of unmatched rows.\u201d; Step 3 (Core analysis): \u201cCreate a pivot: ROI by channel and week; identify top/bottom 3 segments; check seasonality; run a simple regression of conversions ~ spend + channel dummies; report coefficients with plain-English interpretation.\u201d; Step 4 (Visualization spec prompting): \u201cProduce three charts: (1) Weekly ROI by channel (line), (2) Spend vs. conversions with regression line (scatter), (3) Top 5 campaigns by ROI (bar). Use accessible colors, labeled axes, and export PNGs.\u201d; Step 5 (Insight tree + executive story): \u201cOrganize findings as trend/segment/driver/anomaly; draft a 200\u2011word executive summary plus a 1\u2011page appendix with methods and caveats.\u201d; Step 6 (Validation): \u201cList assumptions; run a sensitivity check dropping outliers > P95; re-run key charts; compare differences; state confidence level (low/med/high).\u201d; Step 7 (Reproducibility): \u201cPackage code and prompts in a playbook; export clean dataset, charts, and a \u2018report.md\u2019; provide a re-run instruction block that accepts a new campaigns_YYYYMM.csv.\u201d\n\t\t- Deliverables by end of course: A working ADA notebook-style thread with an analysis playbook and reusable prompt blocks; cleaned/joined dataset, exported charts, and an executive-ready report with an appendix; a validation checklist and a \u201cnew data re-run\u201d template for future analyses.\n\t\t- Feasibility upgrades from critique: Use curated datasets with known quirks; embed validation prompts in each step; emphasize reproducible playbooks over exhaustive statistics; focus on decision-ready insight flow.\n\n        ",
+    "timestamp": "2025-12-03 18:05:33",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-12-03 18:05:43",
+    "cost": {
+      "Agent": [
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.016954
+      ],
+      "Prompt Tokens": [
+        6473
+      ],
+      "Completion Tokens": [
+        501
+      ],
+      "Total Tokens": [
+        6974
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on the critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose the two most promising ideas from the critiques.\n- Make improvements to enhance technical depth and actionable frameworks.\n- Incorporate detailed frameworks and step-by-step examples that demonstrate how to use ChatGPT\u2019s medium-level features.\n- Ensure the ideas align with the target audience's needs.\n \n**Status:** completed \u2705\n        ",
+    "timestamp": "2025-12-03 18:05:43",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-12-03 18:05:49",
+    "cost": {
+      "Agent": [
+        "control",
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.016954,
+        0.018112000000000003
+      ],
+      "Prompt Tokens": [
+        6473,
+        7108
+      ],
+      "Completion Tokens": [
+        501,
+        487
+      ],
+      "Total Tokens": [
+        6974,
+        7595
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 4 out of 7.\n \n**Sub-task:** Critique the 2 improved ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide feedback on the improvements made.\n- Assess whether the ideas now meet the criteria for technical depth and audience fit.\n- Verify that the enhanced ideas clearly explain the practical application of the identified tools and methods.\n- Suggest any further enhancements if necessary.\n \n**Status:** in progress \u23f3\n        ",
+    "timestamp": "2025-12-03 18:05:49",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "terminator",
+    "content": null,
+    "timestamp": "2025-12-03 18:05:50",
+    "cost": {
+      "Agent": [
+        "terminator"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.008757999999999998
+      ],
+      "Prompt Tokens": [
+        4375
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        4376
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Session terminated.",
+    "timestamp": "2025-12-03 18:05:50",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  }
+]

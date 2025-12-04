@@ -1,0 +1,198 @@
+[
+  {
+    "name": "control_starter",
+    "content": null,
+    "timestamp": "2025-12-04 10:57:27",
+    "cost": {
+      "Agent": [
+        "control_starter"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.002094
+      ],
+      "Prompt Tokens": [
+        1043
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        1044
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose ideas with the most potential for impact and feasibility.\n- Incorporate feedback to enhance technical depth and specificity.\n- Include sample coding scenarios or exercises illustrating tool application.\n- Ensure the improved ideas are actionable and relevant.\n \n**Status:** in progress \u23f3\n",
+    "timestamp": "2025-12-04 10:57:27",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "idea_maker",
+    "content": "**Ideas:**\n   - Idea 1: AI-Assisted Scientific Microservice in a Day (FastAPI + Copilot Chat + ChatGPT)\n         * Outcome-focused: ship a single scientific endpoint (plus /health) as a Dockerized FastAPI service with strict input validation, negative tests, and basic auth, using AI to accelerate scaffolding and test generation.\n         * Tools and setup: VS Code, GitHub Copilot Chat, ChatGPT, FastAPI, Pydantic, pytest, HTTPX, Uvicorn, Docker; preconfigured starter repo with Poetry/requirements, Makefile, and a minimal CI demo (read-only) to avoid setup friction.\n         * Frameworks and prompt patterns: Contract-first prompting (OpenAPI-first YAML \u2192 Pydantic models), Spec-Stub-Implement-Verify loop, \u201cGenerate negative tests\u201d prompts, \u201cValidation-hardening\u201d prompts, and \u201cError-message standardization\u201d prompts.\n         * Labs (time-boxed):\n               - Lab 1: Define OpenAPI contract from a short plain-English spec via ChatGPT; check it with Redoc; use Copilot Chat to scaffold FastAPI routes and Pydantic models.\n               - Lab 2: Implement core algorithm with AI assistance; write happy-path tests (pytest + HTTPX) first, then implement to satisfy tests.\n               - Lab 3: Add input validation and negative tests (e.g., parameter ranges, malformed JSON), enforce consistent 422 error payloads generated with AI help.\n               - Lab 4: Containerize (Dockerfile provided); run local smoke tests via curl/HTTPX; optional: demo GH Actions workflow file without requiring participant secrets.\n         * Sample coding scenario (provided in starter repo):\n               - Endpoint: POST /simulate/sir \u2192 returns time series of S, I, R as arrays.\n               - Request schema: {beta: float \u2208 (0,2], gamma: float \u2208 (0,2], S0: int \u2265 0, I0: int \u2265 1, R0: int \u2265 0, dt: float \u2208 (0,1], t_max: float \u2208 (0,365]}.\n               - Implementation: AI scaffolds an RK4 integrator for the SIR ODE; participants implement/verify step function with Copilot; negative tests include invalid dt, negative populations, or t_max too large.\n               - Acceptance checks: Pydantic rejects invalid inputs; 95%+ route/validation coverage; typical request completes <200 ms locally; OpenAPI docs render correctly; container runs with a single docker run command.\n         * Relevance and scope control: Single primary assistant (Copilot Chat) with ChatGPT for contract generation and tricky debugging; narrow feature set; ready-made repo and scripts ensure feasibility in 1 day.\n\n   - Idea 2: AI-Assisted Legacy Code Deep-Dive: Explain \u2192 Test \u2192 Refactor \u2192 Minimal Port\n         * Outcome-focused: produce a documented, refactored Python module from a legacy-style snippet with golden-master tests and parity checks; optionally port one self-contained function and validate numerical equivalence.\n         * Tools and setup: VS Code, GitHub Copilot Chat, ChatGPT, pytest, numpy, mypy, ruff; pre-curated \u201clegacy\u201d snippets included as plain text (no external licenses), plus reference inputs/outputs for golden-master tests.\n         * Frameworks and prompt patterns: Explain-Extract-Test-Refactor pipeline, Interface-first porting prompts, \u201cGolden-master from reference outputs\u201d prompts, \u201cHallucination guardrails\u201d prompts (\u201ccite the line number/source before changing logic\u201d).\n         * Labs (time-boxed):\n               - Lab 1: Understanding/Documentation: Feed a 150-line legacy-style snippet into ChatGPT to generate a high-level summary, function-by-function docstrings, and a call graph; participants review and correct with Copilot Chat inline.\n               - Lab 2: Characterization tests: Use provided inputs/outputs to create golden-master tests; lock randomness and tolerances; add type hints and ruff fixes without altering behavior.\n               - Lab 3: Refactor for readability and safety: Extract pure functions, add mypy typing, simplify conditionals, and ensure all golden-master tests still pass; AI proposes safe refactors with diff-aware prompts.\n               - Lab 4 (optional, guided): Minimal port of a self-contained function, then parity test vs reference outputs within a tolerance (e.g., atol=1e-9); discuss mismatches and correct with AI assistance.\n         * Sample coding scenario (provided in starter repo):\n               - Legacy snippet: MATLAB-style Kalman filter measurement update for a 2D constant-velocity model (no external deps in the snippet).\n               - Tasks: generate docstrings; write golden-master tests from provided state/measurement fixtures; enforce invariants (covariance stays symmetric PSD); refactor for clarity and types; optionally port the measurement update step to a typed Python function and assert parity on residuals and updated covariance (symmetry within 1e-12; positive semidefinite via eigenvalues \u2265 -1e-12).\n               - Acceptance checks: all golden-master tests green; mypy clean; ruff clean; optional port passes parity tests on provided fixtures.\n         * Relevance and scope control: Focused on explanation, tests, and safe refactors (porting is optional and minimal); single primary assistant (Copilot Chat) with ChatGPT for exploratory explanations; curated snippets and fixtures keep the day feasible.",
+    "timestamp": "2025-12-04 10:58:30",
+    "cost": {
+      "Agent": [
+        "idea_maker"
+      ],
+      "Model": [
+        "gpt-5-2025-08-07"
+      ],
+      "Cost": [
+        0.0371
+      ],
+      "Prompt Tokens": [
+        3168
+      ],
+      "Completion Tokens": [
+        3314
+      ],
+      "Total Tokens": [
+        6482
+      ]
+    }
+  },
+  {
+    "name": "idea_maker_nest",
+    "content": "\n**Ideas**\n\n- Idea 1:\n\t* Idea 1: AI-Assisted Scientific Microservice in a Day (FastAPI + Copilot Chat + ChatGPT)\n\t\t- Outcome-focused: ship a single scientific endpoint (plus /health) as a Dockerized FastAPI service with strict input validation, negative tests, and basic auth, using AI to accelerate scaffolding and test generation.\n\t\t- Tools and setup: VS Code, GitHub Copilot Chat, ChatGPT, FastAPI, Pydantic, pytest, HTTPX, Uvicorn, Docker; preconfigured starter repo with Poetry/requirements, Makefile, and a minimal CI demo (read-only) to avoid setup friction.\n\t\t- Frameworks and prompt patterns: Contract-first prompting (OpenAPI-first YAML \u2192 Pydantic models), Spec-Stub-Implement-Verify loop, \u201cGenerate negative tests\u201d prompts, \u201cValidation-hardening\u201d prompts, and \u201cError-message standardization\u201d prompts.\n\t\t- Labs (time-boxed):\n\t\t-       - Lab 1: Define OpenAPI contract from a short plain-English spec via ChatGPT; check it with Redoc; use Copilot Chat to scaffold FastAPI routes and Pydantic models.\n\t\t-       - Lab 2: Implement core algorithm with AI assistance; write happy-path tests (pytest + HTTPX) first, then implement to satisfy tests.\n\t\t-       - Lab 3: Add input validation and negative tests (e.g., parameter ranges, malformed JSON), enforce consistent 422 error payloads generated with AI help.\n\t\t-       - Lab 4: Containerize (Dockerfile provided); run local smoke tests via curl/HTTPX; optional: demo GH Actions workflow file without requiring participant secrets.\n\t\t- Sample coding scenario (provided in starter repo):\n\t\t-       - Endpoint: POST /simulate/sir \u2192 returns time series of S, I, R as arrays.\n\t\t-       - Request schema: {beta: float \u2208 (0,2], gamma: float \u2208 (0,2], S0: int \u2265 0, I0: int \u2265 1, R0: int \u2265 0, dt: float \u2208 (0,1], t_max: float \u2208 (0,365]}.\n\t\t-       - Implementation: AI scaffolds an RK4 integrator for the SIR ODE; participants implement/verify step function with Copilot; negative tests include invalid dt, negative populations, or t_max too large.\n\t\t-       - Acceptance checks: Pydantic rejects invalid inputs; 95%+ route/validation coverage; typical request completes <200 ms locally; OpenAPI docs render correctly; container runs with a single docker run command.\n\t\t- Relevance and scope control: Single primary assistant (Copilot Chat) with ChatGPT for contract generation and tricky debugging; narrow feature set; ready-made repo and scripts ensure feasibility in 1 day.\n\n- Idea 2:\n\t* Idea 2: AI-Assisted Legacy Code Deep-Dive: Explain \u2192 Test \u2192 Refactor \u2192 Minimal Port\n\t\t- Outcome-focused: produce a documented, refactored Python module from a legacy-style snippet with golden-master tests and parity checks; optionally port one self-contained function and validate numerical equivalence.\n\t\t- Tools and setup: VS Code, GitHub Copilot Chat, ChatGPT, pytest, numpy, mypy, ruff; pre-curated \u201clegacy\u201d snippets included as plain text (no external licenses), plus reference inputs/outputs for golden-master tests.\n\t\t- Frameworks and prompt patterns: Explain-Extract-Test-Refactor pipeline, Interface-first porting prompts, \u201cGolden-master from reference outputs\u201d prompts, \u201cHallucination guardrails\u201d prompts (\u201ccite the line number/source before changing logic\u201d).\n\t\t- Labs (time-boxed):\n\t\t-       - Lab 1: Understanding/Documentation: Feed a 150-line legacy-style snippet into ChatGPT to generate a high-level summary, function-by-function docstrings, and a call graph; participants review and correct with Copilot Chat inline.\n\t\t-       - Lab 2: Characterization tests: Use provided inputs/outputs to create golden-master tests; lock randomness and tolerances; add type hints and ruff fixes without altering behavior.\n\t\t-       - Lab 3: Refactor for readability and safety: Extract pure functions, add mypy typing, simplify conditionals, and ensure all golden-master tests still pass; AI proposes safe refactors with diff-aware prompts.\n\t\t-       - Lab 4 (optional, guided): Minimal port of a self-contained function, then parity test vs reference outputs within a tolerance (e.g., atol=1e-9); discuss mismatches and correct with AI assistance.\n\t\t- Sample coding scenario (provided in starter repo):\n\t\t-       - Legacy snippet: MATLAB-style Kalman filter measurement update for a 2D constant-velocity model (no external deps in the snippet).\n\t\t-       - Tasks: generate docstrings; write golden-master tests from provided state/measurement fixtures; enforce invariants (covariance stays symmetric PSD); refactor for clarity and types; optionally port the measurement update step to a typed Python function and assert parity on residuals and updated covariance (symmetry within 1e-12; positive semidefinite via eigenvalues \u2265 -1e-12).\n\t\t-       - Acceptance checks: all golden-master tests green; mypy clean; ruff clean; optional port passes parity tests on provided fixtures.\n\t\t- Relevance and scope control: Focused on explanation, tests, and safe refactors (porting is optional and minimal); single primary assistant (Copilot Chat) with ChatGPT for exploratory explanations; curated snippets and fixtures keep the day feasible.\n\n        ",
+    "timestamp": "2025-12-04 10:59:00",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-12-04 10:59:02",
+    "cost": {
+      "Agent": [
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.012412000000000001
+      ],
+      "Prompt Tokens": [
+        5814
+      ],
+      "Completion Tokens": [
+        98
+      ],
+      "Total Tokens": [
+        5912
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 3 out of 7.\n \n**Sub-task:** Select and improve 2 out of the 5 course ideas based on critiques.\n \n**Agent in charge of sub-task:** `idea_maker`\n \n**Instructions:**\n \n- Choose ideas with the most potential for impact and feasibility.\n- Incorporate feedback to enhance technical depth and specificity.\n- Include sample coding scenarios or exercises illustrating tool application.\n- Ensure the improved ideas are actionable and relevant.\n \n**Status:** completed \u2705\n        ",
+    "timestamp": "2025-12-04 10:59:02",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "control",
+    "content": null,
+    "timestamp": "2025-12-04 10:59:05",
+    "cost": {
+      "Agent": [
+        "control",
+        "control"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14",
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.012412000000000001,
+        0.012794
+      ],
+      "Prompt Tokens": [
+        5814,
+        6033
+      ],
+      "Completion Tokens": [
+        98,
+        91
+      ],
+      "Total Tokens": [
+        5912,
+        6124
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "\n**Step number:** 4 out of 7.\n \n**Sub-task:** Critique the 2 improved course ideas.\n \n**Agent in charge of sub-task:** `idea_hater`\n \n**Instructions:**\n \n- Provide feedback on the improvements made.\n- Highlight any remaining weaknesses or areas for further enhancement.\n- Confirm the suitability of the ideas for the target audience and course duration.\n- Provide explicit actionable recommendations for further improvements.\n \n**Status:** in progress \u23f3\n        ",
+    "timestamp": "2025-12-04 10:59:05",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  },
+  {
+    "name": "terminator",
+    "content": null,
+    "timestamp": "2025-12-04 10:59:06",
+    "cost": {
+      "Agent": [
+        "terminator"
+      ],
+      "Model": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "Cost": [
+        0.006058
+      ],
+      "Prompt Tokens": [
+        3025
+      ],
+      "Completion Tokens": [
+        1
+      ],
+      "Total Tokens": [
+        3026
+      ]
+    }
+  },
+  {
+    "name": "_Group_Tool_Executor",
+    "content": "Session terminated.",
+    "timestamp": "2025-12-04 10:59:06",
+    "cost": {
+      "Agent": [],
+      "Model": [],
+      "Cost": [],
+      "Prompt Tokens": [],
+      "Completion Tokens": [],
+      "Total Tokens": []
+    }
+  }
+]

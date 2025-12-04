@@ -130,3 +130,4 @@ Guidelines for creating the extended outline:
 - Include common student questions and how to address them
 
 The extended outline MUST be written in markdown format with the following structure:
+"""

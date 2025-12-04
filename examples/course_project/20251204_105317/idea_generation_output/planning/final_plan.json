@@ -1,0 +1,72 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Focus on technical depth, specific tools, and actionable frameworks.",
+                "Incorporate examples of specific AI coding tools (e.g., GitHub Copilot, ChatGPT, Tabnine) and frameworks.",
+                "Consider the target audience's background in STEM and programming.",
+                "Ensure ideas are suitable for a 1-day course duration."
+            ],
+            "sub_task": "Generate 5 new course ideas related to AI assisted coding.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea's alignment with the target audience's needs.",
+                "Assess the feasibility of covering the content in a 1-day course.",
+                "Analyze the integration of specific tools and frameworks.",
+                "Suggest improvements or dismiss ideas that lack depth or specificity."
+            ],
+            "sub_task": "Critique the 5 course ideas for pedagogy, feasibility, and audience fit.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose ideas with the most potential for impact and feasibility.",
+                "Incorporate feedback to enhance technical depth and specificity.",
+                "Include sample coding scenarios or exercises illustrating tool application.",
+                "Ensure the improved ideas are actionable and relevant."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 course ideas based on critiques.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide feedback on the improvements made.",
+                "Highlight any remaining weaknesses or areas for further enhancement.",
+                "Confirm the suitability of the ideas for the target audience and course duration.",
+                "Provide explicit actionable recommendations for further improvements."
+            ],
+            "sub_task": "Critique the 2 improved course ideas.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Consider the critiques and strengths of each idea.",
+                "Justify the final selection by referencing specific measurable benefits such as enhanced productivity metrics or other tangible outcomes."
+            ],
+            "sub_task": "Select the best course idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Craft a compelling and informative course title.",
+                "Write a concise description highlighting the course's objectives, tools, and frameworks.",
+                "Include a brief outline of how hands-on labs or live coding demonstrations will be integrated.",
+                "Ensure the description aligns with the target audience's needs and expectations."
+            ],
+            "sub_task": "Report the best course idea in the form of a course title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Summarize the original 5 ideas and their critiques.",
+                "Detail the improvements made to the top 2 ideas.",
+                "Explain the rationale for the final course idea selection.",
+                "Reflect on recurring themes from the initial five ideas and explain how these insights influenced the selection and refinement process."
+            ],
+            "sub_task": "Produce a deliberation report summarizing all 5 original ideas, critiques, improvements, and final selection rationale.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}
